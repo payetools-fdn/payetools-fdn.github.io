@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace Paytools.IncomeTax
+ </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace Paytools.IncomeTax
+ ">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Paytools.IncomeTax">
+
+  <h1 id="Paytools_IncomeTax" data-uid="Paytools.IncomeTax" class="text-break">Namespace Paytools.IncomeTax
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+</h3>
+      <h4><a class="xref" href="Paytools.IncomeTax.TaxCalculator.html">TaxCalculator</a></h4>
+      <section><p>Represents a calculator for calculating income tax based on tax code, taxable income and tax paid to date.  <a class="xref" href="Paytools.IncomeTax.TaxCalculator.html">TaxCalculator</a>
+implements <a class="xref" href="Paytools.IncomeTax.ITaxCalculator.html">ITaxCalculator</a>; access to tax calculators is through the <a class="xref" href="Paytools.IncomeTax.TaxCalculatorFactory.html">TaxCalculatorFactory</a>; in normal
+use, TaxCalculators are not be created directly.  A TaxCalculator is specific to a given pay frequency and tax period, which
+corresponds to an instance of a given <a class="xref" href="Paytools.Common.Model.PayDate.html">PayDate</a>.</p>
+</section>
+      <h4><a class="xref" href="Paytools.IncomeTax.TaxCalculatorFactory.html">TaxCalculatorFactory</a></h4>
+      <section><p>Factory to generate <a class="xref" href="Paytools.IncomeTax.ITaxCalculator.html">ITaxCalculator</a> implementations that are for a given pay date and specific tax regime.</p>
+</section>
+      <h4><a class="xref" href="Paytools.IncomeTax.TaxTreatmentExtensions.html">TaxTreatmentExtensions</a></h4>
+      <section><p>Extension methods for <a class="xref" href="Paytools.IncomeTax.TaxTreatment.html">TaxTreatment</a>.</p>
+</section>
+    <h3 id="structs">Structs
+</h3>
+      <h4><a class="xref" href="Paytools.IncomeTax.TaxCalculationResult.html">TaxCalculationResult</a></h4>
+      <section><p>Represents the result of an income tax calculation for an individual, providing the tax due plus a rich set of information about
+how the result was achieved.</p>
+</section>
+      <h4><a class="xref" href="Paytools.IncomeTax.TaxCode.html">TaxCode</a></h4>
+      <section><p>Represents a UK tax code, with the ability to calculate tax-free pay based the code and the relevant tax period.</p>
+</section>
+    <h3 id="interfaces">Interfaces
+</h3>
+      <h4><a class="xref" href="Paytools.IncomeTax.ITaxCalculationResult.html">ITaxCalculationResult</a></h4>
+      <section><p>Interface that represents the result of an income tax calculation.  The purpose of this interface (and its implementations)
+is to provide a richer set of data about the calculation than just the final tax due number.  This can be helpful in
+employee support situations in particular.</p>
+</section>
+      <h4><a class="xref" href="Paytools.IncomeTax.ITaxCalculator.html">ITaxCalculator</a></h4>
+      <section><p>Interface that represents a calculator for calculating income tax based on tax code, taxable income and tax paid to date.
+Access to tax calculators is through the <a class="xref" href="Paytools.IncomeTax.TaxCalculatorFactory.html">TaxCalculatorFactory</a>; in normal use, implementations of ITaxCalculator
+are not be created directly.  An ITaxCalculator instance is specific to a given pay frequency and tax period, which
+corresponds to an instance of a given <a class="xref" href="Paytools.Common.Model.PayDate.html">PayDate</a>.</p>
+</section>
+      <h4><a class="xref" href="Paytools.IncomeTax.ITaxCalculatorFactory.html">ITaxCalculatorFactory</a></h4>
+      <section><p>Interface that represents factories that can generate <a class="xref" href="Paytools.IncomeTax.ITaxCalculator.html">ITaxCalculator</a> implementations.</p>
+</section>
+    <h3 id="enums">Enums
+</h3>
+      <h4><a class="xref" href="Paytools.IncomeTax.TaxTreatment.html">TaxTreatment</a></h4>
+      <section><p>Enum representing the tax treatment aspect of the tax code.</p>
+</section>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+        
+        <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

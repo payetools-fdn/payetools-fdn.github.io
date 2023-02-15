@@ -1,0 +1,663 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct TaxCode
+ </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct TaxCode
+ ">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Paytools.IncomeTax.TaxCode">
+
+
+  <h1 id="Paytools_IncomeTax_TaxCode" data-uid="Paytools.IncomeTax.TaxCode" class="text-break">Struct TaxCode
+</h1>
+  <div class="markdown level0 summary"><p>Represents a UK tax code, with the ability to calculate tax-free pay based the code and the relevant tax period.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.ValueType.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">System.ValueType.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <span class="xref">Paytools</span>.<a class="xref" href="Paytools.IncomeTax.html">IncomeTax</a></h6>
+  <h6><strong>Assembly</strong>: Paytools.IncomeTax.dll</h6>
+  <h5 id="Paytools_IncomeTax_TaxCode_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly struct TaxCode</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_IncomeTax_TaxCode_ApplicableCountries.md&amp;value=---%0Auid%3A%20Paytools.IncomeTax.TaxCode.ApplicableCountries%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/TaxCode.cs/#L66">View Source</a>
+  </span>
+  <a id="Paytools_IncomeTax_TaxCode_ApplicableCountries_" data-uid="Paytools.IncomeTax.TaxCode.ApplicableCountries*"></a>
+  <h4 id="Paytools_IncomeTax_TaxCode_ApplicableCountries" data-uid="Paytools.IncomeTax.TaxCode.ApplicableCountries">ApplicableCountries</h4>
+  <div class="markdown level1 summary"><p>Gets the country or countries that this tax code applies to, i.e., the tax regime.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CountriesForTaxPurposes ApplicableCountries { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Paytools.Common.Model.CountriesForTaxPurposes.html">CountriesForTaxPurposes</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_IncomeTax_TaxCode_IsFixedCode.md&amp;value=---%0Auid%3A%20Paytools.IncomeTax.TaxCode.IsFixedCode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/TaxCode.cs/#L81">View Source</a>
+  </span>
+  <a id="Paytools_IncomeTax_TaxCode_IsFixedCode_" data-uid="Paytools.IncomeTax.TaxCode.IsFixedCode*"></a>
+  <h4 id="Paytools_IncomeTax_TaxCode_IsFixedCode" data-uid="Paytools.IncomeTax.TaxCode.IsFixedCode">IsFixedCode</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the tax code is a &quot;fixed code&quot;, such as BR, D0, NT, etc., or a variable code, such as 1257L.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFixedCode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_IncomeTax_TaxCode_IsNonCumulative.md&amp;value=---%0Auid%3A%20Paytools.IncomeTax.TaxCode.IsNonCumulative%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/TaxCode.cs/#L55">View Source</a>
+  </span>
+  <a id="Paytools_IncomeTax_TaxCode_IsNonCumulative_" data-uid="Paytools.IncomeTax.TaxCode.IsNonCumulative*"></a>
+  <h4 id="Paytools_IncomeTax_TaxCode_IsNonCumulative" data-uid="Paytools.IncomeTax.TaxCode.IsNonCumulative">IsNonCumulative</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the tax code is cumulative (e.g., 1257L) or non-cumulative (e.g., 1257L W1/M1).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNonCumulative { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_IncomeTax_TaxCode_NotionalAllowance.md&amp;value=---%0Auid%3A%20Paytools.IncomeTax.TaxCode.NotionalAllowance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/TaxCode.cs/#L71">View Source</a>
+  </span>
+  <a id="Paytools_IncomeTax_TaxCode_NotionalAllowance_" data-uid="Paytools.IncomeTax.TaxCode.NotionalAllowance*"></a>
+  <h4 id="Paytools_IncomeTax_TaxCode_NotionalAllowance" data-uid="Paytools.IncomeTax.TaxCode.NotionalAllowance">NotionalAllowance</h4>
+  <div class="markdown level1 summary"><p>Gets the notional annual personal allowance for the tax code.  This may be negative in the event the tax code has a K prefix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal NotionalAllowance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_IncomeTax_TaxCode_NumericPortionOfCode.md&amp;value=---%0Auid%3A%20Paytools.IncomeTax.TaxCode.NumericPortionOfCode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/TaxCode.cs/#L76">View Source</a>
+  </span>
+  <a id="Paytools_IncomeTax_TaxCode_NumericPortionOfCode_" data-uid="Paytools.IncomeTax.TaxCode.NumericPortionOfCode*"></a>
+  <h4 id="Paytools_IncomeTax_TaxCode_NumericPortionOfCode" data-uid="Paytools.IncomeTax.TaxCode.NumericPortionOfCode">NumericPortionOfCode</h4>
+  <div class="markdown level1 summary"><p>Gets the integer portion of the tax code, if applicable, or zero otherwise.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NumericPortionOfCode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_IncomeTax_TaxCode_TaxRegimeLetter.md&amp;value=---%0Auid%3A%20Paytools.IncomeTax.TaxCode.TaxRegimeLetter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/TaxCode.cs/#L86">View Source</a>
+  </span>
+  <a id="Paytools_IncomeTax_TaxCode_TaxRegimeLetter_" data-uid="Paytools.IncomeTax.TaxCode.TaxRegimeLetter*"></a>
+  <h4 id="Paytools_IncomeTax_TaxCode_TaxRegimeLetter" data-uid="Paytools.IncomeTax.TaxCode.TaxRegimeLetter">TaxRegimeLetter</h4>
+  <div class="markdown level1 summary"><p>Gets the tax regime letter, e.g., S for Scotland, C for Wales.  Returns an empty string if no specific regime is applicable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TaxRegimeLetter { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_IncomeTax_TaxCode_TaxTreatment.md&amp;value=---%0Auid%3A%20Paytools.IncomeTax.TaxCode.TaxTreatment%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/TaxCode.cs/#L61">View Source</a>
+  </span>
+  <a id="Paytools_IncomeTax_TaxCode_TaxTreatment_" data-uid="Paytools.IncomeTax.TaxCode.TaxTreatment*"></a>
+  <h4 id="Paytools_IncomeTax_TaxCode_TaxTreatment" data-uid="Paytools.IncomeTax.TaxCode.TaxTreatment">TaxTreatment</h4>
+  <div class="markdown level1 summary"><p>Gets the tax treatment specified by this tax code.  For the most part, this is the prefix or suffix for the tax code, omitting the
+tax regime letter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TaxTreatment TaxTreatment { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Paytools.IncomeTax.TaxTreatment.html">TaxTreatment</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_IncomeTax_TaxCode_GetTaxFreePayForPeriod_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Paytools.IncomeTax.TaxCode.GetTaxFreePayForPeriod(System.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/TaxCode.cs/#L200">View Source</a>
+  </span>
+  <a id="Paytools_IncomeTax_TaxCode_GetTaxFreePayForPeriod_" data-uid="Paytools.IncomeTax.TaxCode.GetTaxFreePayForPeriod*"></a>
+  <h4 id="Paytools_IncomeTax_TaxCode_GetTaxFreePayForPeriod_System_Int32_System_Int32_" data-uid="Paytools.IncomeTax.TaxCode.GetTaxFreePayForPeriod(System.Int32,System.Int32)">GetTaxFreePayForPeriod(int, int)</h4>
+  <div class="markdown level1 summary"><p>Calculates the tax free pay for the specified tax period and given tax code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GetTaxFreePayForPeriod(int taxPeriod, int periodCount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">taxPeriod</span></td>
+        <td><p>Tax period.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><span class="parametername">periodCount</span></td>
+        <td><p>Number of tax periods in the year (e.g., 12 for monthly pay).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">decimal</span></td>
+        <td><p>Tax-free pay applicable up to and including the end of the specified tax period.  May be negative.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_IncomeTax_TaxCode_ToString.md&amp;value=---%0Auid%3A%20Paytools.IncomeTax.TaxCode.ToString%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/TaxCode.cs/#L131">View Source</a>
+  </span>
+  <a id="Paytools_IncomeTax_TaxCode_ToString_" data-uid="Paytools.IncomeTax.TaxCode.ToString*"></a>
+  <h4 id="Paytools_IncomeTax_TaxCode_ToString" data-uid="Paytools.IncomeTax.TaxCode.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns the string representation of the tax code including the tax regime letter if applicable, but without
+any indication of whether the code is cumulative or non-cumulative.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><p>String representation of tax code without tax regime prefix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.ToString()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_IncomeTax_TaxCode_ToString_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Paytools.IncomeTax.TaxCode.ToString(System.Boolean%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/TaxCode.cs/#L140">View Source</a>
+  </span>
+  <a id="Paytools_IncomeTax_TaxCode_ToString_" data-uid="Paytools.IncomeTax.TaxCode.ToString*"></a>
+  <h4 id="Paytools_IncomeTax_TaxCode_ToString_System_Boolean_System_Boolean_" data-uid="Paytools.IncomeTax.TaxCode.ToString(System.Boolean,System.Boolean)">ToString(bool, bool)</h4>
+  <div class="markdown level1 summary"><p>Returns the string representation of the tax code optional including the tax regime letter if applicable, and optionally
+indicating whether the code is cumulative or non-cumulative by means of an &quot;X&quot; suffix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ToString(bool includeNonCumulativeFlag, bool includeTaxRegime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">includeNonCumulativeFlag</span></td>
+        <td><p>True to include the non-cumulative flag; false otherwise.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">includeTaxRegime</span></td>
+        <td><p>True to include the tax regime prefix; false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><p>String representation of tax code with or without tax regime prefix and with or without non-cumulative indicator.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_IncomeTax_TaxCode_TryParse_System_String_Paytools_Common_Model_TaxYear_Paytools_IncomeTax_TaxCode__.md&amp;value=---%0Auid%3A%20Paytools.IncomeTax.TaxCode.TryParse(System.String%2CPaytools.Common.Model.TaxYear%2CPaytools.IncomeTax.TaxCode%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/TaxCode.cs/#L172">View Source</a>
+  </span>
+  <a id="Paytools_IncomeTax_TaxCode_TryParse_" data-uid="Paytools.IncomeTax.TaxCode.TryParse*"></a>
+  <h4 id="Paytools_IncomeTax_TaxCode_TryParse_System_String_Paytools_Common_Model_TaxYear_Paytools_IncomeTax_TaxCode__" data-uid="Paytools.IncomeTax.TaxCode.TryParse(System.String,Paytools.Common.Model.TaxYear,Paytools.IncomeTax.TaxCode@)">TryParse(string, TaxYear, out TaxCode)</h4>
+  <div class="markdown level1 summary"><p>Attempts to parse the supplied tax code.  Non-cumulative codes must be identified by an 'X', 'W1', 'M1' or 'W1/M1' suffix,
+with or without preceding space.  Tax code parsing is case-insensitive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryParse(string taxCode, TaxYear taxYear, out TaxCode result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">taxCode</span></td>
+        <td><p>Tax code as a string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a></td>
+        <td><span class="parametername">taxYear</span></td>
+        <td><p>Tax year for the supplied tax code.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Paytools.IncomeTax.TaxCode.html">TaxCode</a></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>Instance of <a class="xref" href="Paytools.IncomeTax.TaxCode.html">TaxCode</a> if valid; default(TaxCode) otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if the tax code could be parsed; false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_IncomeTax_TaxCode_TryParse_System_String_Paytools_IncomeTax_TaxCode__.md&amp;value=---%0Auid%3A%20Paytools.IncomeTax.TaxCode.TryParse(System.String%2CPaytools.IncomeTax.TaxCode%40)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/TaxCode.cs/#L159">View Source</a>
+  </span>
+  <a id="Paytools_IncomeTax_TaxCode_TryParse_" data-uid="Paytools.IncomeTax.TaxCode.TryParse*"></a>
+  <h4 id="Paytools_IncomeTax_TaxCode_TryParse_System_String_Paytools_IncomeTax_TaxCode__" data-uid="Paytools.IncomeTax.TaxCode.TryParse(System.String,Paytools.IncomeTax.TaxCode@)">TryParse(string, out TaxCode)</h4>
+  <div class="markdown level1 summary"><p>Attempts to parse the supplied tax code into its component parts, assuming the tax regimes for the current tax year.
+Non-cumulative codes must be identified by an 'X', 'W1', 'M1' or 'W1/M1' suffix, with or without preceding space.
+Tax code parsing is case-insensitive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryParse(string taxCode, out TaxCode result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">string</span></td>
+        <td><span class="parametername">taxCode</span></td>
+        <td><p>Tax code as a string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Paytools.IncomeTax.TaxCode.html">TaxCode</a></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>Instance of <a class="xref" href="Paytools.IncomeTax.TaxCode.html">TaxCode</a> if valid; default(TaxCode) otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if the tax code could be parsed; false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_IncomeTax_TaxCode.md&amp;value=---%0Auid%3A%20Paytools.IncomeTax.TaxCode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/TaxCode.cs/#L26" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+        
+        <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

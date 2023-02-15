@@ -1,0 +1,666 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TaxYear
+ </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TaxYear
+ ">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  
+  
+  
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Paytools.Common.Model.TaxYear">
+
+
+  <h1 id="Paytools_Common_Model_TaxYear" data-uid="Paytools.Common.Model.TaxYear" class="text-break">Class TaxYear
+</h1>
+  <div class="markdown level0 summary"><p>Represents a given UK tax year, running from 6th April of a given year through to 5th April the following
+year.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">TaxYear</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IEquatable&lt;T&gt;</span>&lt;<a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <span class="xref">Paytools</span>.<span class="xref">Common</span>.<a class="xref" href="Paytools.Common.Model.html">Model</a></h6>
+  <h6><strong>Assembly</strong>: Paytools.Common.dll</h6>
+  <h5 id="Paytools_Common_Model_TaxYear_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public record TaxYear : IEquatable&lt;TaxYear&gt;</code></pre>
+  </div>
+  <h5 id="Paytools_Common_Model_TaxYear_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p><a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a> provides utility methods to access the relevant tax regimes (i.e., sub-countries
+within the UK) which have changed over the period 2018 to date.  TaxYear also provides conversions from dates
+to tax periods, based on payment frequency.</p>
+</div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_TaxYear__ctor_Paytools_Common_Model_TaxYearEnding_.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.TaxYear.%23ctor(Paytools.Common.Model.TaxYearEnding)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxYear.cs/#L71">View Source</a>
+  </span>
+  <a id="Paytools_Common_Model_TaxYear__ctor_" data-uid="Paytools.Common.Model.TaxYear.#ctor*"></a>
+  <h4 id="Paytools_Common_Model_TaxYear__ctor_Paytools_Common_Model_TaxYearEnding_" data-uid="Paytools.Common.Model.TaxYear.#ctor(Paytools.Common.Model.TaxYearEnding)">TaxYear(TaxYearEnding)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of <a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a> based on the supplied <a class="xref" href="Paytools.Common.Model.TaxYear.html#Paytools_Common_Model_TaxYear_TaxYearEnding">TaxYearEnding</a> value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TaxYear(TaxYearEnding taxYearEnding)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Paytools.Common.Model.TaxYearEnding.html">TaxYearEnding</a></td>
+        <td><span class="parametername">taxYearEnding</span></td>
+        <td><p>TaxYearEnding enum value for this tax year.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Paytools_Common_Model_TaxYear__ctor_Paytools_Common_Model_TaxYearEnding__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a> provides utility methods to access the relevant tax regimes (i.e., sub-countries
+within the UK) which have changed over the period 2018 to date.  TaxYear also provides conversions from dates
+to tax periods, based on payment frequency.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_TaxYear__ctor_System_DateOnly_.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.TaxYear.%23ctor(System.DateOnly)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxYear.cs/#L82">View Source</a>
+  </span>
+  <a id="Paytools_Common_Model_TaxYear__ctor_" data-uid="Paytools.Common.Model.TaxYear.#ctor*"></a>
+  <h4 id="Paytools_Common_Model_TaxYear__ctor_System_DateOnly_" data-uid="Paytools.Common.Model.TaxYear.#ctor(System.DateOnly)">TaxYear(DateOnly)</h4>
+  <div class="markdown level1 summary"><p>Initialises a new instance of <a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a> based on the supplied date.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TaxYear(DateOnly taxDate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateOnly</span></td>
+        <td><span class="parametername">taxDate</span></td>
+        <td><p>Date to create <a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a> for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Paytools_Common_Model_TaxYear__ctor_System_DateOnly__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a> provides utility methods to access the relevant tax regimes (i.e., sub-countries
+within the UK) which have changed over the period 2018 to date.  TaxYear also provides conversions from dates
+to tax periods, based on payment frequency.</p>
+</div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_TaxYear_Current.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.TaxYear.Current%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxYear.cs/#L65">View Source</a>
+  </span>
+  <a id="Paytools_Common_Model_TaxYear_Current_" data-uid="Paytools.Common.Model.TaxYear.Current*"></a>
+  <h4 id="Paytools_Common_Model_TaxYear_Current" data-uid="Paytools.Common.Model.TaxYear.Current">Current</h4>
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="Paytools.Common.Model.TaxYear.html#Paytools_Common_Model_TaxYear_TaxYearEnding">TaxYearEnding</a> for the &quot;current&quot; tax year (based on today's date).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TaxYearEnding Current { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Paytools.Common.Model.TaxYearEnding.html">TaxYearEnding</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Paytools_Common_Model_TaxYear_Current_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a> provides utility methods to access the relevant tax regimes (i.e., sub-countries
+within the UK) which have changed over the period 2018 to date.  TaxYear also provides conversions from dates
+to tax periods, based on payment frequency.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_TaxYear_EndOfTaxYear.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.TaxYear.EndOfTaxYear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxYear.cs/#L60">View Source</a>
+  </span>
+  <a id="Paytools_Common_Model_TaxYear_EndOfTaxYear_" data-uid="Paytools.Common.Model.TaxYear.EndOfTaxYear*"></a>
+  <h4 id="Paytools_Common_Model_TaxYear_EndOfTaxYear" data-uid="Paytools.Common.Model.TaxYear.EndOfTaxYear">EndOfTaxYear</h4>
+  <div class="markdown level1 summary"><p>Gets the date of the end of this tax year.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateOnly EndOfTaxYear { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateOnly</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Paytools_Common_Model_TaxYear_EndOfTaxYear_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a> provides utility methods to access the relevant tax regimes (i.e., sub-countries
+within the UK) which have changed over the period 2018 to date.  TaxYear also provides conversions from dates
+to tax periods, based on payment frequency.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_TaxYear_StartOfTaxYear.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.TaxYear.StartOfTaxYear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxYear.cs/#L55">View Source</a>
+  </span>
+  <a id="Paytools_Common_Model_TaxYear_StartOfTaxYear_" data-uid="Paytools.Common.Model.TaxYear.StartOfTaxYear*"></a>
+  <h4 id="Paytools_Common_Model_TaxYear_StartOfTaxYear" data-uid="Paytools.Common.Model.TaxYear.StartOfTaxYear">StartOfTaxYear</h4>
+  <div class="markdown level1 summary"><p>Gets the date of the start of this tax year.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateOnly StartOfTaxYear { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateOnly</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Paytools_Common_Model_TaxYear_StartOfTaxYear_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a> provides utility methods to access the relevant tax regimes (i.e., sub-countries
+within the UK) which have changed over the period 2018 to date.  TaxYear also provides conversions from dates
+to tax periods, based on payment frequency.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_TaxYear_TaxYearEnding.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.TaxYear.TaxYearEnding%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxYear.cs/#L50">View Source</a>
+  </span>
+  <a id="Paytools_Common_Model_TaxYear_TaxYearEnding_" data-uid="Paytools.Common.Model.TaxYear.TaxYearEnding*"></a>
+  <h4 id="Paytools_Common_Model_TaxYear_TaxYearEnding" data-uid="Paytools.Common.Model.TaxYear.TaxYearEnding">TaxYearEnding</h4>
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="Paytools.Common.Model.TaxYear.html#Paytools_Common_Model_TaxYear_TaxYearEnding">TaxYearEnding</a> enumeration value for this <a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TaxYearEnding TaxYearEnding { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Paytools.Common.Model.TaxYearEnding.html">TaxYearEnding</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Paytools_Common_Model_TaxYear_TaxYearEnding_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a> provides utility methods to access the relevant tax regimes (i.e., sub-countries
+within the UK) which have changed over the period 2018 to date.  TaxYear also provides conversions from dates
+to tax periods, based on payment frequency.</p>
+</div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_TaxYear_GetCountriesForYear.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.TaxYear.GetCountriesForYear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxYear.cs/#L93">View Source</a>
+  </span>
+  <a id="Paytools_Common_Model_TaxYear_GetCountriesForYear_" data-uid="Paytools.Common.Model.TaxYear.GetCountriesForYear*"></a>
+  <h4 id="Paytools_Common_Model_TaxYear_GetCountriesForYear" data-uid="Paytools.Common.Model.TaxYear.GetCountriesForYear">GetCountriesForYear()</h4>
+  <div class="markdown level1 summary"><p>Gets the list (as an array) of the country groupings that are applicable for a given tax year.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CountriesForTaxPurposes[] GetCountriesForYear()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Paytools.Common.Model.CountriesForTaxPurposes.html">CountriesForTaxPurposes</a>[]</td>
+        <td><p>Array of <a class="xref" href="Paytools.Common.Model.CountriesForTaxPurposes.html">CountriesForTaxPurposes</a> values listing the tax regime groupings for this
+tax year.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Paytools_Common_Model_TaxYear_GetCountriesForYear_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a> provides utility methods to access the relevant tax regimes (i.e., sub-countries
+within the UK) which have changed over the period 2018 to date.  TaxYear also provides conversions from dates
+to tax periods, based on payment frequency.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown if an invalid/unspecified tax year is provided.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_TaxYear_GetDefaultCountriesForYear.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.TaxYear.GetDefaultCountriesForYear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxYear.cs/#L158">View Source</a>
+  </span>
+  <a id="Paytools_Common_Model_TaxYear_GetDefaultCountriesForYear_" data-uid="Paytools.Common.Model.TaxYear.GetDefaultCountriesForYear*"></a>
+  <h4 id="Paytools_Common_Model_TaxYear_GetDefaultCountriesForYear" data-uid="Paytools.Common.Model.TaxYear.GetDefaultCountriesForYear">GetDefaultCountriesForYear()</h4>
+  <div class="markdown level1 summary"><p>Gets the 'default' tax regime for this tax year as an <a class="xref" href="Paytools.Common.Model.CountriesForTaxPurposes.html">CountriesForTaxPurposes</a> value.  This is the
+regime that all other tax treatments fall into if they are not in a specific regime, e.g., Scotland.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CountriesForTaxPurposes GetDefaultCountriesForYear()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Paytools.Common.Model.CountriesForTaxPurposes.html">CountriesForTaxPurposes</a></td>
+        <td><p>Default tax regime for this tax year.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Paytools_Common_Model_TaxYear_GetDefaultCountriesForYear_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a> provides utility methods to access the relevant tax regimes (i.e., sub-countries
+within the UK) which have changed over the period 2018 to date.  TaxYear also provides conversions from dates
+to tax periods, based on payment frequency.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown if the tax year is invalid or has not been specified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_TaxYear_GetTaxPeriod_System_DateOnly_Paytools_Common_Model_PayFrequency_.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.TaxYear.GetTaxPeriod(System.DateOnly%2CPaytools.Common.Model.PayFrequency)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxYear.cs/#L123">View Source</a>
+  </span>
+  <a id="Paytools_Common_Model_TaxYear_GetTaxPeriod_" data-uid="Paytools.Common.Model.TaxYear.GetTaxPeriod*"></a>
+  <h4 id="Paytools_Common_Model_TaxYear_GetTaxPeriod_System_DateOnly_Paytools_Common_Model_PayFrequency_" data-uid="Paytools.Common.Model.TaxYear.GetTaxPeriod(System.DateOnly,Paytools.Common.Model.PayFrequency)">GetTaxPeriod(DateOnly, PayFrequency)</h4>
+  <div class="markdown level1 summary"><p>Gets the tax period for the supplied pay date and payment frequencey.  For example, if the pay frequency
+is monthly and the pay date is, say, 20th May, then the tax pariod is 2, as in &quot;Month 2&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetTaxPeriod(DateOnly payDate, PayFrequency payFrequency)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateOnly</span></td>
+        <td><span class="parametername">payDate</span></td>
+        <td><p>Pay date to determine tax period for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Paytools.Common.Model.PayFrequency.html">PayFrequency</a></td>
+        <td><span class="parametername">payFrequency</span></td>
+        <td><p>Payment frequency applicable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><p>Relevant tax period.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Paytools_Common_Model_TaxYear_GetTaxPeriod_System_DateOnly_Paytools_Common_Model_PayFrequency__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a> provides utility methods to access the relevant tax regimes (i.e., sub-countries
+within the UK) which have changed over the period 2018 to date.  TaxYear also provides conversions from dates
+to tax periods, based on payment frequency.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown if the pay date falls outside this tax year.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_TaxYear_IsValidForYear_Paytools_Common_Model_CountriesForTaxPurposes_.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.TaxYear.IsValidForYear(Paytools.Common.Model.CountriesForTaxPurposes)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxYear.cs/#L108">View Source</a>
+  </span>
+  <a id="Paytools_Common_Model_TaxYear_IsValidForYear_" data-uid="Paytools.Common.Model.TaxYear.IsValidForYear*"></a>
+  <h4 id="Paytools_Common_Model_TaxYear_IsValidForYear_Paytools_Common_Model_CountriesForTaxPurposes_" data-uid="Paytools.Common.Model.TaxYear.IsValidForYear(Paytools.Common.Model.CountriesForTaxPurposes)">IsValidForYear(CountriesForTaxPurposes)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the supplied country groupings is valid for this tax year.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidForYear(CountriesForTaxPurposes countries)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Paytools.Common.Model.CountriesForTaxPurposes.html">CountriesForTaxPurposes</a></td>
+        <td><span class="parametername">countries</span></td>
+        <td><p>One or more <a class="xref" href="Paytools.Common.Model.CountriesForTaxPurposes.html">CountriesForTaxPurposes</a> values.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><p>True if the supplied countries parameter is valid for this tax year; false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Paytools_Common_Model_TaxYear_IsValidForYear_Paytools_Common_Model_CountriesForTaxPurposes__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a> provides utility methods to access the relevant tax regimes (i.e., sub-countries
+within the UK) which have changed over the period 2018 to date.  TaxYear also provides conversions from dates
+to tax periods, based on payment frequency.</p>
+</div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_TaxYear.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.TaxYear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxYear.cs/#L26" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+        
+        <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

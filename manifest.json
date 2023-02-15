@@ -1,0 +1,585 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Paytools.HUSKY-DT-30/Source/repos/paytools-fdn/Paytools.Internal.Documentation/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Diagnostics.InconsistentDataException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Diagnostics.InconsistentDataException.html",
+          "hash": "NVjx/S98vazy+iIaK3rgb3kaGbQR6Zuz5VMlTHQBZjc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Diagnostics.InvalidReferenceDataException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Diagnostics.InvalidReferenceDataException.html",
+          "hash": "lpu/Lq8q6CnBc9VxBVbghwylAkkvnci7OEZ/QxQ/A2g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Diagnostics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Diagnostics.html",
+          "hash": "gf8mEds3nMeYtXlKP6iAe+155pRAeTRsQRsw+kLXQo0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Extensions.DateOnlyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Extensions.DateOnlyExtensions.html",
+          "hash": "TdzP+Witta12U2+4g8CSoH61CaSMZqShfJ+Ku0gPmn0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Extensions.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Extensions.DateTimeExtensions.html",
+          "hash": "AV0quh6NMwodd63VTSGDbuhZvh5ue88SUnkEDhFU1zo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Extensions.IEnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Extensions.IEnumerableExtensions.html",
+          "hash": "FDGAwai3gDFNoGtqm9EIcmZXL4LouDs8YnRBcWLAXoY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Extensions.html",
+          "hash": "6Pk47Jx8jxbWnPBP37F4F0GO6IyGzehiOIwzF8h5cYc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.CountriesForTaxPurposes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.CountriesForTaxPurposes.html",
+          "hash": "1wdXamOz33MudzfP30SObGqsMciLhhxyPFsig54iayM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.CountriesForTaxPurposesConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.CountriesForTaxPurposesConverter.html",
+          "hash": "NbAfA+tjlz1swGRIkC1c97l3fOBguAngyQpu9I6ijJE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.Gender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.Gender.html",
+          "hash": "X9m121bXeRsD6cEBABoG7sFJ7e/+oQh4rG/dss5yh7Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.HmrcAccountsOfficeReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.HmrcAccountsOfficeReference.html",
+          "hash": "gXAXXYMdorGq6i+GmpmN56yO9v5unHl+pnrhd6o1Trs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.HmrcPayeReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.HmrcPayeReference.html",
+          "hash": "t10dgAs769mEF2vCA7lrIhEme/VvFJBim3gioE/7H0Y="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.IEmployableIndividual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.IEmployableIndividual.html",
+          "hash": "WacWGO7TaIB/09R7MjgEdCW+gC9+pbn9MOzjVFbhlKg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.INamedIndividual.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.INamedIndividual.html",
+          "hash": "aNWavSm+TQqBrIaqDqXnAdDatWU4Fie/vZNAm43Yvg0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.NiNumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.NiNumber.html",
+          "hash": "uCKERZo+ti1PUGGVdRaodQhcEayfcqIRU+kGowlvC7k="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.PayDate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.PayDate.html",
+          "hash": "ODRx1eXbwClBS4Tswl0rSDYUfEOzNS45iv5AL+jrFt8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.PayFrequency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.PayFrequency.html",
+          "hash": "a8VE7OidJV1wQEU7tss4+9Zp6jCjfvBgDFf0S/S4LB8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.PayFrequencyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.PayFrequencyExtensions.html",
+          "hash": "Fsi90YF3/C2ZcUw+caNJqYKx0jBZaqHBAEFrSKKWU6c="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.PayrollId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.PayrollId.html",
+          "hash": "TFIPFkPCGXOiZeqmQnhhzPt2Gk2K2ku4h28YMQEsMTc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.TaxYear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.TaxYear.html",
+          "hash": "tQ+O/FPO7Xr2k2ntpoew6HbTNoEdFtL4BPtyYqTxA/w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.TaxYearEnding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.TaxYearEnding.html",
+          "hash": "AbVOdh3K0ceWlWmIQPLS0ILU4i83Yeqndl0LRNZI/+g="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.TaxYearEndingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.TaxYearEndingExtensions.html",
+          "hash": "kAafuij4X5udX8ih2wDv8sJbf9SnaEXNo5wBFFzbWOU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.Title.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.Title.html",
+          "hash": "G3kFep1kJb99wk8hVBxNlmwXSRWfKQJA5jjZfeHFc0k="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.UkPostalAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.UkPostalAddress.html",
+          "hash": "OJZwHg/lmjpBuBtjG2glADiQXLowCP/2mqkPI94ptEc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.UkPostcode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.UkPostcode.html",
+          "hash": "uH5K6IPSrd55M0nqosucExSOT688+mNhctZ07vuHm3M="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.html",
+          "hash": "G0ykaULMOlIjqUTNbSe0gHQcHTTxV94KRijO4ZAcZ3w="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Serialization.CountriesForTaxPurposesJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Serialization.CountriesForTaxPurposesJsonConverter.html",
+          "hash": "ywarWu63GSiCn8tQhbKsnX03ClOIXUXFtrkkt9V5OQM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Serialization.PayFrequencyJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Serialization.PayFrequencyJsonConverter.html",
+          "hash": "mGsdT2TsXHhoo3udWmlm6jcMWMaA4QDJGMe2hD7UkG8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Serialization.TaxYearEndingJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Serialization.TaxYearEndingJsonConverter.html",
+          "hash": "05I5SUCNVqrDZwk4J1zcWbt5gfS5vg6dC5sdmtf6/po="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Serialization.html",
+          "hash": "MO8ESzChM1IWTJ8fFNnTQdABYC2Uxp2kH1w2af41+co="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.ITaxCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.ITaxCalculationResult.html",
+          "hash": "WVNxaRj0bvtOoE1o45aLM1gea3b53fp0MFMMB4/9aVQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.ITaxCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.ITaxCalculator.html",
+          "hash": "5O4O0RbCybFNtfVv87ejuKl0q+5cGEsE+7XJoilY2X8="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.ITaxCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.ITaxCalculatorFactory.html",
+          "hash": "L81hePS8d+q2jr1dqcDkuyuJWzpF8R0UOYax53ztd98="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.ReferenceData.ITaxBandProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.ReferenceData.ITaxBandProvider.html",
+          "hash": "XUHdU9GQ6mShkwKAwmLBncVfLn0Vg1NyFJ5yT9AWCAU="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxBandwidthEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxBandwidthEntry.html",
+          "hash": "1SBEuDsGEDyyfdCIom21X4zpbS9ZzT8z1PWy3ODGh7A="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxBandwidthSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxBandwidthSet.html",
+          "hash": "uFyvcVjuJwPThpHRbvyxLdKcz8FzGnRSMDG0cw8NMIo="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxPeriodBandwidthEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxPeriodBandwidthEntry.html",
+          "hash": "M/TrENQcM0uy221w1CnA6L8q0QVCpVA/Fle6mG2fbgE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxPeriodBandwidthSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxPeriodBandwidthSet.html",
+          "hash": "kDQeMtf9vh7zqXbQ/z9ByIXvUhmIGrw81PKSXvBrz6Q="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.ReferenceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.ReferenceData.html",
+          "hash": "SEJt8VqFFsEdILNcuJ46yoD+ldLdtTl/y27ry/IYcIQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.TaxCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.TaxCalculationResult.html",
+          "hash": "7Huni4e2TYHYtyn9jfEWR6jKjtwi2OQQIaRA7BMIZQA="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.TaxCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.TaxCalculator.html",
+          "hash": "VRxB2sjn2kxAhC8o55x/c78Yx9u3n3ntrnRjuoDVJ34="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.TaxCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.TaxCalculatorFactory.html",
+          "hash": "HbDqmMQKKuBKBnDFDKNJqdafjHYdiR0B1XOGWzwM6lY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.TaxCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.TaxCode.html",
+          "hash": "1xjIzlg+1oHUOQgKL3rVg/IxVRFnZu+gFIunTgdm2V0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.TaxTreatment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.TaxTreatment.html",
+          "hash": "1RHCGGDkwLOMBbd1dfoEL7JNCSd2B525M5I5tiKK/eQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.TaxTreatmentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.TaxTreatmentExtensions.html",
+          "hash": "/K4gBV7Sd9Eik1A2qU9o9irTtB010RPKuhhS2ZrHiCg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.html",
+          "hash": "/BmrfSV4G1d6zFumk5CKa32MJSMU0y4j2/n+mwZ8vFQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "DrRlM7mxzTVFbVQPFKNQGoSWwYa+zRT76IyOSigTm7Q="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "bPTxO1Jo5tuFMIwUO/0blQ5zuJ39+a8zmPSrEdsVxNY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "72cwKdNnxhxC4Ejg4hnQX8sZYcSiUZ5+KCU3gq4g7wM="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "+FPCLcvmNhVb9VLasYr6Tnep0PZtIA6V/UOJ0u+1RmE="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "TXRx6Sgx+lZpujioaOboP+5ltLodpJU02ihYDuEhvsg="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "aVe9U1RxWP3P5E5X/x2rL8jCuFlqix3bHKxtkjZ3zxg="
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
