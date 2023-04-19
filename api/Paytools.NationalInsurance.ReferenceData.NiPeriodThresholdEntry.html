@@ -1,0 +1,420 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class NiPeriodThresholdEntry
+ | Paytools </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class NiPeriodThresholdEntry
+ | Paytools ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:docurl" content="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry.md&amp;value=---%0Auid%3A%20Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../paytools-logo-image-only-v4.png" alt="Paytools">
+            Paytools
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry">
+
+
+
+  <h1 id="Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry" data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry" class="text-break">
+    Class NiPeriodThresholdEntry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/ReferenceData/NiPeriodThresholdEntry.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Paytools.html">Paytools</a>.<a class="xref" href="Paytools.NationalInsurance.html">NationalInsurance</a>.<a class="xref" href="Paytools.NationalInsurance.ReferenceData.html">ReferenceData</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Paytools.NationalInsurance.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents a specific National Insurance threshold (e.g., LEL, UEL) adjusted for a specific pay frequency and
+number of periods, as NI is calculated based on the appropriate fraction of the applicable annual threshold.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public record NiPeriodThresholdEntry : IEquatable&lt;NiPeriodThresholdEntry&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">NiPeriodThresholdEntry</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.html">NiPeriodThresholdEntry</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry__ctor_" data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.#ctor*"></a>
+
+  <h3 id="Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry__ctor_Paytools_NationalInsurance_ReferenceData_INiThresholdEntry_Paytools_Common_Model_PayFrequency_System_Int32_" data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.#ctor(Paytools.NationalInsurance.ReferenceData.INiThresholdEntry,Paytools.Common.Model.PayFrequency,System.Int32)">
+  NiPeriodThresholdEntry(INiThresholdEntry, PayFrequency, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/ReferenceData/NiPeriodThresholdEntry.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialises a new instance of <a class="xref" href="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.html">NiPeriodThresholdEntry</a> based on the supplied annual threshold,
+specified pay frequency and optional number of tax periods.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NiPeriodThresholdEntry(INiThresholdEntry baseEntry, PayFrequency payFrequency, int numberOfTaxPeriods = 1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>baseEntry</code> <a class="xref" href="Paytools.NationalInsurance.ReferenceData.INiThresholdEntry.html">INiThresholdEntry</a></dt>
+    <dd><p>Annual threshold entry to calculate period threshold from.</p>
+</dd>
+    <dt><code>payFrequency</code> <a class="xref" href="Paytools.Common.Model.PayFrequency.html">PayFrequency</a></dt>
+    <dd><p>Applicable pay frequency.</p>
+</dd>
+    <dt><code>numberOfTaxPeriods</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Number of pay periods.  Defaults to 1.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry_NumberOfTaxPeriods_" data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.NumberOfTaxPeriods*"></a>
+
+  <h3 id="Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry_NumberOfTaxPeriods" data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.NumberOfTaxPeriods">
+  NumberOfTaxPeriods
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/ReferenceData/NiPeriodThresholdEntry.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the number of tax periods applicable for this period threshold.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NumberOfTaxPeriods { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry_PayFrequency_" data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.PayFrequency*"></a>
+
+  <h3 id="Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry_PayFrequency" data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.PayFrequency">
+  PayFrequency
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/ReferenceData/NiPeriodThresholdEntry.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the applicable pay frequency for this period threshold.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PayFrequency PayFrequency { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Paytools.Common.Model.PayFrequency.html">PayFrequency</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry_ThresholdForPeriod_" data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.ThresholdForPeriod*"></a>
+
+  <h3 id="Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry_ThresholdForPeriod" data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.ThresholdForPeriod">
+  ThresholdForPeriod
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/ReferenceData/NiPeriodThresholdEntry.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the base threshold for the period, as distinct from <a class="xref" href="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.html#Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry_ThresholdForPeriod1">ThresholdForPeriod1</a> (see below).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal ThresholdForPeriod { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry_ThresholdForPeriod1_" data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.ThresholdForPeriod1*"></a>
+
+  <h3 id="Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry_ThresholdForPeriod1" data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.ThresholdForPeriod1">
+  ThresholdForPeriod1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/ReferenceData/NiPeriodThresholdEntry.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the modified threshold for the period (as distinct from <a class="xref" href="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.html#Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry_ThresholdForPeriod">ThresholdForPeriod</a>) where rounding is
+applied based on whether the pay frequency is weekly or monthly, or otherwise.  As detailed in HMRC's NI calculation
+documentation as 'p1'.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal ThresholdForPeriod1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry_ThresholdType_" data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.ThresholdType*"></a>
+
+  <h3 id="Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry_ThresholdType" data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.ThresholdType">
+  ThresholdType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/ReferenceData/NiPeriodThresholdEntry.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the type of this threshold entry (e.g., LEL, PT, ST, etc.).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NiThresholdType ThresholdType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Paytools.NationalInsurance.Model.NiThresholdType.html">NiThresholdType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry_ToString_" data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.ToString*"></a>
+
+  <h3 id="Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry_ToString" data-uid="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/ReferenceData/NiPeriodThresholdEntry.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a string representation of this <a class="xref" href="Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.html">NiPeriodThresholdEntry</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String representation of this instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_NationalInsurance_ReferenceData_NiPeriodThresholdEntry.md&amp;value=---%0Auid%3A%20Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

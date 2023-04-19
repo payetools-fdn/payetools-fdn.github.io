@@ -1,0 +1,690 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Struct EmployeeNiHistoryEntry
+ | Paytools </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Struct EmployeeNiHistoryEntry
+ | Paytools ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:docurl" content="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry.md&amp;value=---%0Auid%3A%20Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../paytools-logo-image-only-v4.png" alt="Paytools">
+            Paytools
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry">
+
+
+
+  <h1 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry" class="text-break">
+    Struct EmployeeNiHistoryEntry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Paytools.html">Paytools</a>.<a class="xref" href="Paytools.NationalInsurance.html">NationalInsurance</a>.<a class="xref" href="Paytools.NationalInsurance.Model.html">Model</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Paytools.NationalInsurance.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents once element of the employee's NI history during the current tax year.  For employees that have only
+have one NI category throughout the tax year, they will have just one instance of <a class="xref" href="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.html">EmployeeNiHistoryEntry</a>
+applicable.  But it is of course possible for an employee's NI category to change throughout the tax year (for example
+because they turned 21 years of age), and in this case, multiple records must be held.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly struct EmployeeNiHistoryEntry : IEmployeeNiHistoryEntry</code></pre>
+  </div>
+
+
+
+
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Paytools.NationalInsurance.Model.IEmployeeNiHistoryEntry.html">IEmployeeNiHistoryEntry</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.equals">ValueType.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode">ValueType.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.tostring">ValueType.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry__ctor_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.#ctor*"></a>
+
+  <h3 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry__ctor_Paytools_NationalInsurance_Model_INiCalculationResult__" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.#ctor(Paytools.NationalInsurance.Model.INiCalculationResult@)">
+  EmployeeNiHistoryEntry(in INiCalculationResult)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialises a new <a class="xref" href="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.html">EmployeeNiHistoryEntry</a> from the supplied calculation result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmployeeNiHistoryEntry(in INiCalculationResult result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>result</code> <a class="xref" href="Paytools.NationalInsurance.Model.INiCalculationResult.html">INiCalculationResult</a></dt>
+    <dd><p>NI calculation result.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry__ctor_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.#ctor*"></a>
+
+  <h3 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry__ctor_Paytools_NationalInsurance_Model_NiCategory_Paytools_NationalInsurance_Model_NiEarningsBreakdown_System_Decimal_System_Decimal_System_Decimal_System_Decimal_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.#ctor(Paytools.NationalInsurance.Model.NiCategory,Paytools.NationalInsurance.Model.NiEarningsBreakdown,System.Decimal,System.Decimal,System.Decimal,System.Decimal)">
+  EmployeeNiHistoryEntry(NiCategory, NiEarningsBreakdown, decimal, decimal, decimal, decimal)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialises a new instance of <a class="xref" href="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.html">EmployeeNiHistoryEntry</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EmployeeNiHistoryEntry(NiCategory niCategoryPertaining, NiEarningsBreakdown niEarningsBreakdown, decimal grossNicableEarnings, decimal employeeContribution, decimal employerContribution, decimal totalContribution)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>niCategoryPertaining</code> <a class="xref" href="Paytools.NationalInsurance.Model.NiCategory.html">NiCategory</a></dt>
+    <dd><p>NI category for this record.</p>
+</dd>
+    <dt><code>niEarningsBreakdown</code> <a class="xref" href="Paytools.NationalInsurance.Model.NiEarningsBreakdown.html">NiEarningsBreakdown</a></dt>
+    <dd><p>NI earnings breakdown for this record.</p>
+</dd>
+    <dt><code>grossNicableEarnings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd><p>Gross Nicable earnings for this record.</p>
+</dd>
+    <dt><code>employeeContribution</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd><p>Employee contribution for this record.</p>
+</dd>
+    <dt><code>employerContribution</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd><p>Employer contribution for this record.</p>
+</dd>
+    <dt><code>totalContribution</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd><p>Total (i.e., employee + employer) contribution for this record.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EarningsAboveFUSTUpToAndIncludingUEL_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EarningsAboveFUSTUpToAndIncludingUEL*"></a>
+
+  <h3 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EarningsAboveFUSTUpToAndIncludingUEL" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EarningsAboveFUSTUpToAndIncludingUEL">
+  EarningsAboveFUSTUpToAndIncludingUEL
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the earnings up above the Freeport Upper Secondary Threshold and up to and including the Upper
+Earnings Limit for this record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal EarningsAboveFUSTUpToAndIncludingUEL { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EarningsAboveLELUpToAndIncludingST_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EarningsAboveLELUpToAndIncludingST*"></a>
+
+  <h3 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EarningsAboveLELUpToAndIncludingST" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EarningsAboveLELUpToAndIncludingST">
+  EarningsAboveLELUpToAndIncludingST
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the earnings up above the Lower Earnings Limit and up to and including the Secondary Threshold
+for this record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal EarningsAboveLELUpToAndIncludingST { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EarningsAbovePTUpToAndIncludingFUST_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EarningsAbovePTUpToAndIncludingFUST*"></a>
+
+  <h3 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EarningsAbovePTUpToAndIncludingFUST" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EarningsAbovePTUpToAndIncludingFUST">
+  EarningsAbovePTUpToAndIncludingFUST
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the earnings up above the Primary Threshold and up to and including the Freeport Upper Secondary
+Threshold for this record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal EarningsAbovePTUpToAndIncludingFUST { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EarningsAboveSTUpToAndIncludingPT_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EarningsAboveSTUpToAndIncludingPT*"></a>
+
+  <h3 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EarningsAboveSTUpToAndIncludingPT" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EarningsAboveSTUpToAndIncludingPT">
+  EarningsAboveSTUpToAndIncludingPT
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the earnings up above the Secondary Threshold and up to and including the Primary Threshold
+for this record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal EarningsAboveSTUpToAndIncludingPT { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EarningsAboveSTUpToAndIncludingUEL_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EarningsAboveSTUpToAndIncludingUEL*"></a>
+
+  <h3 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EarningsAboveSTUpToAndIncludingUEL" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EarningsAboveSTUpToAndIncludingUEL">
+  EarningsAboveSTUpToAndIncludingUEL
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the earnings up above the Secondary Threshold and up to and including the Upper Earnings Limit
+for this record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal EarningsAboveSTUpToAndIncludingUEL { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EarningsAboveUEL_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EarningsAboveUEL*"></a>
+
+  <h3 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EarningsAboveUEL" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EarningsAboveUEL">
+  EarningsAboveUEL
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the earnings up above the Upper Earnings Limit for this record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal EarningsAboveUEL { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EarningsUpToAndIncludingLEL_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EarningsUpToAndIncludingLEL*"></a>
+
+  <h3 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EarningsUpToAndIncludingLEL" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EarningsUpToAndIncludingLEL">
+  EarningsUpToAndIncludingLEL
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the earnings up to and including the Lower Earnings Limit for this record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal EarningsUpToAndIncludingLEL { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EmployeeContribution_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EmployeeContribution*"></a>
+
+  <h3 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EmployeeContribution" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EmployeeContribution">
+  EmployeeContribution
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the total employee contribution made during the duration of this record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal EmployeeContribution { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EmployerContribution_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EmployerContribution*"></a>
+
+  <h3 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_EmployerContribution" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.EmployerContribution">
+  EmployerContribution
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the total employer contribution made during the duration of this record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal EmployerContribution { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_GrossNicableEarnings_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.GrossNicableEarnings*"></a>
+
+  <h3 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_GrossNicableEarnings" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.GrossNicableEarnings">
+  GrossNicableEarnings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the gross NI-able earnings applicable for the duration of this record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal GrossNicableEarnings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_NiCategoryPertaining_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.NiCategoryPertaining*"></a>
+
+  <h3 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_NiCategoryPertaining" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.NiCategoryPertaining">
+  NiCategoryPertaining
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the National Insurance category letter pertaining to this record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NiCategory NiCategoryPertaining { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Paytools.NationalInsurance.Model.NiCategory.html">NiCategory</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_TotalContribution_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.TotalContribution*"></a>
+
+  <h3 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_TotalContribution" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.TotalContribution">
+  TotalContribution
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the total contribution (employee + employer) made during the duration of this record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal TotalContribution { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_Add_" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.Add*"></a>
+
+  <h3 id="Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry_Add_Paytools_NationalInsurance_Model_INiCalculationResult__" data-uid="Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.Add(Paytools.NationalInsurance.Model.INiCalculationResult@)">
+  Add(in INiCalculationResult)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/Model/EmployeeNiHistoryEntry.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds the results of an NI calculation to the current history and returns a new instance of <a class="xref" href="Paytools.NationalInsurance.Model.IEmployeeNiHistoryEntry.html">IEmployeeNiHistoryEntry</a>
+with the results applied.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEmployeeNiHistoryEntry Add(in INiCalculationResult result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>result</code> <a class="xref" href="Paytools.NationalInsurance.Model.INiCalculationResult.html">INiCalculationResult</a></dt>
+    <dd><p>NI calculation results to add to this history entry.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Paytools.NationalInsurance.Model.IEmployeeNiHistoryEntry.html">IEmployeeNiHistoryEntry</a></dt>
+    <dd><p>New instance of <a class="xref" href="Paytools.NationalInsurance.Model.IEmployeeNiHistoryEntry.html">IEmployeeNiHistoryEntry</a> with the NI calculation result applied.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_NationalInsurance_Model_EmployeeNiHistoryEntry.md&amp;value=---%0Auid%3A%20Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -4,12 +4,19 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/Paytools.Common.Diagnostics.InconsistentDataException.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Diagnostics.InconsistentDataException.html",
-          "hash": "NVjx/S98vazy+iIaK3rgb3kaGbQR6Zuz5VMlTHQBZjc="
+          "relative_path": "api/Paytools.Common.Diagnostics.InconsistentDataException.html"
         }
       },
       "version": ""
@@ -19,8 +26,7 @@
       "source_relative_path": "api/Paytools.Common.Diagnostics.InvalidReferenceDataException.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Diagnostics.InvalidReferenceDataException.html",
-          "hash": "lpu/Lq8q6CnBc9VxBVbghwylAkkvnci7OEZ/QxQ/A2g="
+          "relative_path": "api/Paytools.Common.Diagnostics.InvalidReferenceDataException.html"
         }
       },
       "version": ""
@@ -30,8 +36,7 @@
       "source_relative_path": "api/Paytools.Common.Diagnostics.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Diagnostics.html",
-          "hash": "gf8mEds3nMeYtXlKP6iAe+155pRAeTRsQRsw+kLXQo0="
+          "relative_path": "api/Paytools.Common.Diagnostics.html"
         }
       },
       "version": ""
@@ -41,8 +46,7 @@
       "source_relative_path": "api/Paytools.Common.Extensions.DateOnlyExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Extensions.DateOnlyExtensions.html",
-          "hash": "TdzP+Witta12U2+4g8CSoH61CaSMZqShfJ+Ku0gPmn0="
+          "relative_path": "api/Paytools.Common.Extensions.DateOnlyExtensions.html"
         }
       },
       "version": ""
@@ -52,8 +56,7 @@
       "source_relative_path": "api/Paytools.Common.Extensions.DateTimeExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Extensions.DateTimeExtensions.html",
-          "hash": "AV0quh6NMwodd63VTSGDbuhZvh5ue88SUnkEDhFU1zo="
+          "relative_path": "api/Paytools.Common.Extensions.DateTimeExtensions.html"
         }
       },
       "version": ""
@@ -63,8 +66,17 @@
       "source_relative_path": "api/Paytools.Common.Extensions.IEnumerableExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Extensions.IEnumerableExtensions.html",
-          "hash": "FDGAwai3gDFNoGtqm9EIcmZXL4LouDs8YnRBcWLAXoY="
+          "relative_path": "api/Paytools.Common.Extensions.IEnumerableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Extensions.ImmutableListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Extensions.ImmutableListExtensions.html"
         }
       },
       "version": ""
@@ -74,8 +86,7 @@
       "source_relative_path": "api/Paytools.Common.Extensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Extensions.html",
-          "hash": "6Pk47Jx8jxbWnPBP37F4F0GO6IyGzehiOIwzF8h5cYc="
+          "relative_path": "api/Paytools.Common.Extensions.html"
         }
       },
       "version": ""
@@ -85,8 +96,7 @@
       "source_relative_path": "api/Paytools.Common.Model.CountriesForTaxPurposes.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.CountriesForTaxPurposes.html",
-          "hash": "1wdXamOz33MudzfP30SObGqsMciLhhxyPFsig54iayM="
+          "relative_path": "api/Paytools.Common.Model.CountriesForTaxPurposes.html"
         }
       },
       "version": ""
@@ -96,8 +106,7 @@
       "source_relative_path": "api/Paytools.Common.Model.CountriesForTaxPurposesConverter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.CountriesForTaxPurposesConverter.html",
-          "hash": "NbAfA+tjlz1swGRIkC1c97l3fOBguAngyQpu9I6ijJE="
+          "relative_path": "api/Paytools.Common.Model.CountriesForTaxPurposesConverter.html"
         }
       },
       "version": ""
@@ -107,8 +116,7 @@
       "source_relative_path": "api/Paytools.Common.Model.Gender.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.Gender.html",
-          "hash": "X9m121bXeRsD6cEBABoG7sFJ7e/+oQh4rG/dss5yh7Y="
+          "relative_path": "api/Paytools.Common.Model.Gender.html"
         }
       },
       "version": ""
@@ -118,8 +126,7 @@
       "source_relative_path": "api/Paytools.Common.Model.HmrcAccountsOfficeReference.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.HmrcAccountsOfficeReference.html",
-          "hash": "gXAXXYMdorGq6i+GmpmN56yO9v5unHl+pnrhd6o1Trs="
+          "relative_path": "api/Paytools.Common.Model.HmrcAccountsOfficeReference.html"
         }
       },
       "version": ""
@@ -129,30 +136,27 @@
       "source_relative_path": "api/Paytools.Common.Model.HmrcPayeReference.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.HmrcPayeReference.html",
-          "hash": "t10dgAs769mEF2vCA7lrIhEme/VvFJBim3gioE/7H0Y="
+          "relative_path": "api/Paytools.Common.Model.HmrcPayeReference.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.Common.Model.IEmployableIndividual.yml",
+      "source_relative_path": "api/Paytools.Common.Model.IApplicableFromTill.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.IEmployableIndividual.html",
-          "hash": "WacWGO7TaIB/09R7MjgEdCW+gC9+pbn9MOzjVFbhlKg="
+          "relative_path": "api/Paytools.Common.Model.IApplicableFromTill.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.Common.Model.INamedIndividual.yml",
+      "source_relative_path": "api/Paytools.Common.Model.IPersonName.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.INamedIndividual.html",
-          "hash": "aNWavSm+TQqBrIaqDqXnAdDatWU4Fie/vZNAm43Yvg0="
+          "relative_path": "api/Paytools.Common.Model.IPersonName.html"
         }
       },
       "version": ""
@@ -162,8 +166,7 @@
       "source_relative_path": "api/Paytools.Common.Model.NiNumber.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.NiNumber.html",
-          "hash": "uCKERZo+ti1PUGGVdRaodQhcEayfcqIRU+kGowlvC7k="
+          "relative_path": "api/Paytools.Common.Model.NiNumber.html"
         }
       },
       "version": ""
@@ -173,8 +176,7 @@
       "source_relative_path": "api/Paytools.Common.Model.PayDate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.PayDate.html",
-          "hash": "ODRx1eXbwClBS4Tswl0rSDYUfEOzNS45iv5AL+jrFt8="
+          "relative_path": "api/Paytools.Common.Model.PayDate.html"
         }
       },
       "version": ""
@@ -184,8 +186,7 @@
       "source_relative_path": "api/Paytools.Common.Model.PayFrequency.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.PayFrequency.html",
-          "hash": "a8VE7OidJV1wQEU7tss4+9Zp6jCjfvBgDFf0S/S4LB8="
+          "relative_path": "api/Paytools.Common.Model.PayFrequency.html"
         }
       },
       "version": ""
@@ -195,8 +196,17 @@
       "source_relative_path": "api/Paytools.Common.Model.PayFrequencyExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.PayFrequencyExtensions.html",
-          "hash": "Fsi90YF3/C2ZcUw+caNJqYKx0jBZaqHBAEFrSKKWU6c="
+          "relative_path": "api/Paytools.Common.Model.PayFrequencyExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.PayReferencePeriod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.PayReferencePeriod.html"
         }
       },
       "version": ""
@@ -206,8 +216,17 @@
       "source_relative_path": "api/Paytools.Common.Model.PayrollId.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.PayrollId.html",
-          "hash": "TFIPFkPCGXOiZeqmQnhhzPt2Gk2K2ku4h28YMQEsMTc="
+          "relative_path": "api/Paytools.Common.Model.PayrollId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.PostalAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.PostalAddress.html"
         }
       },
       "version": ""
@@ -217,8 +236,7 @@
       "source_relative_path": "api/Paytools.Common.Model.TaxYear.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.TaxYear.html",
-          "hash": "tQ+O/FPO7Xr2k2ntpoew6HbTNoEdFtL4BPtyYqTxA/w="
+          "relative_path": "api/Paytools.Common.Model.TaxYear.html"
         }
       },
       "version": ""
@@ -228,8 +246,7 @@
       "source_relative_path": "api/Paytools.Common.Model.TaxYearEnding.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.TaxYearEnding.html",
-          "hash": "AbVOdh3K0ceWlWmIQPLS0ILU4i83Yeqndl0LRNZI/+g="
+          "relative_path": "api/Paytools.Common.Model.TaxYearEnding.html"
         }
       },
       "version": ""
@@ -239,8 +256,7 @@
       "source_relative_path": "api/Paytools.Common.Model.TaxYearEndingExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.TaxYearEndingExtensions.html",
-          "hash": "kAafuij4X5udX8ih2wDv8sJbf9SnaEXNo5wBFFzbWOU="
+          "relative_path": "api/Paytools.Common.Model.TaxYearEndingExtensions.html"
         }
       },
       "version": ""
@@ -250,19 +266,7 @@
       "source_relative_path": "api/Paytools.Common.Model.Title.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.Title.html",
-          "hash": "G3kFep1kJb99wk8hVBxNlmwXSRWfKQJA5jjZfeHFc0k="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.Common.Model.UkPostalAddress.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Paytools.Common.Model.UkPostalAddress.html",
-          "hash": "OJZwHg/lmjpBuBtjG2glADiQXLowCP/2mqkPI94ptEc="
+          "relative_path": "api/Paytools.Common.Model.Title.html"
         }
       },
       "version": ""
@@ -272,8 +276,7 @@
       "source_relative_path": "api/Paytools.Common.Model.UkPostcode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.UkPostcode.html",
-          "hash": "uH5K6IPSrd55M0nqosucExSOT688+mNhctZ07vuHm3M="
+          "relative_path": "api/Paytools.Common.Model.UkPostcode.html"
         }
       },
       "version": ""
@@ -283,8 +286,7 @@
       "source_relative_path": "api/Paytools.Common.Model.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.html",
-          "hash": "G0ykaULMOlIjqUTNbSe0gHQcHTTxV94KRijO4ZAcZ3w="
+          "relative_path": "api/Paytools.Common.Model.html"
         }
       },
       "version": ""
@@ -294,8 +296,17 @@
       "source_relative_path": "api/Paytools.Common.Serialization.CountriesForTaxPurposesJsonConverter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Serialization.CountriesForTaxPurposesJsonConverter.html",
-          "hash": "ywarWu63GSiCn8tQhbKsnX03ClOIXUXFtrkkt9V5OQM="
+          "relative_path": "api/Paytools.Common.Serialization.CountriesForTaxPurposesJsonConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Serialization.DateOnlyJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Serialization.DateOnlyJsonConverter.html"
         }
       },
       "version": ""
@@ -305,8 +316,7 @@
       "source_relative_path": "api/Paytools.Common.Serialization.PayFrequencyJsonConverter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Serialization.PayFrequencyJsonConverter.html",
-          "hash": "mGsdT2TsXHhoo3udWmlm6jcMWMaA4QDJGMe2hD7UkG8="
+          "relative_path": "api/Paytools.Common.Serialization.PayFrequencyJsonConverter.html"
         }
       },
       "version": ""
@@ -316,8 +326,7 @@
       "source_relative_path": "api/Paytools.Common.Serialization.TaxYearEndingJsonConverter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Serialization.TaxYearEndingJsonConverter.html",
-          "hash": "05I5SUCNVqrDZwk4J1zcWbt5gfS5vg6dC5sdmtf6/po="
+          "relative_path": "api/Paytools.Common.Serialization.TaxYearEndingJsonConverter.html"
         }
       },
       "version": ""
@@ -327,19 +336,17 @@
       "source_relative_path": "api/Paytools.Common.Serialization.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Serialization.html",
-          "hash": "MO8ESzChM1IWTJ8fFNnTQdABYC2Uxp2kH1w2af41+co="
+          "relative_path": "api/Paytools.Common.Serialization.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.IncomeTax.ITaxCalculationResult.yml",
+      "source_relative_path": "api/Paytools.Common.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.IncomeTax.ITaxCalculationResult.html",
-          "hash": "WVNxaRj0bvtOoE1o45aLM1gea3b53fp0MFMMB4/9aVQ="
+          "relative_path": "api/Paytools.Common.html"
         }
       },
       "version": ""
@@ -349,8 +356,7 @@
       "source_relative_path": "api/Paytools.IncomeTax.ITaxCalculator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.IncomeTax.ITaxCalculator.html",
-          "hash": "5O4O0RbCybFNtfVv87ejuKl0q+5cGEsE+7XJoilY2X8="
+          "relative_path": "api/Paytools.IncomeTax.ITaxCalculator.html"
         }
       },
       "version": ""
@@ -360,19 +366,77 @@
       "source_relative_path": "api/Paytools.IncomeTax.ITaxCalculatorFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.IncomeTax.ITaxCalculatorFactory.html",
-          "hash": "L81hePS8d+q2jr1dqcDkuyuJWzpF8R0UOYax53ztd98="
+          "relative_path": "api/Paytools.IncomeTax.ITaxCalculatorFactory.html"
         }
       },
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.IncomeTax.ReferenceData.ITaxBandProvider.yml",
+      "source_relative_path": "api/Paytools.IncomeTax.Model.ITaxCalculationResult.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.IncomeTax.ReferenceData.ITaxBandProvider.html",
-          "hash": "XUHdU9GQ6mShkwKAwmLBncVfLn0Vg1NyFJ5yT9AWCAU="
+          "relative_path": "api/Paytools.IncomeTax.Model.ITaxCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.Model.TaxCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.Model.TaxCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.Model.TaxCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.Model.TaxCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.Model.TaxTreatment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.Model.TaxTreatment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.Model.TaxTreatmentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.Model.TaxTreatmentExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.IncomeTax.ReferenceData.ITaxReferenceDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.IncomeTax.ReferenceData.ITaxReferenceDataProvider.html"
         }
       },
       "version": ""
@@ -382,8 +446,7 @@
       "source_relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxBandwidthEntry.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxBandwidthEntry.html",
-          "hash": "1SBEuDsGEDyyfdCIom21X4zpbS9ZzT8z1PWy3ODGh7A="
+          "relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxBandwidthEntry.html"
         }
       },
       "version": ""
@@ -393,8 +456,7 @@
       "source_relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxBandwidthSet.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxBandwidthSet.html",
-          "hash": "uFyvcVjuJwPThpHRbvyxLdKcz8FzGnRSMDG0cw8NMIo="
+          "relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxBandwidthSet.html"
         }
       },
       "version": ""
@@ -404,8 +466,7 @@
       "source_relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxPeriodBandwidthEntry.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxPeriodBandwidthEntry.html",
-          "hash": "M/TrENQcM0uy221w1CnA6L8q0QVCpVA/Fle6mG2fbgE="
+          "relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxPeriodBandwidthEntry.html"
         }
       },
       "version": ""
@@ -415,8 +476,7 @@
       "source_relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxPeriodBandwidthSet.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxPeriodBandwidthSet.html",
-          "hash": "kDQeMtf9vh7zqXbQ/z9ByIXvUhmIGrw81PKSXvBrz6Q="
+          "relative_path": "api/Paytools.IncomeTax.ReferenceData.TaxPeriodBandwidthSet.html"
         }
       },
       "version": ""
@@ -426,19 +486,7 @@
       "source_relative_path": "api/Paytools.IncomeTax.ReferenceData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.IncomeTax.ReferenceData.html",
-          "hash": "SEJt8VqFFsEdILNcuJ46yoD+ldLdtTl/y27ry/IYcIQ="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.IncomeTax.TaxCalculationResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Paytools.IncomeTax.TaxCalculationResult.html",
-          "hash": "7Huni4e2TYHYtyn9jfEWR6jKjtwi2OQQIaRA7BMIZQA="
+          "relative_path": "api/Paytools.IncomeTax.ReferenceData.html"
         }
       },
       "version": ""
@@ -448,8 +496,7 @@
       "source_relative_path": "api/Paytools.IncomeTax.TaxCalculator.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.IncomeTax.TaxCalculator.html",
-          "hash": "VRxB2sjn2kxAhC8o55x/c78Yx9u3n3ntrnRjuoDVJ34="
+          "relative_path": "api/Paytools.IncomeTax.TaxCalculator.html"
         }
       },
       "version": ""
@@ -459,41 +506,7 @@
       "source_relative_path": "api/Paytools.IncomeTax.TaxCalculatorFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.IncomeTax.TaxCalculatorFactory.html",
-          "hash": "HbDqmMQKKuBKBnDFDKNJqdafjHYdiR0B1XOGWzwM6lY="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.IncomeTax.TaxCode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Paytools.IncomeTax.TaxCode.html",
-          "hash": "1xjIzlg+1oHUOQgKL3rVg/IxVRFnZu+gFIunTgdm2V0="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.IncomeTax.TaxTreatment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Paytools.IncomeTax.TaxTreatment.html",
-          "hash": "1RHCGGDkwLOMBbd1dfoEL7JNCSd2B525M5I5tiKK/eQ="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.IncomeTax.TaxTreatmentExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Paytools.IncomeTax.TaxTreatmentExtensions.html",
-          "hash": "/K4gBV7Sd9Eik1A2qU9o9irTtB010RPKuhhS2ZrHiCg="
+          "relative_path": "api/Paytools.IncomeTax.TaxCalculatorFactory.html"
         }
       },
       "version": ""
@@ -503,8 +516,1047 @@
       "source_relative_path": "api/Paytools.IncomeTax.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.IncomeTax.html",
-          "hash": "/BmrfSV4G1d6zFumk5CKa32MJSMU0y4j2/n+mwZ8vFQ="
+          "relative_path": "api/Paytools.IncomeTax.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.Extensions.DecimalNiRoundingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.Extensions.DecimalNiRoundingExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.INiCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.INiCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.INiCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.INiCalculatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.Model.DirectorsNiCalculationMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.Model.DirectorsNiCalculationMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.Model.EmployeeNiHistoryEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.Model.IEmployeeNiHistoryEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.Model.IEmployeeNiHistoryEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.Model.INiCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.Model.INiCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.Model.NationalInsuranceThresholdExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.Model.NationalInsuranceThresholdExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.Model.NiCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.Model.NiCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.Model.NiCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.Model.NiCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.Model.NiEarningsBreakdown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.Model.NiEarningsBreakdown.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.Model.NiThresholdType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.Model.NiThresholdType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.Model.NiYtdHistory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.Model.NiYtdHistory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.NiCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.NiCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.NiCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.NiCalculatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.ReferenceData.INiCategoryRatesEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.ReferenceData.INiCategoryRatesEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.ReferenceData.INiPeriodThresholdSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.ReferenceData.INiPeriodThresholdSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.ReferenceData.INiReferenceDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.ReferenceData.INiReferenceDataProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.ReferenceData.INiThresholdEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.ReferenceData.INiThresholdEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.ReferenceData.INiThresholdSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.ReferenceData.INiThresholdSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.ReferenceData.NiPeriodThresholdSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.ReferenceData.NiThresholdEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.ReferenceData.NiThresholdEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.ReferenceData.NiThresholdSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.ReferenceData.NiThresholdSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.ReferenceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.ReferenceData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalInsurance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalInsurance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalMinimumWage.INmwEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalMinimumWage.INmwEvaluator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalMinimumWage.INmwEvaluatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalMinimumWage.INmwEvaluatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalMinimumWage.NmwEvaluationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalMinimumWage.NmwEvaluationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalMinimumWage.NmwEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalMinimumWage.NmwEvaluator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalMinimumWage.NmwEvaluatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalMinimumWage.NmwEvaluatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalMinimumWage.ReferenceData.INmwLevelSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalMinimumWage.ReferenceData.INmwLevelSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalMinimumWage.ReferenceData.INmwReferenceDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalMinimumWage.ReferenceData.INmwReferenceDataProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalMinimumWage.ReferenceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalMinimumWage.ReferenceData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.NationalMinimumWage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.NationalMinimumWage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.IPensionContributionCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.IPensionContributionCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.IPensionContributionCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.IPensionContributionCalculatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.Model.EarningsBasis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.Model.EarningsBasis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.Model.IPensionContributionCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.Model.IPensionContributionCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.Model.IPensionContributionLevels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.Model.IPensionContributionLevels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.Model.IPensionScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.Model.IPensionScheme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.Model.PensionContributionCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.Model.PensionContributionCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.Model.PensionScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.Model.PensionScheme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.Model.PensionTaxTreatment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.Model.PensionTaxTreatment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.PensionContributionCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.PensionContributionCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.PensionContributionCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.PensionContributionCalculatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.PensionablePaySetCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.PensionablePaySetCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.QualifyingEarningsContributionsCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.QualifyingEarningsContributionsCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.ReferenceData.IPensionsReferenceDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.ReferenceData.IPensionsReferenceDataProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.ReferenceData.IPensionsReferenceDataSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.ReferenceData.IPensionsReferenceDataSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.ReferenceData.IPensionsThresholdEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.ReferenceData.IPensionsThresholdEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.ReferenceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.ReferenceData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Pensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Pensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.Calendar.CountryEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.Calendar.CountryEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.Calendar.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.Calendar.Event.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.Calendar.PublicHolidaysCatalog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.Calendar.PublicHolidaysCatalog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.Calendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.Calendar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.HmrcReferenceDataProviderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.HmrcReferenceDataProviderFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.HmrcTaxYearReferenceDataSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.HmrcTaxYearReferenceDataSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.IHmrcReferenceDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.IHmrcReferenceDataProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.IHmrcReferenceDataProviderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.IHmrcReferenceDataProviderFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.IncomeTax.IncomeTaxBandEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.IncomeTax.IncomeTaxBandEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.IncomeTax.IncomeTaxDeductionBand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.IncomeTax.IncomeTaxDeductionBand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.IncomeTax.IncomeTaxReferenceDataEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.IncomeTax.IncomeTaxReferenceDataEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.IncomeTax.PersonalAllowance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.IncomeTax.PersonalAllowance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.IncomeTax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.IncomeTax.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.NationalInsurance.NiCategoryRateSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.NationalInsurance.NiCategoryRateSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.NationalInsurance.NiCategoryRatesEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.NationalInsurance.NiCategoryRatesEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.NationalInsurance.NiEmployeeRatesEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.NationalInsurance.NiEmployeeRatesEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.NationalInsurance.NiEmployerRatesEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.NationalInsurance.NiEmployerRatesEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.NationalInsurance.NiReferenceDataEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.NationalInsurance.NiReferenceDataEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.NationalInsurance.NiReferenceDataThresholdEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.NationalInsurance.NiReferenceDataThresholdEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.NationalInsurance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.NationalInsurance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.NationalMinimumWage.NmwReferenceDataEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.NationalMinimumWage.NmwReferenceDataEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.NationalMinimumWage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.NationalMinimumWage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.Pensions.PensionsReferenceDataSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.Pensions.PensionsReferenceDataSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.Pensions.PensionsThresholdEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.Pensions.PensionsThresholdEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.Pensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.Pensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.Serialization.NiCategoryJsonTypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.Serialization.NiCategoryJsonTypeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.Serialization.NiThresholdTypeJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.Serialization.NiThresholdTypeJsonConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.Serialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.StudentLoans.StudentLoanRatesSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.StudentLoans.StudentLoanRatesSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.StudentLoans.StudentLoanReferenceDataEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.StudentLoans.StudentLoanReferenceDataEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.StudentLoans.StudentLoanThresholdsEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.StudentLoans.StudentLoanThresholdsEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.StudentLoans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.StudentLoans.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.ReferenceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.ReferenceData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.StudentLoans.IStudentLoanCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.StudentLoans.IStudentLoanCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.StudentLoans.IStudentLoanCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.StudentLoans.IStudentLoanCalculatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.StudentLoans.Model.IStudentLoanCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.StudentLoans.Model.IStudentLoanCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.StudentLoans.Model.StudentLoanCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.StudentLoans.Model.StudentLoanCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.StudentLoans.Model.StudentLoanType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.StudentLoans.Model.StudentLoanType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.StudentLoans.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.StudentLoans.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.StudentLoans.ReferenceData.IStudentLoanRateSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.StudentLoans.ReferenceData.IStudentLoanRateSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.StudentLoans.ReferenceData.IStudentLoanReferenceDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.StudentLoans.ReferenceData.IStudentLoanReferenceDataProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.StudentLoans.ReferenceData.IStudentLoanThresholdSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.StudentLoans.ReferenceData.IStudentLoanThresholdSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.StudentLoans.ReferenceData.StudentLoanThresholdSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.StudentLoans.ReferenceData.StudentLoanThresholdSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.StudentLoans.ReferenceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.StudentLoans.ReferenceData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.StudentLoans.StudentLoanCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.StudentLoans.StudentLoanCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.StudentLoans.StudentLoanCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.StudentLoans.StudentLoanCalculatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.StudentLoans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.StudentLoans.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.html"
         }
       },
       "version": ""
@@ -514,8 +1566,7 @@
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "DrRlM7mxzTVFbVQPFKNQGoSWwYa+zRT76IyOSigTm7Q="
+          "relative_path": "api/index.html"
         }
       },
       "version": ""
@@ -525,8 +1576,10 @@
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "bPTxO1Jo5tuFMIwUO/0blQ5zuJ39+a8zmPSrEdsVxNY="
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -536,8 +1589,7 @@
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "72cwKdNnxhxC4Ejg4hnQX8sZYcSiUZ5+KCU3gq4g7wM="
+          "relative_path": "articles/intro.html"
         }
       },
       "version": ""
@@ -547,8 +1599,10 @@
       "source_relative_path": "articles/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "+FPCLcvmNhVb9VLasYr6Tnep0PZtIA6V/UOJ0u+1RmE="
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
         }
       },
       "version": ""
@@ -558,8 +1612,7 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "TXRx6Sgx+lZpujioaOboP+5ltLodpJU02ihYDuEhvsg="
+          "relative_path": "index.html"
         }
       },
       "version": ""
@@ -569,8 +1622,10 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "toc.html",
-          "hash": "aVe9U1RxWP3P5E5X/x2rL8jCuFlqix3bHKxtkjZ3zxg="
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""

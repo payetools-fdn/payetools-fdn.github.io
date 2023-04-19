@@ -1,483 +1,443 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
 <html>
-
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct NiNumber
- </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct NiNumber
- ">
-    <meta name="generator" content="docfx ">
-  
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
-  
-  
-  
-  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
+      <title>Struct NiNumber
+ | Paytools </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Struct NiNumber
+ | Paytools ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:docurl" content="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_NiNumber.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.NiNumber%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
 
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
 
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
+      <script type="text/javascript" src="../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../paytools-logo-image-only-v4.png" alt="Paytools">
+            Paytools
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
-        </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
+      </nav>
+    </header>
 
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
           </div>
-        </div>
-        <div class="article row grid-right">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Paytools.Common.Model.NiNumber">
-
-
-  <h1 id="Paytools_Common_Model_NiNumber" data-uid="Paytools.Common.Model.NiNumber" class="text-break">Struct NiNumber
-</h1>
-  <div class="markdown level0 summary"><p>Represents a Uk National Insurance number, also referred to as NI number or NINO.  A NINO is made up of 2 letters, 6 numbers
-and a final letter which is always A, B, C or D.  (See HMRC's National Insurance Manual, section NIM39110
-(<a href="https://www.gov.uk/hmrc-internal-manuals/national-insurance-manual/nim39110">https://www.gov.uk/hmrc-internal-manuals/national-insurance-manual/nim39110</a>.)</p>
-</div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.ValueType.Equals(object)</span>
-    </div>
-    <div>
-      <span class="xref">System.ValueType.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">object.Equals(object, object)</span>
-    </div>
-    <div>
-      <span class="xref">object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">object.ReferenceEquals(object, object)</span>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <span class="xref">Paytools</span>.<span class="xref">Common</span>.<a class="xref" href="Paytools.Common.Model.html">Model</a></h6>
-  <h6><strong>Assembly</strong>: Paytools.Common.dll</h6>
-  <h5 id="Paytools_Common_Model_NiNumber_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly struct NiNumber</code></pre>
-  </div>
-  <h3 id="constructors">Constructors
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_NiNumber__ctor_System_String_.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.NiNumber.%23ctor(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/NiNumber.cs/#L36">View Source</a>
-  </span>
-  <a id="Paytools_Common_Model_NiNumber__ctor_" data-uid="Paytools.Common.Model.NiNumber.#ctor*"></a>
-  <h4 id="Paytools_Common_Model_NiNumber__ctor_System_String_" data-uid="Paytools.Common.Model.NiNumber.#ctor(System.String)">NiNumber(string)</h4>
-  <div class="markdown level1 summary"><p>Initialises a new <a class="xref" href="Paytools.Common.Model.NiNumber.html">NiNumber</a> instance.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public NiNumber(string niNumber)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td><span class="parametername">niNumber</span></td>
-        <td><p>National insurance number as string.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>Thrown if the supplied string is not a valid NI number.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_NiNumber_IsValid_System_String_.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.NiNumber.IsValid(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/NiNumber.cs/#L66">View Source</a>
-  </span>
-  <a id="Paytools_Common_Model_NiNumber_IsValid_" data-uid="Paytools.Common.Model.NiNumber.IsValid*"></a>
-  <h4 id="Paytools_Common_Model_NiNumber_IsValid_System_String_" data-uid="Paytools.Common.Model.NiNumber.IsValid(System.String)">IsValid(string)</h4>
-  <div class="markdown level1 summary"><p>Verifies whether the supplied string could be a valid NI number.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsValid(string value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>String value to check.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">bool</span></td>
-        <td><p>True if the supplied value could be a valid NI number; false otherwise.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Paytools_Common_Model_NiNumber_IsValid_System_String__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Although this method confirms whether the string supplied <em>could</em> be a valid Ni nummber,
-it does not guarantee that the supplied value is registered with HMRC against a given individual.</p>
-</div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_NiNumber_ToString.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.NiNumber.ToString%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/NiNumber.cs/#L72">View Source</a>
-  </span>
-  <a id="Paytools_Common_Model_NiNumber_ToString_" data-uid="Paytools.Common.Model.NiNumber.ToString*"></a>
-  <h4 id="Paytools_Common_Model_NiNumber_ToString" data-uid="Paytools.Common.Model.NiNumber.ToString">ToString()</h4>
-  <div class="markdown level1 summary"><p>Gets the string representation of this <a class="xref" href="Paytools.Common.Model.NiNumber.html">NiNumber</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td><p>String representation of this NI number in non-spaced format.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.ToString()</span></div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_NiNumber_ToString_System_Boolean_.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.NiNumber.ToString(System.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/NiNumber.cs/#L80">View Source</a>
-  </span>
-  <a id="Paytools_Common_Model_NiNumber_ToString_" data-uid="Paytools.Common.Model.NiNumber.ToString*"></a>
-  <h4 id="Paytools_Common_Model_NiNumber_ToString_System_Boolean_" data-uid="Paytools.Common.Model.NiNumber.ToString(System.Boolean)">ToString(bool)</h4>
-  <div class="markdown level1 summary"><p>Gets the string representation of this <a class="xref" href="Paytools.Common.Model.NiNumber.html">NiNumber</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ToString(bool asSpacedFormat)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">bool</span></td>
-        <td><span class="parametername">asSpacedFormat</span></td>
-        <td><p>True if spaced format is to be returned (e.g., &quot;NA 12 34 67 C&quot;;
-false otherwise.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td><p>String representation of this NI number in either spaced or non-spaced format.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="operators">Operators
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_NiNumber_op_Implicit_Paytools_Common_Model_NiNumber__System_String.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.NiNumber.op_Implicit(Paytools.Common.Model.NiNumber)~System.String%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/NiNumber.cs/#L50">View Source</a>
-  </span>
-  <a id="Paytools_Common_Model_NiNumber_op_Implicit_" data-uid="Paytools.Common.Model.NiNumber.op_Implicit*"></a>
-  <h4 id="Paytools_Common_Model_NiNumber_op_Implicit_Paytools_Common_Model_NiNumber__System_String" data-uid="Paytools.Common.Model.NiNumber.op_Implicit(Paytools.Common.Model.NiNumber)~System.String">implicit operator string(NiNumber)</h4>
-  <div class="markdown level1 summary"><p>Operator for casting implicitly from a <a class="xref" href="Paytools.Common.Model.NiNumber.html">NiNumber</a> instance to its string representation.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static implicit operator string(NiNumber niNumber)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Paytools.Common.Model.NiNumber.html">NiNumber</a></td>
-        <td><span class="parametername">niNumber</span></td>
-        <td><p>NI number.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_NiNumber_op_Implicit_System_String__Paytools_Common_Model_NiNumber.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.NiNumber.op_Implicit(System.String)~Paytools.Common.Model.NiNumber%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/NiNumber.cs/#L57">View Source</a>
-  </span>
-  <a id="Paytools_Common_Model_NiNumber_op_Implicit_" data-uid="Paytools.Common.Model.NiNumber.op_Implicit*"></a>
-  <h4 id="Paytools_Common_Model_NiNumber_op_Implicit_System_String__Paytools_Common_Model_NiNumber" data-uid="Paytools.Common.Model.NiNumber.op_Implicit(System.String)~Paytools.Common.Model.NiNumber">implicit operator NiNumber(string)</h4>
-  <div class="markdown level1 summary"><p>Operator for casting implicitly from a string to an instance of a <a class="xref" href="Paytools.Common.Model.NiNumber.html">NiNumber</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static implicit operator NiNumber(string niNumber)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">string</span></td>
-        <td><span class="parametername">niNumber</span></td>
-        <td><p>NI number as string.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Paytools.Common.Model.NiNumber.html">NiNumber</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>Thrown if the supplied string is not a valid NI number.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-</article>
-          </div>
-
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_NiNumber.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.NiNumber%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/NiNumber.cs/#L24" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="toggle-mode">
-                <div class="icon">
-                  <i aria-hidden="true">☀</i>
-                </div>
-                <label class="switch">
-                  <input type="checkbox" id="switch-style">
-                  <span class="slider round"></span>
-                </label>
-                <div class="icon">
-                  <i aria-hidden="true">☾</i>
-                </div>
-              </div>
-
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <h5>In This Article</h5>
-              <div></div>
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
-              </nav>
-            </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
           </div>
         </div>
       </div>
 
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            <div class="pull-left">
-        
-        <span>Generated by <strong>DocFX</strong></span>
-            </div>
-            <div class="toggle-mode pull-right visible-sm visible-xs">
-              <div class="icon">
-                <i aria-hidden="true">☀</i>
-              </div>
-              <label class="switch">
-                <input type="checkbox" id="switch-style-m">
-                <span class="slider round"></span>
-              </label>
-              <div class="icon">
-                <i aria-hidden="true">☾</i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
-      </footer>    </div>
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
 
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Paytools.Common.Model.NiNumber">
+
+
+
+  <h1 id="Paytools_Common_Model_NiNumber" data-uid="Paytools.Common.Model.NiNumber" class="text-break">
+    Struct NiNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/NiNumber.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Paytools.html">Paytools</a>.<a class="xref" href="Paytools.Common.html">Common</a>.<a class="xref" href="Paytools.Common.Model.html">Model</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Paytools.Common.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents a Uk National Insurance number, also referred to as NI number or NINO.  A NINO is made up of 2 letters, 6 numbers
+and a final letter which is always A, B, C or D.  (See HMRC's National Insurance Manual, section NIM39110
+(<a href="https://www.gov.uk/hmrc-internal-manuals/national-insurance-manual/nim39110">https://www.gov.uk/hmrc-internal-manuals/national-insurance-manual/nim39110</a>.)</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly struct NiNumber</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.equals">ValueType.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode">ValueType.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Paytools_Common_Model_NiNumber__ctor_" data-uid="Paytools.Common.Model.NiNumber.#ctor*"></a>
+
+  <h3 id="Paytools_Common_Model_NiNumber__ctor_System_String_" data-uid="Paytools.Common.Model.NiNumber.#ctor(System.String)">
+  NiNumber(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/NiNumber.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialises a new <a class="xref" href="Paytools.Common.Model.NiNumber.html">NiNumber</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NiNumber(string niNumber)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>niNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>National insurance number as string.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>Thrown if the supplied string is not a valid NI number.</p>
+</dd>
+  </dl>
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Paytools_Common_Model_NiNumber_Unknown_" data-uid="Paytools.Common.Model.NiNumber.Unknown*"></a>
+
+  <h3 id="Paytools_Common_Model_NiNumber_Unknown" data-uid="Paytools.Common.Model.NiNumber.Unknown">
+  Unknown
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/NiNumber.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the NiNumber to be used when an employee does not know their National Insurance number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NiNumber Unknown { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Paytools.Common.Model.NiNumber.html">NiNumber</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Paytools_Common_Model_NiNumber_IsValid_" data-uid="Paytools.Common.Model.NiNumber.IsValid*"></a>
+
+  <h3 id="Paytools_Common_Model_NiNumber_IsValid_System_String_" data-uid="Paytools.Common.Model.NiNumber.IsValid(System.String)">
+  IsValid(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/NiNumber.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Verifies whether the supplied string could be a valid NI number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsValid(string value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String value to check.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the supplied value could be a valid NI number; false otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="Paytools_Common_Model_NiNumber_IsValid_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Although this method confirms whether the string supplied <em>could</em> be a valid Ni nummber,
+it does not guarantee that the supplied value is registered with HMRC against a given individual.</p>
+</div>
+
+
+
+
+  <a id="Paytools_Common_Model_NiNumber_ToString_" data-uid="Paytools.Common.Model.NiNumber.ToString*"></a>
+
+  <h3 id="Paytools_Common_Model_NiNumber_ToString" data-uid="Paytools.Common.Model.NiNumber.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/NiNumber.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the string representation of this <a class="xref" href="Paytools.Common.Model.NiNumber.html">NiNumber</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String representation of this NI number in non-spaced format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Paytools_Common_Model_NiNumber_ToString_" data-uid="Paytools.Common.Model.NiNumber.ToString*"></a>
+
+  <h3 id="Paytools_Common_Model_NiNumber_ToString_System_Boolean_" data-uid="Paytools.Common.Model.NiNumber.ToString(System.Boolean)">
+  ToString(bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/NiNumber.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the string representation of this <a class="xref" href="Paytools.Common.Model.NiNumber.html">NiNumber</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ToString(bool asSpacedFormat)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asSpacedFormat</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if spaced format is to be returned (e.g., &quot;NA 12 34 67 C&quot;;
+false otherwise.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String representation of this NI number in either spaced or non-spaced format.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="Paytools_Common_Model_NiNumber_op_Implicit_" data-uid="Paytools.Common.Model.NiNumber.op_Implicit*"></a>
+
+  <h3 id="Paytools_Common_Model_NiNumber_op_Implicit_Paytools_Common_Model_NiNumber__System_String" data-uid="Paytools.Common.Model.NiNumber.op_Implicit(Paytools.Common.Model.NiNumber)~System.String">
+  implicit operator string(NiNumber)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/NiNumber.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Operator for casting implicitly from a <a class="xref" href="Paytools.Common.Model.NiNumber.html">NiNumber</a> instance to its string representation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator string(NiNumber niNumber)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>niNumber</code> <a class="xref" href="Paytools.Common.Model.NiNumber.html">NiNumber</a></dt>
+    <dd><p>NI number.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Paytools_Common_Model_NiNumber_op_Implicit_" data-uid="Paytools.Common.Model.NiNumber.op_Implicit*"></a>
+
+  <h3 id="Paytools_Common_Model_NiNumber_op_Implicit_System_String__Paytools_Common_Model_NiNumber" data-uid="Paytools.Common.Model.NiNumber.op_Implicit(System.String)~Paytools.Common.Model.NiNumber">
+  implicit operator NiNumber(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/NiNumber.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Operator for casting implicitly from a string to an instance of a <a class="xref" href="Paytools.Common.Model.NiNumber.html">NiNumber</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator NiNumber(string niNumber)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>niNumber</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>NI number as string.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Paytools.Common.Model.NiNumber.html">NiNumber</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>Thrown if the supplied string is not a valid NI number.</p>
+</dd>
+  </dl>
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_NiNumber.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.NiNumber%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
