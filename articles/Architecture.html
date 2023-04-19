@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Paytools Architecture | Paytools </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Paytools Architecture | Paytools ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:docurl" content="https://github.com/paytools-fdn/Paytools.Internal.Documentation/blob/main/docfx_project/articles/Architecture.md/#L1">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../paytools-logo-image-only-v4.png" alt="Paytools">
+            Paytools
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="paytools-architecture">Paytools Architecture</h1>
+
+<p>In any significant software system, there are a bunch of factors that drive design and architecture.  For Paytools, they are as follows, in no particular order:</p>
+<ul>
+<li><em>Run anywhere</em> - while there is probably no demand for payroll on the Raspberry Pi, the design should at least not preclude Paytools running on any of the popular platforms, which at the time of writing look like:
+<ul>
+<li>Microsoft Windows</li>
+<li>MacOS</li>
+<li>iOS (more iPad than iPhone)</li>
+<li>Linux (although it isn't clear how much demand there actually is for this)</li>
+<li>Web/Cloud</li>
+</ul>
+</li>
+<li><em>Be super-responsive</em> - it is ironic that Sage's Payroll 50 (&quot;cloud&quot;) desktop-based application is faster to use than many current cloud-based payroll solutions, as the code and the data are all local to the user - the goal should be to achieve desktop-level responsiveness, even for large payrolls, regardless of the data architecture</li>
+<li><em>Safe</em> - there should be no way for anyone to lose data, or for their data to fall into the wrong hands</li>
+<li><em>Scalable</em> - both in terms of number of businesses/number of employees, but also in terms of target platform (see first bullet)</li>
+</ul>
+<h3 id="clientserver-architecture">Client/Server Architecture</h3>
+<p>Although it isn't fashionable these days to talk of client/server architectures, the Paytools payroll engine is fundamentally a <em>server</em>. By this we mean that it is something that can operate &quot;standalone&quot;, servicing requests and performing actions on behalf of <em>clients</em>.</p>
+<p>That said, there is no reason why the engine and the client cannot run on the same device, and indeed, for lower spec devices, there is no reason why both components cannot be part of the same executable.  However, for devices that do not allow proper background processing, and also devices that are not necessary &quot;always on&quot; (particularly with respect to their Internet connectivity), it may make sense to offload portions of the workload (e.g., RTI processing) to a true server-side component.</p>
+<h3 id="use-of-net-technology">Use of .NET Technology</h3>
+<p>There are plenty of cross-platform development options (most notably JavaScript/Typescript, Go, Rust, Java/Scala, etc.) but the choice of C# and .NET Core as the language and platform for Paytools was driven in part by the creators long experience with the technology, but also by its demonstrable efficacy in the cross-platform world.  Paytools' authors don't assume that all client-side implementations will be written in C# or use the .NET ecosystem; the engine APIs need to support non-.NET clients, either through dedicated libraries, or through open (most likely REST-based) APIs.</p>
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/paytools-fdn/Paytools.Internal.Documentation/blob/main/docfx_project/articles/Architecture.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

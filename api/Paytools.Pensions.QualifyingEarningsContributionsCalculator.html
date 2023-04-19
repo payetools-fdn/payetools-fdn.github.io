@@ -165,7 +165,7 @@
 
   <a id="Paytools_Pensions_QualifyingEarningsContributionsCalculator__ctor_" data-uid="Paytools.Pensions.QualifyingEarningsContributionsCalculator.#ctor*"></a>
 
-  <h3 id="Paytools_Pensions_QualifyingEarningsContributionsCalculator__ctor_Paytools_Pensions_Model_PensionTaxTreatment_System_Decimal_System_Decimal_System_Nullable_System_Decimal__" data-uid="Paytools.Pensions.QualifyingEarningsContributionsCalculator.#ctor(Paytools.Pensions.Model.PensionTaxTreatment,System.Decimal,System.Decimal,System.Nullable{System.Decimal})">
+  <h3 id="Paytools_Pensions_QualifyingEarningsContributionsCalculator__ctor_Paytools_Common_Model_PensionTaxTreatment_System_Decimal_System_Decimal_System_Nullable_System_Decimal__" data-uid="Paytools.Pensions.QualifyingEarningsContributionsCalculator.#ctor(Paytools.Common.Model.PensionTaxTreatment,System.Decimal,System.Decimal,System.Nullable{System.Decimal})">
   QualifyingEarningsContributionsCalculator(PensionTaxTreatment, decimal, decimal, decimal?)
   <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/QualifyingEarningsContributionsCalculator.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
@@ -181,7 +181,7 @@ using the lower and upper thresholds supplied.</p>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>taxTreatment</code> <a class="xref" href="Paytools.Pensions.Model.PensionTaxTreatment.html">PensionTaxTreatment</a></dt>
+    <dt><code>taxTreatment</code> <a class="xref" href="Paytools.Common.Model.PensionTaxTreatment.html">PensionTaxTreatment</a></dt>
     <dd><p>Tax treatment for the target pension, i.e., net pay arrangement vs relief at source.</p>
 </dd>
     <dt><code>lowerLevelForQualifyingEarnings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
@@ -217,12 +217,12 @@ using the lower and upper thresholds supplied.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/QualifyingEarningsContributionsCalculator.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets the earnings basis for this calculator.  Always returns <a class="xref" href="Paytools.Pensions.Model.EarningsBasis.html#Paytools_Pensions_Model_EarningsBasis_QualifyingEarnings">QualifyingEarnings</a>.</p>
+  <div class="markdown level1 summary"><p>Gets the earnings basis for this calculator.  Always returns <a class="xref" href="Paytools.Common.Model.PensionsEarningsBasis.html#Paytools_Common_Model_PensionsEarningsBasis_QualifyingEarnings">QualifyingEarnings</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override EarningsBasis EarningsBasis { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override PensionsEarningsBasis EarningsBasis { get; }</code></pre>
   </div>
 
 
@@ -231,7 +231,7 @@ using the lower and upper thresholds supplied.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Paytools.Pensions.Model.EarningsBasis.html">EarningsBasis</a></dt>
+    <dt><a class="xref" href="Paytools.Common.Model.PensionsEarningsBasis.html">PensionsEarningsBasis</a></dt>
     <dd></dd>
   </dl>
 

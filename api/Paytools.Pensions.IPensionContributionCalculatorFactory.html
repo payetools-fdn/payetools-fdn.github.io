@@ -114,8 +114,8 @@
 
   <a id="Paytools_Pensions_IPensionContributionCalculatorFactory_GetCalculator_" data-uid="Paytools.Pensions.IPensionContributionCalculatorFactory.GetCalculator*"></a>
 
-  <h3 id="Paytools_Pensions_IPensionContributionCalculatorFactory_GetCalculator_Paytools_Pensions_Model_EarningsBasis_Paytools_Pensions_Model_PensionTaxTreatment_Paytools_Common_Model_PayDate_" data-uid="Paytools.Pensions.IPensionContributionCalculatorFactory.GetCalculator(Paytools.Pensions.Model.EarningsBasis,Paytools.Pensions.Model.PensionTaxTreatment,Paytools.Common.Model.PayDate)">
-  GetCalculator(EarningsBasis, PensionTaxTreatment, PayDate)
+  <h3 id="Paytools_Pensions_IPensionContributionCalculatorFactory_GetCalculator_Paytools_Common_Model_PensionsEarningsBasis_Paytools_Common_Model_PensionTaxTreatment_Paytools_Common_Model_PayDate_" data-uid="Paytools.Pensions.IPensionContributionCalculatorFactory.GetCalculator(Paytools.Common.Model.PensionsEarningsBasis,Paytools.Common.Model.PensionTaxTreatment,Paytools.Common.Model.PayDate)">
+  GetCalculator(PensionsEarningsBasis, PensionTaxTreatment, PayDate)
   <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/IPensionContributionCalculatorFactory.cs/#L34"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -126,15 +126,15 @@ in-year.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IPensionContributionCalculator GetCalculator(EarningsBasis earningsBasis, PensionTaxTreatment taxTreatment, PayDate payDate)</code></pre>
+    <pre><code class="lang-csharp hljs">IPensionContributionCalculator GetCalculator(PensionsEarningsBasis earningsBasis, PensionTaxTreatment taxTreatment, PayDate payDate)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>earningsBasis</code> <a class="xref" href="Paytools.Pensions.Model.EarningsBasis.html">EarningsBasis</a></dt>
+    <dt><code>earningsBasis</code> <a class="xref" href="Paytools.Common.Model.PensionsEarningsBasis.html">PensionsEarningsBasis</a></dt>
     <dd><p>Earnings basis for pension calculation (Qualifying Earnings vs Pensionable Pay Set x.</p>
 </dd>
-    <dt><code>taxTreatment</code> <a class="xref" href="Paytools.Pensions.Model.PensionTaxTreatment.html">PensionTaxTreatment</a></dt>
+    <dt><code>taxTreatment</code> <a class="xref" href="Paytools.Common.Model.PensionTaxTreatment.html">PensionTaxTreatment</a></dt>
     <dd><p>Tax treatment (net pay arrangement vs relief at source).</p>
 </dd>
     <dt><code>payDate</code> <a class="xref" href="Paytools.Common.Model.PayDate.html">PayDate</a></dt>
@@ -161,8 +161,8 @@ in-year.</p>
 
   <a id="Paytools_Pensions_IPensionContributionCalculatorFactory_GetCalculator_" data-uid="Paytools.Pensions.IPensionContributionCalculatorFactory.GetCalculator*"></a>
 
-  <h3 id="Paytools_Pensions_IPensionContributionCalculatorFactory_GetCalculator_Paytools_Pensions_Model_EarningsBasis_Paytools_Pensions_Model_PensionTaxTreatment_Paytools_Common_Model_TaxYear_Paytools_Common_Model_PayFrequency_System_Int32_" data-uid="Paytools.Pensions.IPensionContributionCalculatorFactory.GetCalculator(Paytools.Pensions.Model.EarningsBasis,Paytools.Pensions.Model.PensionTaxTreatment,Paytools.Common.Model.TaxYear,Paytools.Common.Model.PayFrequency,System.Int32)">
-  GetCalculator(EarningsBasis, PensionTaxTreatment, TaxYear, PayFrequency, int)
+  <h3 id="Paytools_Pensions_IPensionContributionCalculatorFactory_GetCalculator_Paytools_Common_Model_PensionsEarningsBasis_Paytools_Common_Model_PensionTaxTreatment_Paytools_Common_Model_TaxYear_Paytools_Common_Model_PayFrequency_System_Int32_" data-uid="Paytools.Pensions.IPensionContributionCalculatorFactory.GetCalculator(Paytools.Common.Model.PensionsEarningsBasis,Paytools.Common.Model.PensionTaxTreatment,Paytools.Common.Model.TaxYear,Paytools.Common.Model.PayFrequency,System.Int32)">
+  GetCalculator(PensionsEarningsBasis, PensionTaxTreatment, TaxYear, PayFrequency, int)
   <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/IPensionContributionCalculatorFactory.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -173,15 +173,15 @@ set of thresholds and rates to use, noting that these may change in-year.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IPensionContributionCalculator GetCalculator(EarningsBasis earningsBasis, PensionTaxTreatment taxTreatment, TaxYear taxYear, PayFrequency payFrequency, int taxPeriod)</code></pre>
+    <pre><code class="lang-csharp hljs">IPensionContributionCalculator GetCalculator(PensionsEarningsBasis earningsBasis, PensionTaxTreatment taxTreatment, TaxYear taxYear, PayFrequency payFrequency, int taxPeriod)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>earningsBasis</code> <a class="xref" href="Paytools.Pensions.Model.EarningsBasis.html">EarningsBasis</a></dt>
+    <dt><code>earningsBasis</code> <a class="xref" href="Paytools.Common.Model.PensionsEarningsBasis.html">PensionsEarningsBasis</a></dt>
     <dd><p>Earnings basis for pension calculation (Qualifying Earnings vs Pensionable Pay Set x.</p>
 </dd>
-    <dt><code>taxTreatment</code> <a class="xref" href="Paytools.Pensions.Model.PensionTaxTreatment.html">PensionTaxTreatment</a></dt>
+    <dt><code>taxTreatment</code> <a class="xref" href="Paytools.Common.Model.PensionTaxTreatment.html">PensionTaxTreatment</a></dt>
     <dd><p>Tax treatment (net pay arrangement vs relief at source).</p>
 </dd>
     <dt><code>taxYear</code> <a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a></dt>

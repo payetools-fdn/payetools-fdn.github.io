@@ -80,7 +80,7 @@
 
   <h1 id="Paytools_NationalInsurance_NiCalculator" data-uid="Paytools.NationalInsurance.NiCalculator" class="text-break">
     Class NiCalculator
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/NiCalculator.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/NiCalculator.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -152,9 +152,9 @@
 
   <a id="Paytools_NationalInsurance_NiCalculator__ctor_" data-uid="Paytools.NationalInsurance.NiCalculator.#ctor*"></a>
 
-  <h3 id="Paytools_NationalInsurance_NiCalculator__ctor_Paytools_NationalInsurance_ReferenceData_INiThresholdSet_Paytools_NationalInsurance_ReferenceData_INiPeriodThresholdSet_System_Collections_ObjectModel_ReadOnlyDictionary_Paytools_NationalInsurance_Model_NiCategory_Paytools_NationalInsurance_ReferenceData_INiCategoryRatesEntry__System_Collections_ObjectModel_ReadOnlyDictionary_Paytools_NationalInsurance_Model_NiCategory_Paytools_NationalInsurance_ReferenceData_INiCategoryRatesEntry__" data-uid="Paytools.NationalInsurance.NiCalculator.#ctor(Paytools.NationalInsurance.ReferenceData.INiThresholdSet,Paytools.NationalInsurance.ReferenceData.INiPeriodThresholdSet,System.Collections.ObjectModel.ReadOnlyDictionary{Paytools.NationalInsurance.Model.NiCategory,Paytools.NationalInsurance.ReferenceData.INiCategoryRatesEntry},System.Collections.ObjectModel.ReadOnlyDictionary{Paytools.NationalInsurance.Model.NiCategory,Paytools.NationalInsurance.ReferenceData.INiCategoryRatesEntry})">
+  <h3 id="Paytools_NationalInsurance_NiCalculator__ctor_Paytools_NationalInsurance_ReferenceData_INiThresholdSet_Paytools_NationalInsurance_ReferenceData_INiPeriodThresholdSet_System_Collections_ObjectModel_ReadOnlyDictionary_Paytools_Common_Model_NiCategory_Paytools_NationalInsurance_ReferenceData_INiCategoryRatesEntry__System_Collections_ObjectModel_ReadOnlyDictionary_Paytools_Common_Model_NiCategory_Paytools_NationalInsurance_ReferenceData_INiCategoryRatesEntry__" data-uid="Paytools.NationalInsurance.NiCalculator.#ctor(Paytools.NationalInsurance.ReferenceData.INiThresholdSet,Paytools.NationalInsurance.ReferenceData.INiPeriodThresholdSet,System.Collections.ObjectModel.ReadOnlyDictionary{Paytools.Common.Model.NiCategory,Paytools.NationalInsurance.ReferenceData.INiCategoryRatesEntry},System.Collections.ObjectModel.ReadOnlyDictionary{Paytools.Common.Model.NiCategory,Paytools.NationalInsurance.ReferenceData.INiCategoryRatesEntry})">
   NiCalculator(INiThresholdSet, INiPeriodThresholdSet, ReadOnlyDictionary&lt;NiCategory, INiCategoryRatesEntry&gt;, ReadOnlyDictionary&lt;NiCategory, INiCategoryRatesEntry&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/NiCalculator.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/NiCalculator.cs/#L55"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initialises a new <a class="xref" href="Paytools.NationalInsurance.NiCalculator.html">NiCalculator</a> with the supplied thresholds and rates for the period.</p>
@@ -173,10 +173,10 @@
     <dt><code>niPeriodThresholds</code> <a class="xref" href="Paytools.NationalInsurance.ReferenceData.INiPeriodThresholdSet.html">INiPeriodThresholdSet</a></dt>
     <dd><p>NI threshold set for the tax period applicable to this NI calculator.</p>
 </dd>
-    <dt><code>niRateEntriesForRegularEmployees</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2">ReadOnlyDictionary</a>&lt;<a class="xref" href="Paytools.NationalInsurance.Model.NiCategory.html">NiCategory</a>, <a class="xref" href="Paytools.NationalInsurance.ReferenceData.INiCategoryRatesEntry.html">INiCategoryRatesEntry</a>&gt;</dt>
+    <dt><code>niRateEntriesForRegularEmployees</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2">ReadOnlyDictionary</a>&lt;<a class="xref" href="Paytools.Common.Model.NiCategory.html">NiCategory</a>, <a class="xref" href="Paytools.NationalInsurance.ReferenceData.INiCategoryRatesEntry.html">INiCategoryRatesEntry</a>&gt;</dt>
     <dd><p>NI rates for the tax period applicable to non-directors for this NI calculator.</p>
 </dd>
-    <dt><code>niDirectorsRateEntries</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2">ReadOnlyDictionary</a>&lt;<a class="xref" href="Paytools.NationalInsurance.Model.NiCategory.html">NiCategory</a>, <a class="xref" href="Paytools.NationalInsurance.ReferenceData.INiCategoryRatesEntry.html">INiCategoryRatesEntry</a>&gt;</dt>
+    <dt><code>niDirectorsRateEntries</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2">ReadOnlyDictionary</a>&lt;<a class="xref" href="Paytools.Common.Model.NiCategory.html">NiCategory</a>, <a class="xref" href="Paytools.NationalInsurance.ReferenceData.INiCategoryRatesEntry.html">INiCategoryRatesEntry</a>&gt;</dt>
     <dd><p>NI rates for the tax period applicable to directors for this NI calculator.  Optional;
 where the same set of rates applies to both non-directors and directors, this parameter should be null.</p>
 </dd>
@@ -199,9 +199,9 @@ where the same set of rates applies to both non-directors and directors, this pa
 
   <a id="Paytools_NationalInsurance_NiCalculator_Calculate_" data-uid="Paytools.NationalInsurance.NiCalculator.Calculate*"></a>
 
-  <h3 id="Paytools_NationalInsurance_NiCalculator_Calculate_Paytools_NationalInsurance_Model_NiCategory_System_Decimal_Paytools_NationalInsurance_Model_INiCalculationResult__" data-uid="Paytools.NationalInsurance.NiCalculator.Calculate(Paytools.NationalInsurance.Model.NiCategory,System.Decimal,Paytools.NationalInsurance.Model.INiCalculationResult@)">
+  <h3 id="Paytools_NationalInsurance_NiCalculator_Calculate_Paytools_Common_Model_NiCategory_System_Decimal_Paytools_NationalInsurance_Model_INiCalculationResult__" data-uid="Paytools.NationalInsurance.NiCalculator.Calculate(Paytools.Common.Model.NiCategory,System.Decimal,Paytools.NationalInsurance.Model.INiCalculationResult@)">
   Calculate(NiCategory, decimal, out INiCalculationResult)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/NiCalculator.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/NiCalculator.cs/#L73"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Calculates the National Insurance contributions required for an employee for a given pay period,
@@ -215,7 +215,7 @@ based on their NI-able salary and their allocated National Insurance category le
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>niCategory</code> <a class="xref" href="Paytools.NationalInsurance.Model.NiCategory.html">NiCategory</a></dt>
+    <dt><code>niCategory</code> <a class="xref" href="Paytools.Common.Model.NiCategory.html">NiCategory</a></dt>
     <dd><p>National Insurance category.</p>
 </dd>
     <dt><code>nicableEarningsInPeriod</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
@@ -239,9 +239,9 @@ based on their NI-able salary and their allocated National Insurance category le
 
   <a id="Paytools_NationalInsurance_NiCalculator_CalculateDirectors_" data-uid="Paytools.NationalInsurance.NiCalculator.CalculateDirectors*"></a>
 
-  <h3 id="Paytools_NationalInsurance_NiCalculator_CalculateDirectors_Paytools_NationalInsurance_Model_DirectorsNiCalculationMethod_Paytools_NationalInsurance_Model_NiCategory_System_Decimal_System_Decimal_System_Decimal_System_Nullable_System_Decimal__Paytools_NationalInsurance_Model_INiCalculationResult__" data-uid="Paytools.NationalInsurance.NiCalculator.CalculateDirectors(Paytools.NationalInsurance.Model.DirectorsNiCalculationMethod,Paytools.NationalInsurance.Model.NiCategory,System.Decimal,System.Decimal,System.Decimal,System.Nullable{System.Decimal},Paytools.NationalInsurance.Model.INiCalculationResult@)">
+  <h3 id="Paytools_NationalInsurance_NiCalculator_CalculateDirectors_Paytools_NationalInsurance_Model_DirectorsNiCalculationMethod_Paytools_Common_Model_NiCategory_System_Decimal_System_Decimal_System_Decimal_System_Nullable_System_Decimal__Paytools_NationalInsurance_Model_INiCalculationResult__" data-uid="Paytools.NationalInsurance.NiCalculator.CalculateDirectors(Paytools.NationalInsurance.Model.DirectorsNiCalculationMethod,Paytools.Common.Model.NiCategory,System.Decimal,System.Decimal,System.Decimal,System.Nullable{System.Decimal},Paytools.NationalInsurance.Model.INiCalculationResult@)">
   CalculateDirectors(DirectorsNiCalculationMethod, NiCategory, decimal, decimal, decimal, decimal?, out INiCalculationResult)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/NiCalculator.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.NationalInsurance/NiCalculator.cs/#L153"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Calculates the National Insurance contributions required for a company director for a given pay period,
@@ -258,7 +258,7 @@ based on their NI-able salary and their allocated National Insurance category le
     <dt><code>calculationMethod</code> <a class="xref" href="Paytools.NationalInsurance.Model.DirectorsNiCalculationMethod.html">DirectorsNiCalculationMethod</a></dt>
     <dd><p>Calculation method to use.</p>
 </dd>
-    <dt><code>niCategory</code> <a class="xref" href="Paytools.NationalInsurance.Model.NiCategory.html">NiCategory</a></dt>
+    <dt><code>niCategory</code> <a class="xref" href="Paytools.Common.Model.NiCategory.html">NiCategory</a></dt>
     <dd><p>National Insurance category.</p>
 </dd>
     <dt><code>nicableEarningsYearToDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>

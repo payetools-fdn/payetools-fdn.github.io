@@ -15,7 +15,7 @@
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
-      <meta name="docfx:docurl" content="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_IncomeTax_Model_TaxCode.md&amp;value=---%0Auid%3A%20Paytools.IncomeTax.Model.TaxCode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/paytools-fdn/Paytools.Internal.Documentation/blob/main/docfx_project/overwrites/Paytools.Common.Model.Taxcode.md/#L2">
 
       <script>
         MathJax = {
@@ -74,23 +74,41 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Paytools.IncomeTax.Model.TaxCode">
+        <article data-uid="Paytools.Common.Model.TaxCode">
 
 
 
-  <h1 id="Paytools_IncomeTax_Model_TaxCode" data-uid="Paytools.IncomeTax.Model.TaxCode" class="text-break">
+  <h1 id="Paytools_Common_Model_TaxCode" data-uid="Paytools.Common.Model.TaxCode" class="text-break">
     Struct TaxCode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/Model/TaxCode.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxCode.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Paytools.html">Paytools</a>.<a class="xref" href="Paytools.IncomeTax.html">IncomeTax</a>.<a class="xref" href="Paytools.IncomeTax.Model.html">Model</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>Paytools.IncomeTax.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Paytools.html">Paytools</a>.<a class="xref" href="Paytools.Common.html">Common</a>.<a class="xref" href="Paytools.Common.Model.html">Model</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Paytools.Common.dll</dd></dl>
   </div>
 
   <div class="markdown summary"><p>Represents a UK tax code, with the ability to calculate tax-free pay based the code and the relevant tax period.</p>
 </div>
-  <div class="markdown conceptual"></div>
+  <div class="markdown conceptual">
+<p>The <code>TryParse</code> method is used to create a new <code>TaxCode</code> instance:</p>
+<pre><code class="lang-C#">using Paytools.Common.Model;
+
+var taxYear = new TaxYear(TaxYearEnding.Apr5_2024);
+var success = TaxCode.TryParse(&quot;1257L&quot;, taxYear, out var taxCode);
+</code></pre>
+<p>If the tax code &quot;1257L&quot; is a valid tax code for the specified tax year, then the <code>success</code> variable should be true and the output variable <code>taxCode</code> should be a correctly initialised <code>TaxCode</code> instance.  If the supplied string cannot be intepreted as a valid tax code for the specified tax year, then 'success' would be false.</p>
+<p>Non-cumulative tax codes (also known as &quot;week 1/month 1&quot;) may be represented using any of the following suffixes:</p>
+<ul>
+<li>&quot;X&quot;</li>
+<li>&quot;W1M1&quot;</li>
+<li>&quot;W1/M1&quot;</li>
+<li>&quot;W1&quot;</li>
+<li>&quot;M1&quot;</li>
+</ul>
+<p>For example, a Scottish non-cumulative K code might be represented as &quot;K528 X&quot;.</p>
+<p>The above suffixes are case-insensitive and may appear after the main tax code with or without intervening spaces, e.g., &quot;C1250Lw1/m1&quot; means the same as &quot;C1250L X&quot;.</p>
+</div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public readonly struct TaxCode</code></pre>
@@ -131,11 +149,11 @@
 </h2>
 
 
-  <a id="Paytools_IncomeTax_Model_TaxCode_ApplicableCountries_" data-uid="Paytools.IncomeTax.Model.TaxCode.ApplicableCountries*"></a>
+  <a id="Paytools_Common_Model_TaxCode_ApplicableCountries_" data-uid="Paytools.Common.Model.TaxCode.ApplicableCountries*"></a>
 
-  <h3 id="Paytools_IncomeTax_Model_TaxCode_ApplicableCountries" data-uid="Paytools.IncomeTax.Model.TaxCode.ApplicableCountries">
+  <h3 id="Paytools_Common_Model_TaxCode_ApplicableCountries" data-uid="Paytools.Common.Model.TaxCode.ApplicableCountries">
   ApplicableCountries
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/Model/TaxCode.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxCode.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the country or countries that this tax code applies to, i.e., the tax regime.</p>
@@ -163,11 +181,11 @@
 
 
 
-  <a id="Paytools_IncomeTax_Model_TaxCode_IsFixedCode_" data-uid="Paytools.IncomeTax.Model.TaxCode.IsFixedCode*"></a>
+  <a id="Paytools_Common_Model_TaxCode_IsFixedCode_" data-uid="Paytools.Common.Model.TaxCode.IsFixedCode*"></a>
 
-  <h3 id="Paytools_IncomeTax_Model_TaxCode_IsFixedCode" data-uid="Paytools.IncomeTax.Model.TaxCode.IsFixedCode">
+  <h3 id="Paytools_Common_Model_TaxCode_IsFixedCode" data-uid="Paytools.Common.Model.TaxCode.IsFixedCode">
   IsFixedCode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/Model/TaxCode.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxCode.cs/#L80"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets a value indicating whether the tax code is a &quot;fixed code&quot;, such as BR, D0, NT, etc., or a variable code, such as 1257L.</p>
@@ -195,11 +213,11 @@
 
 
 
-  <a id="Paytools_IncomeTax_Model_TaxCode_IsNonCumulative_" data-uid="Paytools.IncomeTax.Model.TaxCode.IsNonCumulative*"></a>
+  <a id="Paytools_Common_Model_TaxCode_IsNonCumulative_" data-uid="Paytools.Common.Model.TaxCode.IsNonCumulative*"></a>
 
-  <h3 id="Paytools_IncomeTax_Model_TaxCode_IsNonCumulative" data-uid="Paytools.IncomeTax.Model.TaxCode.IsNonCumulative">
+  <h3 id="Paytools_Common_Model_TaxCode_IsNonCumulative" data-uid="Paytools.Common.Model.TaxCode.IsNonCumulative">
   IsNonCumulative
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/Model/TaxCode.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxCode.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets a value indicating whether the tax code is cumulative (e.g., 1257L) or non-cumulative (e.g., 1257L W1/M1).</p>
@@ -227,11 +245,11 @@
 
 
 
-  <a id="Paytools_IncomeTax_Model_TaxCode_NotionalAllowance_" data-uid="Paytools.IncomeTax.Model.TaxCode.NotionalAllowance*"></a>
+  <a id="Paytools_Common_Model_TaxCode_NotionalAllowance_" data-uid="Paytools.Common.Model.TaxCode.NotionalAllowance*"></a>
 
-  <h3 id="Paytools_IncomeTax_Model_TaxCode_NotionalAllowance" data-uid="Paytools.IncomeTax.Model.TaxCode.NotionalAllowance">
+  <h3 id="Paytools_Common_Model_TaxCode_NotionalAllowance" data-uid="Paytools.Common.Model.TaxCode.NotionalAllowance">
   NotionalAllowance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/Model/TaxCode.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxCode.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the notional annual personal allowance for the tax code.  This may be negative in the event the tax code has a K prefix.</p>
@@ -259,11 +277,11 @@
 
 
 
-  <a id="Paytools_IncomeTax_Model_TaxCode_NumericPortionOfCode_" data-uid="Paytools.IncomeTax.Model.TaxCode.NumericPortionOfCode*"></a>
+  <a id="Paytools_Common_Model_TaxCode_NumericPortionOfCode_" data-uid="Paytools.Common.Model.TaxCode.NumericPortionOfCode*"></a>
 
-  <h3 id="Paytools_IncomeTax_Model_TaxCode_NumericPortionOfCode" data-uid="Paytools.IncomeTax.Model.TaxCode.NumericPortionOfCode">
+  <h3 id="Paytools_Common_Model_TaxCode_NumericPortionOfCode" data-uid="Paytools.Common.Model.TaxCode.NumericPortionOfCode">
   NumericPortionOfCode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/Model/TaxCode.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxCode.cs/#L75"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the integer portion of the tax code, if applicable, or zero otherwise.</p>
@@ -291,11 +309,11 @@
 
 
 
-  <a id="Paytools_IncomeTax_Model_TaxCode_TaxRegimeLetter_" data-uid="Paytools.IncomeTax.Model.TaxCode.TaxRegimeLetter*"></a>
+  <a id="Paytools_Common_Model_TaxCode_TaxRegimeLetter_" data-uid="Paytools.Common.Model.TaxCode.TaxRegimeLetter*"></a>
 
-  <h3 id="Paytools_IncomeTax_Model_TaxCode_TaxRegimeLetter" data-uid="Paytools.IncomeTax.Model.TaxCode.TaxRegimeLetter">
+  <h3 id="Paytools_Common_Model_TaxCode_TaxRegimeLetter" data-uid="Paytools.Common.Model.TaxCode.TaxRegimeLetter">
   TaxRegimeLetter
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/Model/TaxCode.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxCode.cs/#L85"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the tax regime letter, e.g., S for Scotland, C for Wales.  Returns an empty string if no specific regime is applicable.</p>
@@ -323,11 +341,11 @@
 
 
 
-  <a id="Paytools_IncomeTax_Model_TaxCode_TaxTreatment_" data-uid="Paytools.IncomeTax.Model.TaxCode.TaxTreatment*"></a>
+  <a id="Paytools_Common_Model_TaxCode_TaxTreatment_" data-uid="Paytools.Common.Model.TaxCode.TaxTreatment*"></a>
 
-  <h3 id="Paytools_IncomeTax_Model_TaxCode_TaxTreatment" data-uid="Paytools.IncomeTax.Model.TaxCode.TaxTreatment">
+  <h3 id="Paytools_Common_Model_TaxCode_TaxTreatment" data-uid="Paytools.Common.Model.TaxCode.TaxTreatment">
   TaxTreatment
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/Model/TaxCode.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxCode.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the tax treatment specified by this tax code.  For the most part, this is the prefix or suffix for the tax code, omitting the
@@ -345,7 +363,7 @@ tax regime letter.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Paytools.IncomeTax.Model.TaxTreatment.html">TaxTreatment</a></dt>
+    <dt><a class="xref" href="Paytools.Common.Model.TaxTreatment.html">TaxTreatment</a></dt>
     <dd></dd>
   </dl>
 
@@ -360,11 +378,11 @@ tax regime letter.</p>
 </h2>
 
 
-  <a id="Paytools_IncomeTax_Model_TaxCode_GetTaxFreePayForPeriod_" data-uid="Paytools.IncomeTax.Model.TaxCode.GetTaxFreePayForPeriod*"></a>
+  <a id="Paytools_Common_Model_TaxCode_GetTaxFreePayForPeriod_" data-uid="Paytools.Common.Model.TaxCode.GetTaxFreePayForPeriod*"></a>
 
-  <h3 id="Paytools_IncomeTax_Model_TaxCode_GetTaxFreePayForPeriod_System_Int32_System_Int32_" data-uid="Paytools.IncomeTax.Model.TaxCode.GetTaxFreePayForPeriod(System.Int32,System.Int32)">
+  <h3 id="Paytools_Common_Model_TaxCode_GetTaxFreePayForPeriod_System_Int32_System_Int32_" data-uid="Paytools.Common.Model.TaxCode.GetTaxFreePayForPeriod(System.Int32,System.Int32)">
   GetTaxFreePayForPeriod(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/Model/TaxCode.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxCode.cs/#L203"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Calculates the tax free pay for the specified tax period and given tax code.</p>
@@ -402,11 +420,11 @@ tax regime letter.</p>
 
 
 
-  <a id="Paytools_IncomeTax_Model_TaxCode_MapCountryToTaxRegime_" data-uid="Paytools.IncomeTax.Model.TaxCode.MapCountryToTaxRegime*"></a>
+  <a id="Paytools_Common_Model_TaxCode_MapCountryToTaxRegime_" data-uid="Paytools.Common.Model.TaxCode.MapCountryToTaxRegime*"></a>
 
-  <h3 id="Paytools_IncomeTax_Model_TaxCode_MapCountryToTaxRegime_Paytools_Common_Model_CountriesForTaxPurposes_" data-uid="Paytools.IncomeTax.Model.TaxCode.MapCountryToTaxRegime(Paytools.Common.Model.CountriesForTaxPurposes)">
+  <h3 id="Paytools_Common_Model_TaxCode_MapCountryToTaxRegime_Paytools_Common_Model_CountriesForTaxPurposes_" data-uid="Paytools.Common.Model.TaxCode.MapCountryToTaxRegime(Paytools.Common.Model.CountriesForTaxPurposes)">
   MapCountryToTaxRegime(CountriesForTaxPurposes)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/Model/TaxCode.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxCode.cs/#L93"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Static method that maps a <a class="xref" href="Paytools.Common.Model.CountriesForTaxPurposes.html">CountriesForTaxPurposes</a> value to the regime prefix letter, for
@@ -442,11 +460,11 @@ example Scotland =&gt; &quot;S&quot;.</p>
 
 
 
-  <a id="Paytools_IncomeTax_Model_TaxCode_ToString_" data-uid="Paytools.IncomeTax.Model.TaxCode.ToString*"></a>
+  <a id="Paytools_Common_Model_TaxCode_ToString_" data-uid="Paytools.Common.Model.TaxCode.ToString*"></a>
 
-  <h3 id="Paytools_IncomeTax_Model_TaxCode_ToString" data-uid="Paytools.IncomeTax.Model.TaxCode.ToString">
+  <h3 id="Paytools_Common_Model_TaxCode_ToString" data-uid="Paytools.Common.Model.TaxCode.ToString">
   ToString()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/Model/TaxCode.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxCode.cs/#L138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns the string representation of the tax code including the tax regime letter if applicable, but without
@@ -476,11 +494,11 @@ any indication of whether the code is cumulative or non-cumulative.</p>
 
 
 
-  <a id="Paytools_IncomeTax_Model_TaxCode_ToString_" data-uid="Paytools.IncomeTax.Model.TaxCode.ToString*"></a>
+  <a id="Paytools_Common_Model_TaxCode_ToString_" data-uid="Paytools.Common.Model.TaxCode.ToString*"></a>
 
-  <h3 id="Paytools_IncomeTax_Model_TaxCode_ToString_System_Boolean_System_Boolean_" data-uid="Paytools.IncomeTax.Model.TaxCode.ToString(System.Boolean,System.Boolean)">
+  <h3 id="Paytools_Common_Model_TaxCode_ToString_System_Boolean_System_Boolean_" data-uid="Paytools.Common.Model.TaxCode.ToString(System.Boolean,System.Boolean)">
   ToString(bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/Model/TaxCode.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxCode.cs/#L147"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns the string representation of the tax code optional including the tax regime letter if applicable, and optionally
@@ -519,20 +537,21 @@ indicating whether the code is cumulative or non-cumulative by means of an &quot
 
 
 
-  <a id="Paytools_IncomeTax_Model_TaxCode_TryParse_" data-uid="Paytools.IncomeTax.Model.TaxCode.TryParse*"></a>
+  <a id="Paytools_Common_Model_TaxCode_TryParse_" data-uid="Paytools.Common.Model.TaxCode.TryParse*"></a>
 
-  <h3 id="Paytools_IncomeTax_Model_TaxCode_TryParse_System_String_Paytools_Common_Model_TaxYear_Paytools_IncomeTax_Model_TaxCode__" data-uid="Paytools.IncomeTax.Model.TaxCode.TryParse(System.String,Paytools.Common.Model.TaxYear,Paytools.IncomeTax.Model.TaxCode@)">
-  TryParse(string, TaxYear, out TaxCode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/Model/TaxCode.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Paytools_Common_Model_TaxCode_TryParse_System_String_Paytools_Common_Model_TaxCode__" data-uid="Paytools.Common.Model.TaxCode.TryParse(System.String,Paytools.Common.Model.TaxCode@)">
+  TryParse(string, out TaxCode)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxCode.cs/#L164"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Attempts to parse the supplied tax code.  Non-cumulative codes must be identified by an 'X', 'W1', 'M1' or 'W1/M1' suffix,
-with or without preceding space.  Tax code parsing is case-insensitive.</p>
+  <div class="markdown level1 summary"><p>Attempts to parse the supplied tax code into its component parts, assuming the tax regimes for the current tax year.
+Non-cumulative codes must be identified by an 'X', 'W1', 'M1' or 'W1/M1' suffix, with or without preceding space.
+Tax code parsing is case-insensitive.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool TryParse(string taxCode, TaxYear taxYear, out TaxCode result)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool TryParse(string taxCode, out TaxCode result)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -540,11 +559,8 @@ with or without preceding space.  Tax code parsing is case-insensitive.</p>
     <dt><code>taxCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>Tax code as a string.</p>
 </dd>
-    <dt><code>taxYear</code> <a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a></dt>
-    <dd><p>Tax year for the supplied tax code.</p>
-</dd>
-    <dt><code>result</code> <a class="xref" href="Paytools.IncomeTax.Model.TaxCode.html">TaxCode</a></dt>
-    <dd><p>Instance of <a class="xref" href="Paytools.IncomeTax.Model.TaxCode.html">TaxCode</a> if valid; default(TaxCode) otherwise.</p>
+    <dt><code>result</code> <a class="xref" href="Paytools.Common.Model.TaxCode.html">TaxCode</a></dt>
+    <dd><p>Instance of <a class="xref" href="Paytools.Common.Model.TaxCode.html">TaxCode</a> if valid; default(TaxCode) otherwise.</p>
 </dd>
   </dl>
 
@@ -565,21 +581,20 @@ with or without preceding space.  Tax code parsing is case-insensitive.</p>
 
 
 
-  <a id="Paytools_IncomeTax_Model_TaxCode_TryParse_" data-uid="Paytools.IncomeTax.Model.TaxCode.TryParse*"></a>
+  <a id="Paytools_Common_Model_TaxCode_TryParse_" data-uid="Paytools.Common.Model.TaxCode.TryParse*"></a>
 
-  <h3 id="Paytools_IncomeTax_Model_TaxCode_TryParse_System_String_Paytools_IncomeTax_Model_TaxCode__" data-uid="Paytools.IncomeTax.Model.TaxCode.TryParse(System.String,Paytools.IncomeTax.Model.TaxCode@)">
-  TryParse(string, out TaxCode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.IncomeTax/Model/TaxCode.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Paytools_Common_Model_TaxCode_TryParse_System_String_Paytools_Common_Model_TaxYear_Paytools_Common_Model_TaxCode__" data-uid="Paytools.Common.Model.TaxCode.TryParse(System.String,Paytools.Common.Model.TaxYear,Paytools.Common.Model.TaxCode@)">
+  TryParse(string, TaxYear, out TaxCode)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/TaxCode.cs/#L175"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Attempts to parse the supplied tax code into its component parts, assuming the tax regimes for the current tax year.
-Non-cumulative codes must be identified by an 'X', 'W1', 'M1' or 'W1/M1' suffix, with or without preceding space.
-Tax code parsing is case-insensitive.</p>
+  <div class="markdown level1 summary"><p>Attempts to parse the supplied tax code.  Non-cumulative codes must be identified by an 'X', 'W1', 'M1' or 'W1/M1' suffix,
+with or without preceding space.  Tax code parsing is case-insensitive.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool TryParse(string taxCode, out TaxCode result)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool TryParse(string taxCode, TaxYear taxYear, out TaxCode result)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -587,8 +602,11 @@ Tax code parsing is case-insensitive.</p>
     <dt><code>taxCode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>Tax code as a string.</p>
 </dd>
-    <dt><code>result</code> <a class="xref" href="Paytools.IncomeTax.Model.TaxCode.html">TaxCode</a></dt>
-    <dd><p>Instance of <a class="xref" href="Paytools.IncomeTax.Model.TaxCode.html">TaxCode</a> if valid; default(TaxCode) otherwise.</p>
+    <dt><code>taxYear</code> <a class="xref" href="Paytools.Common.Model.TaxYear.html">TaxYear</a></dt>
+    <dd><p>Tax year for the supplied tax code.</p>
+</dd>
+    <dt><code>result</code> <a class="xref" href="Paytools.Common.Model.TaxCode.html">TaxCode</a></dt>
+    <dd><p>Instance of <a class="xref" href="Paytools.Common.Model.TaxCode.html">TaxCode</a> if valid; default(TaxCode) otherwise.</p>
 </dd>
   </dl>
 
@@ -613,7 +631,7 @@ Tax code parsing is case-insensitive.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_IncomeTax_Model_TaxCode.md&amp;value=---%0Auid%3A%20Paytools.IncomeTax.Model.TaxCode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/paytools-fdn/Paytools.Internal.Documentation/blob/main/docfx_project/overwrites/Paytools.Common.Model.Taxcode.md/#L2" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

@@ -153,10 +153,20 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.Common.Model.IPersonName.yml",
+      "source_relative_path": "api/Paytools.Common.Model.INamedPerson.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Paytools.Common.Model.IPersonName.html"
+          "relative_path": "api/Paytools.Common.Model.INamedPerson.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.NiCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.NiCategory.html"
         }
       },
       "version": ""
@@ -223,10 +233,70 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.PensionTaxTreatment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.PensionTaxTreatment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.PensionsEarningsBasis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.PensionsEarningsBasis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Paytools.Common.Model.PostalAddress.yml",
       "output": {
         ".html": {
           "relative_path": "api/Paytools.Common.Model.PostalAddress.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.StudentLoanType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.StudentLoanType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.TaxCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.TaxCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.TaxTreatment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.TaxTreatment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Common.Model.TaxTreatmentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Common.Model.TaxTreatmentExtensions.html"
         }
       },
       "version": ""
@@ -353,6 +423,256 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.HourlyPaidPayStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.HourlyPaidPayStructure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.IDeductionDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.IDeductionDetails.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.IDeductionEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.IDeductionEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.IDeductionHistoryYtd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.IDeductionHistoryYtd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.IEarningsDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.IEarningsDetails.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.IEarningsEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.IEarningsEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.IEarningsHistoryYtd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.IEarningsHistoryYtd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.IEmployee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.IEmployee.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.IEmployeePayStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.IEmployeePayStructure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.IEmployeePayrollHistoryYtd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.IEmployeePayrollHistoryYtd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.IEmployer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.IEmployer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.IEmployment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.IEmployment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.INewStarter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.INewStarter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.IPayrollAmount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.IPayrollAmount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.IPayrolledBenefit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.IPayrolledBenefit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.IRecurringDeduction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.IRecurringDeduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.IRecurringEarnings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.IRecurringEarnings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.NmwHourlyPaidPayStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.NmwHourlyPaidPayStructure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.P45FromPreviousEmployment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.P45FromPreviousEmployment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.PayRateType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.PayRateType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.PayRateUnits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.PayRateUnits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.SalariedPayStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.SalariedPayStructure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.StarterDeclaration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.StarterDeclaration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.StudentLoanStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.StudentLoanStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Employment.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Employment.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Paytools.IncomeTax.ITaxCalculator.yml",
       "output": {
         ".html": {
@@ -387,36 +707,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Paytools.IncomeTax.Model.TaxCalculationResult.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.IncomeTax.Model.TaxCode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Paytools.IncomeTax.Model.TaxCode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.IncomeTax.Model.TaxTreatment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Paytools.IncomeTax.Model.TaxTreatment.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.IncomeTax.Model.TaxTreatmentExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Paytools.IncomeTax.Model.TaxTreatmentExtensions.html"
         }
       },
       "version": ""
@@ -617,16 +907,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Paytools.NationalInsurance.Model.NiCalculationResult.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.NationalInsurance.Model.NiCategory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Paytools.NationalInsurance.Model.NiCategory.html"
         }
       },
       "version": ""
@@ -893,6 +1173,326 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Extensions.IEmployeePayStructureExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Extensions.IEmployeePayStructureExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Extensions.IEmployeePayrollHistoryYtdExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Extensions.IEmployeePayrollHistoryYtdExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.IEmployerInfoProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.IEmployerInfoProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.DeductionEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.DeductionEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.EarningsEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.EarningsEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.EarningsHistoryYtd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.EarningsHistoryYtd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.Employee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.Employee.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.EmployeePayrollHistoryYtd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.EmployeePayrollHistoryYtd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.EmployeePayrunInputEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.EmployeePayrunInputEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.EmployeePayrunResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.EmployeePayrunResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.Employer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.Employer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.Employment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.Employment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.GenericDeduction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.GenericDeduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.GenericEarnings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.GenericEarnings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.IEmployeePayrunInputEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.IEmployeePayrunInputEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.IEmployeePayrunResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.IEmployeePayrunResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.IPayrolledBenefitForPeriod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.IPayrolledBenefitForPeriod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.IPayrunInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.IPayrunInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.IPayrunResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.IPayrunResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.PayrolledBenefitForPeriod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.PayrolledBenefitForPeriod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.PayrunResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.PayrunResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.PensionContributionLevels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.PensionContributionLevels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Payruns.IPayrunEntryProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Payruns.IPayrunEntryProcessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Payruns.IPayrunProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Payruns.IPayrunProcessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Payruns.IPayrunProcessorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Payruns.IPayrunProcessorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Payruns.PayrunEntryProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Payruns.PayrunEntryProcessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Payruns.PayrunProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Payruns.PayrunProcessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Payruns.PayrunProcessorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Payruns.PayrunProcessorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.Payruns.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.Payruns.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Paytools.Payroll.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Paytools.Payroll.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Paytools.Pensions.IPensionContributionCalculator.yml",
       "output": {
         ".html": {
@@ -907,16 +1507,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Paytools.Pensions.IPensionContributionCalculatorFactory.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.Pensions.Model.EarningsBasis.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Paytools.Pensions.Model.EarningsBasis.html"
         }
       },
       "version": ""
@@ -967,16 +1557,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Paytools.Pensions.Model.PensionScheme.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.Pensions.Model.PensionTaxTreatment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Paytools.Pensions.Model.PensionTaxTreatment.html"
         }
       },
       "version": ""
@@ -1453,16 +2033,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Paytools.StudentLoans.Model.StudentLoanType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Paytools.StudentLoans.Model.StudentLoanType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Paytools.StudentLoans.Model.yml",
       "output": {
         ".html": {
@@ -1586,6 +2156,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/Architecture.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Architecture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
@@ -1603,6 +2183,36 @@
         },
         ".json": {
           "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "get-started/get-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "get-started/get-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "how-to-guides/how-to.md",
+      "output": {
+        ".html": {
+          "relative_path": "how-to-guides/how-to.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/paytools-logo-image-only-v4.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/paytools-logo-image-only-v4.png"
         }
       },
       "version": ""

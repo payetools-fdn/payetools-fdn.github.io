@@ -80,7 +80,7 @@
 
   <h1 id="Paytools_Pensions_Model_IPensionContributionCalculationResult" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult" class="text-break">
     Interface IPensionContributionCalculationResult
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -116,7 +116,7 @@
 
   <h3 id="Paytools_Pensions_Model_IPensionContributionCalculationResult_BandedEarnings" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult.BandedEarnings">
   BandedEarnings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L87"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the portion of earnings used to calculate the employee and employer contributions under
@@ -149,7 +149,7 @@ Qualifying Earnings.  Null for pensionable pay.</p>
 
   <h3 id="Paytools_Pensions_Model_IPensionContributionCalculationResult_CalculatedEmployeeContributionAmount" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult.CalculatedEmployeeContributionAmount">
   CalculatedEmployeeContributionAmount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the employee contribution amount resulting from the calculation.  Will be zero if <a class="xref" href="Paytools.Pensions.Model.IPensionContributionCalculationResult.html#Paytools_Pensions_Model_IPensionContributionCalculationResult_SalaryExchangeApplied">SalaryExchangeApplied</a>
@@ -182,7 +182,7 @@ is true.</p>
 
   <h3 id="Paytools_Pensions_Model_IPensionContributionCalculationResult_CalculatedEmployerContributionAmount" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult.CalculatedEmployerContributionAmount">
   CalculatedEmployerContributionAmount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L105"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the employer contribution amount resulting from the calculation.  If<a class="xref" href="Paytools.Pensions.Model.IPensionContributionCalculationResult.html#Paytools_Pensions_Model_IPensionContributionCalculationResult_SalaryExchangeApplied">SalaryExchangeApplied</a> is true,
@@ -216,7 +216,7 @@ applied (based on the value of <a class="xref" href="Paytools.Pensions.Model.IPe
 
   <h3 id="Paytools_Pensions_Model_IPensionContributionCalculationResult_EarningsBasis" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult.EarningsBasis">
   EarningsBasis
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the earnings basis for the pension calculation (e.g., Qualifying Earnings).</p>
@@ -224,7 +224,7 @@ applied (based on the value of <a class="xref" href="Paytools.Pensions.Model.IPe
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">EarningsBasis EarningsBasis { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">PensionsEarningsBasis EarningsBasis { get; }</code></pre>
   </div>
 
 
@@ -233,7 +233,7 @@ applied (based on the value of <a class="xref" href="Paytools.Pensions.Model.IPe
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Paytools.Pensions.Model.EarningsBasis.html">EarningsBasis</a></dt>
+    <dt><a class="xref" href="Paytools.Common.Model.PensionsEarningsBasis.html">PensionsEarningsBasis</a></dt>
     <dd></dd>
   </dl>
 
@@ -248,7 +248,7 @@ applied (based on the value of <a class="xref" href="Paytools.Pensions.Model.IPe
 
   <h3 id="Paytools_Pensions_Model_IPensionContributionCalculationResult_EmployeeAvcAmount" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult.EmployeeAvcAmount">
   EmployeeAvcAmount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets any Additional Voluntary Contribution (AVC) made by the employee.</p>
@@ -280,7 +280,7 @@ applied (based on the value of <a class="xref" href="Paytools.Pensions.Model.IPe
 
   <h3 id="Paytools_Pensions_Model_IPensionContributionCalculationResult_EmployeeContributionFixedAmount" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult.EmployeeContributionFixedAmount">
   EmployeeContributionFixedAmount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the employee's fixed contribution amount, if applicable.  If supplied, overrides
@@ -313,7 +313,7 @@ applied (based on the value of <a class="xref" href="Paytools.Pensions.Model.IPe
 
   <h3 id="Paytools_Pensions_Model_IPensionContributionCalculationResult_EmployeeContributionPercentage" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult.EmployeeContributionPercentage">
   EmployeeContributionPercentage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the employee contribution percentage, expressed in percentage points, i.e., 5% = 5.0m.</p>
@@ -345,7 +345,7 @@ applied (based on the value of <a class="xref" href="Paytools.Pensions.Model.IPe
 
   <h3 id="Paytools_Pensions_Model_IPensionContributionCalculationResult_EmployerContributionAmountBeforeSalaryExchange" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult.EmployerContributionAmountBeforeSalaryExchange">
   EmployerContributionAmountBeforeSalaryExchange
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L71"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the portion of the total employer-only contribution made under salary exchange that pertains to the
@@ -378,7 +378,7 @@ employer's contribution.</p>
 
   <h3 id="Paytools_Pensions_Model_IPensionContributionCalculationResult_EmployerContributionPercentage" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult.EmployerContributionPercentage">
   EmployerContributionPercentage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the employer contribution percentage, expressed in percentage points, i.e., 3% = 3.0m.</p>
@@ -410,7 +410,7 @@ employer's contribution.</p>
 
   <h3 id="Paytools_Pensions_Model_IPensionContributionCalculationResult_EmployerNiSavingsToReinvest" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult.EmployerNiSavingsToReinvest">
   EmployerNiSavingsToReinvest
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the amount of any employer NI savings that are to be re-invested in the employee's pension, adjusted
@@ -443,7 +443,7 @@ by the value of <a class="xref" href="Paytools.Pensions.Model.IPensionContributi
 
   <h3 id="Paytools_Pensions_Model_IPensionContributionCalculationResult_EmployersNiReinvestmentPercentage" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult.EmployersNiReinvestmentPercentage">
   EmployersNiReinvestmentPercentage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the percentage of employer's NI saving to be re-invested into the employee's pension as an employer-only
@@ -476,7 +476,7 @@ contribution, expressed in percentage points, i.e., 50% = 50.0m.  Only applies u
 
   <h3 id="Paytools_Pensions_Model_IPensionContributionCalculationResult_PensionableSalaryInPeriod" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult.PensionableSalaryInPeriod">
   PensionableSalaryInPeriod
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the pensionable salary for the period.</p>
@@ -508,7 +508,7 @@ contribution, expressed in percentage points, i.e., 50% = 50.0m.  Only applies u
 
   <h3 id="Paytools_Pensions_Model_IPensionContributionCalculationResult_SalaryExchangeApplied" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult.SalaryExchangeApplied">
   SalaryExchangeApplied
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets a value indicating whether salary exchange has been applied.</p>
@@ -540,7 +540,7 @@ contribution, expressed in percentage points, i.e., 50% = 50.0m.  Only applies u
 
   <h3 id="Paytools_Pensions_Model_IPensionContributionCalculationResult_SalaryExchangedAmount" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult.SalaryExchangedAmount">
   SalaryExchangedAmount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the amount the employee's gross salary exchanged under a salary exchange arrangement.</p>
@@ -572,7 +572,7 @@ contribution, expressed in percentage points, i.e., 50% = 50.0m.  Only applies u
 
   <h3 id="Paytools_Pensions_Model_IPensionContributionCalculationResult_TaxTreatment" data-uid="Paytools.Pensions.Model.IPensionContributionCalculationResult.TaxTreatment">
   TaxTreatment
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/IPensionContributionCalculationResult.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the pension tax treatment to be applied, i.e., relief at source vs net pay arrangement.</p>
@@ -589,7 +589,7 @@ contribution, expressed in percentage points, i.e., 50% = 50.0m.  Only applies u
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Paytools.Pensions.Model.PensionTaxTreatment.html">PensionTaxTreatment</a></dt>
+    <dt><a class="xref" href="Paytools.Common.Model.PensionTaxTreatment.html">PensionTaxTreatment</a></dt>
     <dd></dd>
   </dl>
 

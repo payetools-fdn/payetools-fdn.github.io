@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum EarningsBasis
+      <title>Enum PensionTaxTreatment
  | Paytools </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum EarningsBasis
+      <meta name="title" content="Enum PensionTaxTreatment
  | Paytools ">
       
       <link rel="icon" href="../favicon.ico">
@@ -15,7 +15,7 @@
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
-      <meta name="docfx:docurl" content="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Pensions_Model_EarningsBasis.md&amp;value=---%0Auid%3A%20Paytools.Pensions.Model.EarningsBasis%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_PensionTaxTreatment.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.PensionTaxTreatment%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
 
       <script>
         MathJax = {
@@ -74,27 +74,27 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Paytools.Pensions.Model.EarningsBasis">
+        <article data-uid="Paytools.Common.Model.PensionTaxTreatment">
 
 
 
 
-  <h1 id="Paytools_Pensions_Model_EarningsBasis" data-uid="Paytools.Pensions.Model.EarningsBasis" class="text-break">
-    Enum EarningsBasis
-  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Pensions/Model/EarningsBasis.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Paytools_Common_Model_PensionTaxTreatment" data-uid="Paytools.Common.Model.PensionTaxTreatment" class="text-break">
+    Enum PensionTaxTreatment
+  <a class="header-action link-secondary" title="View source" href="https://github.com/paytools-fdn/Paytools.Core/blob/main/src/Paytools.Common/Model/PensionTaxTreatment.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Paytools.html">Paytools</a>.<a class="xref" href="Paytools.Pensions.html">Pensions</a>.<a class="xref" href="Paytools.Pensions.Model.html">Model</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>Paytools.Pensions.dll</dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Paytools.html">Paytools</a>.<a class="xref" href="Paytools.Common.html">Common</a>.<a class="xref" href="Paytools.Common.Model.html">Model</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Paytools.Common.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Represents the earnings basis which is used to calculate pension contributions.</p>
+  <div class="markdown summary"><p>Enum that represents the tax treatment to be applied to employee pension contributions.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum EarningsBasis</code></pre>
+    <pre><code class="lang-csharp hljs">public enum PensionTaxTreatment</code></pre>
   </div>
 
 
@@ -108,27 +108,14 @@
   <h2 id="fields">Fields
 </h2>
   <dl class="parameters">
-    <dt id="Paytools_Pensions_Model_EarningsBasis_PensionablePaySet1"><code>PensionablePaySet1 = 2</code></dt>
-    <dd><p>Pensionable Pay Set 1 contributions are worked out on at least basic pay. Basic pay includes at a minimum, earnings
-before deductions, holiday pay and statutory benefits such as maternity, paternity, adoption and sick pay delivered through
-payroll.</p>
+    <dt id="Paytools_Common_Model_PensionTaxTreatment_NetPayArrangement"><code>NetPayArrangement = 2</code></dt>
+    <dd><p>Net pay arrangement.  Contributions are taken from salary before tax.</p>
 </dd>
-    <dt id="Paytools_Pensions_Model_EarningsBasis_PensionablePaySet2"><code>PensionablePaySet2 = 3</code></dt>
-    <dd><p>Pensionable Pay Set 2 contributions are worked out on at least basic pay, but the key difference between this and
-Set 1 is that basic pay must make up at least 85% of total earnings. The employer must monitor this.</p>
+    <dt id="Paytools_Common_Model_PensionTaxTreatment_ReliefAtSource"><code>ReliefAtSource = 1</code></dt>
+    <dd><p>Relief at source.  Contributions are taken from post-tax salary and the pension
+provider claims back basic rate tax from HMRC.</p>
 </dd>
-    <dt id="Paytools_Pensions_Model_EarningsBasis_PensionablePaySet3"><code>PensionablePaySet3 = 4</code></dt>
-    <dd><p>Pensionable Pay Set 2 contributions includes salary, wages, commission, bonuses, overtime, statutory sick pay,
-statutory maternity pay, ordinary or additional statutory paternity pay and statutory adoption pay.</p>
-</dd>
-    <dt id="Paytools_Pensions_Model_EarningsBasis_QualifyingEarnings"><code>QualifyingEarnings = 1</code></dt>
-    <dd><p>Qualifying Earnings includes salary, wages, commission, bonuses, overtime, statutory sick pay, statutory maternity pay,
-ordinary or additional statutory paternity pay and statutory adoption pay.</p>
-<pre><code> Qualifying earnings is calculated from pensionable pay deducting a lower threshold and capping at an upper threshold, the
- thresholds being decided by Government each year.
-</code></pre>
-</dd>
-    <dt id="Paytools_Pensions_Model_EarningsBasis_Unspecified"><code>Unspecified = 0</code></dt>
+    <dt id="Paytools_Common_Model_PensionTaxTreatment_Unspecified"><code>Unspecified = 0</code></dt>
     <dd><p>Not specified.</p>
 </dd>
   </dl>
@@ -138,7 +125,7 @@ ordinary or additional statutory paternity pay and statutory adoption pay.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Pensions_Model_EarningsBasis.md&amp;value=---%0Auid%3A%20Paytools.Pensions.Model.EarningsBasis%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/paytools-fdn/Paytools.Core/new/main/apiSpec/new?filename=Paytools_Common_Model_PensionTaxTreatment.md&amp;value=---%0Auid%3A%20Paytools.Common.Model.PensionTaxTreatment%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
