@@ -2228,6 +2228,16 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "licensing-paytools.md",
+      "output": {
+        ".html": {
+          "relative_path": "licensing-paytools.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
