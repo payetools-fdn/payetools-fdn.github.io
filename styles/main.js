@@ -1,11 +1,1 @@
-// Set 'dark' theme as the default instead of 'auto' - SW - 24-Apr-2023
-function setTheme(theme) {
-    localStorage.setItem('theme', theme)
-  }
-
-
-function initTheme() {
-    setTheme(localStorage.getItem('theme') || 'dark')
-  }
-
-initTheme();
+// Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.

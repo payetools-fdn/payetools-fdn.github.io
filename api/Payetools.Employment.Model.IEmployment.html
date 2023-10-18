@@ -1,0 +1,625 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IEmployment
+ | Paytools </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IEmployment
+ | Paytools ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:docurl" content="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Employment_Model_IEmployment.md&amp;value=---%0Auid%3A%20Payetools.Employment.Model.IEmployment%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../paytools-logo-image-only-v4.png" alt="Paytools">
+            Paytools
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Payetools.Employment.Model.IEmployment">
+
+
+
+  <h1 id="Payetools_Employment_Model_IEmployment" data-uid="Payetools.Employment.Model.IEmployment" class="text-break">
+    Interface IEmployment
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Payetools.html">Payetools</a>.<a class="xref" href="Payetools.Employment.html">Employment</a>.<a class="xref" href="Payetools.Employment.Model.html">Model</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Payetools.Employment.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Interface that represents an employee's employment for payroll purposes.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IEmployment</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Payetools_Employment_Model_IEmployment_DefaultPensionContributionLevels_" data-uid="Payetools.Employment.Model.IEmployment.DefaultPensionContributionLevels*"></a>
+
+  <h3 id="Payetools_Employment_Model_IEmployment_DefaultPensionContributionLevels" data-uid="Payetools.Employment.Model.IEmployment.DefaultPensionContributionLevels">
+  DefaultPensionContributionLevels
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the default pension contributions to apply in each pay period, unless overridden by employee
+or employer instruction for that pay period.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IPensionContributionLevels DefaultPensionContributionLevels { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Payetools.Pensions.Model.IPensionContributionLevels.html">IPensionContributionLevels</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_Employment_Model_IEmployment_DirectorsNiCalculationMethod_" data-uid="Payetools.Employment.Model.IEmployment.DirectorsNiCalculationMethod*"></a>
+
+  <h3 id="Payetools_Employment_Model_IEmployment_DirectorsNiCalculationMethod" data-uid="Payetools.Employment.Model.IEmployment.DirectorsNiCalculationMethod">
+  DirectorsNiCalculationMethod
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the method for calculating National Insurance contributions.  Applicable only
+for directors; null otherwise.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DirectorsNiCalculationMethod? DirectorsNiCalculationMethod { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Payetools.NationalInsurance.Model.DirectorsNiCalculationMethod.html">DirectorsNiCalculationMethod</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_Employment_Model_IEmployment_EmploymentEndDate_" data-uid="Payetools.Employment.Model.IEmployment.EmploymentEndDate*"></a>
+
+  <h3 id="Payetools_Employment_Model_IEmployment_EmploymentEndDate" data-uid="Payetools.Employment.Model.IEmployment.EmploymentEndDate">
+  EmploymentEndDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the employee's official employment termination date, i.e., their last working
+day.  Null if the employee is still employed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DateOnly? EmploymentEndDate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_Employment_Model_IEmployment_EmploymentStartDate_" data-uid="Payetools.Employment.Model.IEmployment.EmploymentStartDate*"></a>
+
+  <h3 id="Payetools_Employment_Model_IEmployment_EmploymentStartDate" data-uid="Payetools.Employment.Model.IEmployment.EmploymentStartDate">
+  EmploymentStartDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the employee's official employment start date.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DateOnly EmploymentStartDate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_Employment_Model_IEmployment_IsDirector_" data-uid="Payetools.Employment.Model.IEmployment.IsDirector*"></a>
+
+  <h3 id="Payetools_Employment_Model_IEmployment_IsDirector" data-uid="Payetools.Employment.Model.IEmployment.IsDirector">
+  IsDirector
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the employee is a company director.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsDirector { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_Employment_Model_IEmployment_NiCategory_" data-uid="Payetools.Employment.Model.IEmployment.NiCategory*"></a>
+
+  <h3 id="Payetools_Employment_Model_IEmployment_NiCategory" data-uid="Payetools.Employment.Model.IEmployment.NiCategory">
+  NiCategory
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the employee's NI category.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">NiCategory NiCategory { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Payetools.Common.Model.NiCategory.html">NiCategory</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_Employment_Model_IEmployment_PayrolledBenefits_" data-uid="Payetools.Employment.Model.IEmployment.PayrolledBenefits*"></a>
+
+  <h3 id="Payetools_Employment_Model_IEmployment_PayrolledBenefits" data-uid="Payetools.Employment.Model.IEmployment.PayrolledBenefits">
+  PayrolledBenefits
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the list of payrolled benefits that apply to this employment.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ImmutableList&lt;IPayrolledBenefit&gt; PayrolledBenefits { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablelist-1">ImmutableList</a>&lt;<a class="xref" href="Payetools.Employment.Model.IPayrolledBenefit.html">IPayrolledBenefit</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_Employment_Model_IEmployment_PayrollHistoryYtd_" data-uid="Payetools.Employment.Model.IEmployment.PayrollHistoryYtd*"></a>
+
+  <h3 id="Payetools_Employment_Model_IEmployment_PayrollHistoryYtd" data-uid="Payetools.Employment.Model.IEmployment.PayrollHistoryYtd">
+  PayrollHistoryYtd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the key figures from the employee's payroll history for the tax year to date.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ref IEmployeePayrollHistoryYtd PayrollHistoryYtd { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Payetools.Employment.Model.IEmployeePayrollHistoryYtd.html">IEmployeePayrollHistoryYtd</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_Employment_Model_IEmployment_PayrollId_" data-uid="Payetools.Employment.Model.IEmployment.PayrollId*"></a>
+
+  <h3 id="Payetools_Employment_Model_IEmployment_PayrollId" data-uid="Payetools.Employment.Model.IEmployment.PayrollId">
+  PayrollId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the employee's payroll ID, as reported to HMRC.  Sometimes known as &quot;works number&quot;.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">PayrollId PayrollId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Payetools.Common.Model.PayrollId.html">PayrollId</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_Employment_Model_IEmployment_PensionScheme_" data-uid="Payetools.Employment.Model.IEmployment.PensionScheme*"></a>
+
+  <h3 id="Payetools_Employment_Model_IEmployment_PensionScheme" data-uid="Payetools.Employment.Model.IEmployment.PensionScheme">
+  PensionScheme
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the pension scheme that the employee is a member of.  Null if they are not a member of
+any scheme.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IPensionScheme? PensionScheme { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Payetools.Pensions.Model.IPensionScheme.html">IPensionScheme</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_Employment_Model_IEmployment_PrimaryPayStructure_" data-uid="Payetools.Employment.Model.IEmployment.PrimaryPayStructure*"></a>
+
+  <h3 id="Payetools_Employment_Model_IEmployment_PrimaryPayStructure" data-uid="Payetools.Employment.Model.IEmployment.PrimaryPayStructure">
+  PrimaryPayStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the employee's primary pay structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEmployeePayStructure PrimaryPayStructure { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Payetools.Employment.Model.IEmployeePayStructure.html">IEmployeePayStructure</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_Employment_Model_IEmployment_RecurringDeductions_" data-uid="Payetools.Employment.Model.IEmployment.RecurringDeductions*"></a>
+
+  <h3 id="Payetools_Employment_Model_IEmployment_RecurringDeductions" data-uid="Payetools.Employment.Model.IEmployment.RecurringDeductions">
+  RecurringDeductions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the list of recurring deductions for an employee.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ImmutableList&lt;IRecurringDeduction&gt; RecurringDeductions { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablelist-1">ImmutableList</a>&lt;<a class="xref" href="Payetools.Employment.Model.IRecurringDeduction.html">IRecurringDeduction</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_Employment_Model_IEmployment_RecurringEarnings_" data-uid="Payetools.Employment.Model.IEmployment.RecurringEarnings*"></a>
+
+  <h3 id="Payetools_Employment_Model_IEmployment_RecurringEarnings" data-uid="Payetools.Employment.Model.IEmployment.RecurringEarnings">
+  RecurringEarnings
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the list of recurring earnings elements for an employee.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ImmutableList&lt;IRecurringEarnings&gt; RecurringEarnings { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.immutable.immutablelist-1">ImmutableList</a>&lt;<a class="xref" href="Payetools.Employment.Model.IRecurringEarnings.html">IRecurringEarnings</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_Employment_Model_IEmployment_StudentLoanStatus_" data-uid="Payetools.Employment.Model.IEmployment.StudentLoanStatus*"></a>
+
+  <h3 id="Payetools_Employment_Model_IEmployment_StudentLoanStatus" data-uid="Payetools.Employment.Model.IEmployment.StudentLoanStatus">
+  StudentLoanStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the employee's current student loan status.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">StudentLoanStatus? StudentLoanStatus { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Payetools.Employment.Model.StudentLoanStatus.html">StudentLoanStatus</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_Employment_Model_IEmployment_TaxCode_" data-uid="Payetools.Employment.Model.IEmployment.TaxCode*"></a>
+
+  <h3 id="Payetools_Employment_Model_IEmployment_TaxCode" data-uid="Payetools.Employment.Model.IEmployment.TaxCode">
+  TaxCode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Employment/Model/IEmployment.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the employee's tax code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TaxCode TaxCode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Payetools.Common.Model.TaxCode.html">TaxCode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Employment_Model_IEmployment.md&amp;value=---%0Auid%3A%20Payetools.Employment.Model.IEmployment%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

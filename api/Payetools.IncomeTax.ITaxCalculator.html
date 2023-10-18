@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface ITaxCalculator
+ | Paytools </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface ITaxCalculator
+ | Paytools ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.min.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      <meta name="docfx:docurl" content="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_IncomeTax_ITaxCalculator.md&amp;value=---%0Auid%3A%20Payetools.IncomeTax.ITaxCalculator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+
+      <script>
+        MathJax = {
+          options: {
+            processHtmlClass: ['tex2jax_process', 'math']
+          }
+        };
+      </script>
+
+      <script type="text/javascript" src="../styles/docfx.min.js"></script>
+      <script type="text/javascript" src="../styles/main.js"></script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../paytools-logo-image-only-v4.png" alt="Paytools">
+            Paytools
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Payetools.IncomeTax.ITaxCalculator">
+
+
+
+  <h1 id="Payetools_IncomeTax_ITaxCalculator" data-uid="Payetools.IncomeTax.ITaxCalculator" class="text-break">
+    Interface ITaxCalculator
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.IncomeTax/ITaxCalculator.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Payetools.html">Payetools</a>.<a class="xref" href="Payetools.IncomeTax.html">IncomeTax</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Payetools.IncomeTax.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Interface that represents a calculator for calculating income tax based on tax code, taxable income and tax paid to date.
+Access to tax calculators is through the <a class="xref" href="Payetools.IncomeTax.TaxCalculatorFactory.html">TaxCalculatorFactory</a>; in normal use, implementations of ITaxCalculator
+are not be created directly.  An ITaxCalculator instance is specific to a given pay frequency and tax period, which
+corresponds to an instance of a given <a class="xref" href="Payetools.Common.Model.PayDate.html">PayDate</a>.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface ITaxCalculator</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Payetools_IncomeTax_ITaxCalculator_PayFrequency_" data-uid="Payetools.IncomeTax.ITaxCalculator.PayFrequency*"></a>
+
+  <h3 id="Payetools_IncomeTax_ITaxCalculator_PayFrequency" data-uid="Payetools.IncomeTax.ITaxCalculator.PayFrequency">
+  PayFrequency
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.IncomeTax/ITaxCalculator.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the pay frequency for this calculator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">PayFrequency PayFrequency { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Payetools.Common.Model.PayFrequency.html">PayFrequency</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_IncomeTax_ITaxCalculator_TaxBandwidths_" data-uid="Payetools.IncomeTax.ITaxCalculator.TaxBandwidths*"></a>
+
+  <h3 id="Payetools_IncomeTax_ITaxCalculator_TaxBandwidths" data-uid="Payetools.IncomeTax.ITaxCalculator.TaxBandwidths">
+  TaxBandwidths
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.IncomeTax/ITaxCalculator.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the set of pro-rata tax bandwidths in use for a given tax year, tax regime and tax period.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TaxPeriodBandwidthSet TaxBandwidths { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Payetools.IncomeTax.ReferenceData.TaxPeriodBandwidthSet.html">TaxPeriodBandwidthSet</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_IncomeTax_ITaxCalculator_TaxPeriod_" data-uid="Payetools.IncomeTax.ITaxCalculator.TaxPeriod*"></a>
+
+  <h3 id="Payetools_IncomeTax_ITaxCalculator_TaxPeriod" data-uid="Payetools.IncomeTax.ITaxCalculator.TaxPeriod">
+  TaxPeriod
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.IncomeTax/ITaxCalculator.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the relevant tax period for this calculator.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int TaxPeriod { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_IncomeTax_ITaxCalculator_TaxPeriodCount_" data-uid="Payetools.IncomeTax.ITaxCalculator.TaxPeriodCount*"></a>
+
+  <h3 id="Payetools_IncomeTax_ITaxCalculator_TaxPeriodCount" data-uid="Payetools.IncomeTax.ITaxCalculator.TaxPeriodCount">
+  TaxPeriodCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.IncomeTax/ITaxCalculator.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the number of tax periods within a given tax year, based on the supplied pay frequency.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int TaxPeriodCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_IncomeTax_ITaxCalculator_TaxYear_" data-uid="Payetools.IncomeTax.ITaxCalculator.TaxYear*"></a>
+
+  <h3 id="Payetools_IncomeTax_ITaxCalculator_TaxYear" data-uid="Payetools.IncomeTax.ITaxCalculator.TaxYear">
+  TaxYear
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.IncomeTax/ITaxCalculator.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the tax year that this calculator pertains to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TaxYear TaxYear { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Payetools.Common.Model.TaxYear.html">TaxYear</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Payetools_IncomeTax_ITaxCalculator_Calculate_" data-uid="Payetools.IncomeTax.ITaxCalculator.Calculate*"></a>
+
+  <h3 id="Payetools_IncomeTax_ITaxCalculator_Calculate_System_Decimal_System_Decimal_Payetools_Common_Model_TaxCode_System_Decimal_System_Decimal_System_Decimal_Payetools_IncomeTax_Model_ITaxCalculationResult__" data-uid="Payetools.IncomeTax.ITaxCalculator.Calculate(System.Decimal,System.Decimal,Payetools.Common.Model.TaxCode,System.Decimal,System.Decimal,System.Decimal,Payetools.IncomeTax.Model.ITaxCalculationResult@)">
+  Calculate(decimal, decimal, TaxCode, decimal, decimal, decimal, out ITaxCalculationResult)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.IncomeTax/ITaxCalculator.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates the tax due based on tax code, total taxable salary and total tax paid to date.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Calculate(decimal totalTaxableSalaryInPeriod, decimal benefitsInKind, TaxCode taxCode, decimal taxableSalaryYearToDate, decimal taxPaidYearToDate, decimal taxUnpaidDueToRegulatoryLimit, out ITaxCalculationResult result)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>totalTaxableSalaryInPeriod</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd><p>Taxable pay in period (i.e., gross less pre-tax deductions but including benefits in kind).</p>
+</dd>
+    <dt><code>benefitsInKind</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd><p>Benefits in kind element of the taxable pay for the period.</p>
+</dd>
+    <dt><code>taxCode</code> <a class="xref" href="Payetools.Common.Model.TaxCode.html">TaxCode</a></dt>
+    <dd><p>Individual's tax code.</p>
+</dd>
+    <dt><code>taxableSalaryYearToDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd><p>Total year to date taxable salary up to and including the end of the previous tax period.</p>
+</dd>
+    <dt><code>taxPaidYearToDate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd><p>Total year to date tax paid up to and including the end of the previous tax period.</p>
+</dd>
+    <dt><code>taxUnpaidDueToRegulatoryLimit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd><p>Any tax outstanding due to the effect of the regulatory limit.</p>
+</dd>
+    <dt><code>result</code> <a class="xref" href="Payetools.IncomeTax.Model.ITaxCalculationResult.html">ITaxCalculationResult</a></dt>
+    <dd><p>An <a class="xref" href="Payetools.IncomeTax.Model.ITaxCalculationResult.html">ITaxCalculationResult</a> containing the tax now due plus related information from the tax calculation.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_IncomeTax_ITaxCalculator.md&amp;value=---%0Auid%3A%20Payetools.IncomeTax.ITaxCalculator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

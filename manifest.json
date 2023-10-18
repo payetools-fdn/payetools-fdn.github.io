@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/Paytools.HUSKY-DT-30/Source/repos/paytools-fdn/Paytools.Internal.Documentation/docfx_project",
+  "source_base_path": "C:/Users/Paytools/Source/repos/paytools-fdn/Paytools.Internal.Documentation/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -10,6 +10,2126 @@
           "relative_path": "index.json"
         }
       }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Diagnostics.InconsistentDataException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Diagnostics.InconsistentDataException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Diagnostics.InvalidReferenceDataException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Diagnostics.InvalidReferenceDataException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Diagnostics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Diagnostics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Extensions.DateOnlyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Extensions.DateOnlyExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Extensions.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Extensions.DateTimeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Extensions.IEnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Extensions.IEnumerableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Extensions.ImmutableListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Extensions.ImmutableListExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.CountriesForTaxPurposes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.CountriesForTaxPurposes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.CountriesForTaxPurposesConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.CountriesForTaxPurposesConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.Gender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.Gender.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.HmrcAccountsOfficeReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.HmrcAccountsOfficeReference.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.HmrcPayeReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.HmrcPayeReference.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.IApplicableFromTill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.IApplicableFromTill.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.INamedPerson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.INamedPerson.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.NiCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.NiCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.NiNumber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.NiNumber.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.PayDate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.PayDate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.PayFrequency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.PayFrequency.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.PayFrequencyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.PayFrequencyExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.PayReferencePeriod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.PayReferencePeriod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.PayrollId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.PayrollId.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.PensionTaxTreatment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.PensionTaxTreatment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.PensionsEarningsBasis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.PensionsEarningsBasis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.PostalAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.PostalAddress.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.StudentLoanType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.StudentLoanType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.TaxCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.TaxCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.TaxTreatment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.TaxTreatment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.TaxTreatmentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.TaxTreatmentExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.TaxYear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.TaxYear.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.TaxYearEnding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.TaxYearEnding.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.TaxYearEndingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.TaxYearEndingExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.Title.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.Title.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.UkPostcode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.UkPostcode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Serialization.CountriesForTaxPurposesJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Serialization.CountriesForTaxPurposesJsonConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Serialization.DateOnlyJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Serialization.DateOnlyJsonConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Serialization.PayFrequencyJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Serialization.PayFrequencyJsonConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Serialization.TaxYearEndingJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Serialization.TaxYearEndingJsonConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.Serialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Common.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.HourlyPaidPayStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.HourlyPaidPayStructure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.IDeductionDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.IDeductionDetails.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.IDeductionEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.IDeductionEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.IDeductionHistoryYtd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.IDeductionHistoryYtd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.IEarningsDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.IEarningsDetails.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.IEarningsEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.IEarningsEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.IEarningsHistoryYtd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.IEarningsHistoryYtd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.IEmployee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.IEmployee.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.IEmployeePayStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.IEmployeePayStructure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.IEmployeePayrollHistoryYtd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.IEmployeePayrollHistoryYtd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.IEmployer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.IEmployer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.IEmployment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.IEmployment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.INewStarter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.INewStarter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.IPayrollAmount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.IPayrollAmount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.IPayrolledBenefit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.IPayrolledBenefit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.IRecurringDeduction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.IRecurringDeduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.IRecurringEarnings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.IRecurringEarnings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.NmwHourlyPaidPayStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.NmwHourlyPaidPayStructure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.P45FromPreviousEmployment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.P45FromPreviousEmployment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.PayRateType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.PayRateType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.PayRateUnits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.PayRateUnits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.SalariedPayStructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.SalariedPayStructure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.StarterDeclaration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.StarterDeclaration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.StudentLoanStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.StudentLoanStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Employment.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Employment.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.IncomeTax.ITaxCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.IncomeTax.ITaxCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.IncomeTax.ITaxCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.IncomeTax.ITaxCalculatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.IncomeTax.Model.ITaxCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.IncomeTax.Model.ITaxCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.IncomeTax.Model.TaxCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.IncomeTax.Model.TaxCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.IncomeTax.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.IncomeTax.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.IncomeTax.ReferenceData.ITaxReferenceDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.IncomeTax.ReferenceData.ITaxReferenceDataProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.IncomeTax.ReferenceData.TaxBandwidthEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.IncomeTax.ReferenceData.TaxBandwidthEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.IncomeTax.ReferenceData.TaxBandwidthSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.IncomeTax.ReferenceData.TaxBandwidthSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.IncomeTax.ReferenceData.TaxPeriodBandwidthEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.IncomeTax.ReferenceData.TaxPeriodBandwidthEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.IncomeTax.ReferenceData.TaxPeriodBandwidthSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.IncomeTax.ReferenceData.TaxPeriodBandwidthSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.IncomeTax.ReferenceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.IncomeTax.ReferenceData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.IncomeTax.TaxCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.IncomeTax.TaxCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.IncomeTax.TaxCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.IncomeTax.TaxCalculatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.IncomeTax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.IncomeTax.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.Extensions.DecimalNiRoundingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.Extensions.DecimalNiRoundingExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.INiCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.INiCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.INiCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.INiCalculatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.Model.DirectorsNiCalculationMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.Model.DirectorsNiCalculationMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.Model.EmployeeNiHistoryEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.Model.EmployeeNiHistoryEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.Model.IEmployeeNiHistoryEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.Model.IEmployeeNiHistoryEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.Model.INiCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.Model.INiCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.Model.NationalInsuranceThresholdExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.Model.NationalInsuranceThresholdExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.Model.NiCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.Model.NiCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.Model.NiEarningsBreakdown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.Model.NiEarningsBreakdown.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.Model.NiThresholdType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.Model.NiThresholdType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.Model.NiYtdHistory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.Model.NiYtdHistory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.NiCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.NiCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.NiCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.NiCalculatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.ReferenceData.INiCategoryRatesEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.ReferenceData.INiCategoryRatesEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.ReferenceData.INiPeriodThresholdSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.ReferenceData.INiPeriodThresholdSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.ReferenceData.INiReferenceDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.ReferenceData.INiReferenceDataProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.ReferenceData.INiThresholdEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.ReferenceData.INiThresholdEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.ReferenceData.INiThresholdSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.ReferenceData.INiThresholdSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.ReferenceData.NiPeriodThresholdEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.ReferenceData.NiPeriodThresholdSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.ReferenceData.NiPeriodThresholdSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.ReferenceData.NiThresholdEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.ReferenceData.NiThresholdEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.ReferenceData.NiThresholdSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.ReferenceData.NiThresholdSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.ReferenceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.ReferenceData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalInsurance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalInsurance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalMinimumWage.INmwEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalMinimumWage.INmwEvaluator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalMinimumWage.INmwEvaluatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalMinimumWage.INmwEvaluatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalMinimumWage.NmwEvaluationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalMinimumWage.NmwEvaluationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalMinimumWage.NmwEvaluator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalMinimumWage.NmwEvaluator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalMinimumWage.NmwEvaluatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalMinimumWage.NmwEvaluatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalMinimumWage.ReferenceData.INmwLevelSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalMinimumWage.ReferenceData.INmwLevelSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalMinimumWage.ReferenceData.INmwReferenceDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalMinimumWage.ReferenceData.INmwReferenceDataProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalMinimumWage.ReferenceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalMinimumWage.ReferenceData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.NationalMinimumWage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.NationalMinimumWage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Extensions.IEmployeePayStructureExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Extensions.IEmployeePayStructureExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Extensions.IEmployeePayrollHistoryYtdExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Extensions.IEmployeePayrollHistoryYtdExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.IEmployerInfoProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.IEmployerInfoProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.DeductionEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.DeductionEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.EarningsEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.EarningsEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.EarningsHistoryYtd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.EarningsHistoryYtd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.Employee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.Employee.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.EmployeePayrollHistoryYtd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.EmployeePayrollHistoryYtd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.EmployeePayrunInputEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.EmployeePayrunInputEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.EmployeePayrunResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.EmployeePayrunResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.Employer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.Employer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.Employment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.Employment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.GenericDeduction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.GenericDeduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.GenericEarnings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.GenericEarnings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.IEmployeePayrunInputEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.IEmployeePayrunInputEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.IEmployeePayrunResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.IEmployeePayrunResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.IPayrolledBenefitForPeriod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.IPayrolledBenefitForPeriod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.IPayrunInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.IPayrunInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.IPayrunResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.IPayrunResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.PayrolledBenefitForPeriod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.PayrolledBenefitForPeriod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.PayrunResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.PayrunResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.PensionContributionLevels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.PensionContributionLevels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Payruns.IPayrunEntryProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Payruns.IPayrunEntryProcessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Payruns.IPayrunProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Payruns.IPayrunProcessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Payruns.IPayrunProcessorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Payruns.IPayrunProcessorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Payruns.PayrunEntryProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Payruns.PayrunEntryProcessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Payruns.PayrunProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Payruns.PayrunProcessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Payruns.PayrunProcessorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Payruns.PayrunProcessorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.Payruns.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.Payruns.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Payroll.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Payroll.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.IPensionContributionCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.IPensionContributionCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.IPensionContributionCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.IPensionContributionCalculatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.Model.IPensionContributionCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.Model.IPensionContributionCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.Model.IPensionContributionLevels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.Model.IPensionContributionLevels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.Model.IPensionScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.Model.IPensionScheme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.Model.PensionContributionCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.Model.PensionContributionCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.Model.PensionScheme.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.Model.PensionScheme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.PensionContributionCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.PensionContributionCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.PensionContributionCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.PensionContributionCalculatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.PensionablePaySetCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.PensionablePaySetCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.QualifyingEarningsContributionsCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.QualifyingEarningsContributionsCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.ReferenceData.IPensionsReferenceDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.ReferenceData.IPensionsReferenceDataProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.ReferenceData.IPensionsReferenceDataSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.ReferenceData.IPensionsReferenceDataSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.ReferenceData.IPensionsThresholdEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.ReferenceData.IPensionsThresholdEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.ReferenceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.ReferenceData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.Pensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.Pensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.Calendar.CountryEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.Calendar.CountryEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.Calendar.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.Calendar.Event.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.Calendar.PublicHolidaysCatalog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.Calendar.PublicHolidaysCatalog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.Calendar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.Calendar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.HmrcReferenceDataProviderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.HmrcReferenceDataProviderFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.HmrcTaxYearReferenceDataSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.HmrcTaxYearReferenceDataSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.IHmrcReferenceDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.IHmrcReferenceDataProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.IHmrcReferenceDataProviderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.IHmrcReferenceDataProviderFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.IncomeTax.IncomeTaxBandEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.IncomeTax.IncomeTaxBandEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.IncomeTax.IncomeTaxDeductionBand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.IncomeTax.IncomeTaxDeductionBand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.IncomeTax.IncomeTaxReferenceDataEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.IncomeTax.IncomeTaxReferenceDataEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.IncomeTax.PersonalAllowance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.IncomeTax.PersonalAllowance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.IncomeTax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.IncomeTax.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.NationalInsurance.NiCategoryRateSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.NationalInsurance.NiCategoryRateSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.NationalInsurance.NiCategoryRatesEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.NationalInsurance.NiCategoryRatesEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.NationalInsurance.NiEmployeeRatesEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.NationalInsurance.NiEmployeeRatesEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.NationalInsurance.NiEmployerRatesEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.NationalInsurance.NiEmployerRatesEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.NationalInsurance.NiReferenceDataEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.NationalInsurance.NiReferenceDataEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.NationalInsurance.NiReferenceDataThresholdEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.NationalInsurance.NiReferenceDataThresholdEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.NationalInsurance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.NationalInsurance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.NationalMinimumWage.NmwReferenceDataEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.NationalMinimumWage.NmwReferenceDataEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.NationalMinimumWage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.NationalMinimumWage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.Pensions.PensionsReferenceDataSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.Pensions.PensionsReferenceDataSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.Pensions.PensionsThresholdEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.Pensions.PensionsThresholdEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.Pensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.Pensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.Serialization.NiCategoryJsonTypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.Serialization.NiCategoryJsonTypeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.Serialization.NiThresholdTypeJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.Serialization.NiThresholdTypeJsonConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.Serialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.StudentLoans.StudentLoanRatesSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.StudentLoans.StudentLoanRatesSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.StudentLoans.StudentLoanReferenceDataEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.StudentLoans.StudentLoanReferenceDataEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.StudentLoans.StudentLoanThresholdsEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.StudentLoans.StudentLoanThresholdsEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.StudentLoans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.StudentLoans.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.ReferenceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.ReferenceData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.StudentLoans.IStudentLoanCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.StudentLoans.IStudentLoanCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.StudentLoans.IStudentLoanCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.StudentLoans.IStudentLoanCalculatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.StudentLoans.Model.IStudentLoanCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.StudentLoans.Model.IStudentLoanCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.StudentLoans.Model.StudentLoanCalculationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.StudentLoans.Model.StudentLoanCalculationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.StudentLoans.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.StudentLoans.Model.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.StudentLoans.ReferenceData.IStudentLoanRateSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.StudentLoans.ReferenceData.IStudentLoanRateSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.StudentLoans.ReferenceData.IStudentLoanReferenceDataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.StudentLoans.ReferenceData.IStudentLoanReferenceDataProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.StudentLoans.ReferenceData.IStudentLoanThresholdSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.StudentLoans.ReferenceData.IStudentLoanThresholdSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.StudentLoans.ReferenceData.StudentLoanThresholdSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.StudentLoans.ReferenceData.StudentLoanThresholdSet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.StudentLoans.ReferenceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.StudentLoans.ReferenceData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.StudentLoans.StudentLoanCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.StudentLoans.StudentLoanCalculator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.StudentLoans.StudentLoanCalculatorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.StudentLoans.StudentLoanCalculatorFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.StudentLoans.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.StudentLoans.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Payetools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Payetools.html"
+        }
+      },
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2223,16 +4343,6 @@
       "output": {
         ".html": {
           "relative_path": "index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "licensing-paytools.md",
-      "output": {
-        ".html": {
-          "relative_path": "licensing-paytools.html"
         }
       },
       "version": ""
