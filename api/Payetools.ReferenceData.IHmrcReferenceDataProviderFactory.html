@@ -158,62 +158,6 @@ data loaded from an array of streams.</p>
 
 
 
-  <a id="Payetools_ReferenceData_IHmrcReferenceDataProviderFactory_CreateProviderAsync_" data-uid="Payetools.ReferenceData.IHmrcReferenceDataProviderFactory.CreateProviderAsync*"></a>
-
-  <h3 id="Payetools_ReferenceData_IHmrcReferenceDataProviderFactory_CreateProviderAsync_System_Uri_" data-uid="Payetools.ReferenceData.IHmrcReferenceDataProviderFactory.CreateProviderAsync(System.Uri)">
-  CreateProviderAsync(Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.ReferenceData/IHmrcReferenceDataProviderFactory.cs/#L44"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Creates a new HMRC reference data that implements <a class="xref" href="Payetools.ReferenceData.IHmrcReferenceDataProvider.html">IHmrcReferenceDataProvider</a> using reference data returned from
-an HTTP(S) endpoint.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;IHmrcReferenceDataProvider&gt; CreateProviderAsync(Uri referenceDataEndpoint)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>referenceDataEndpoint</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uri">Uri</a></dt>
-    <dd><p>The HTTP(S) endpoint to retrieve HMRC reference data from.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Payetools.ReferenceData.IHmrcReferenceDataProvider.html">IHmrcReferenceDataProvider</a>&gt;</dt>
-    <dd><p>An instance of a type that implements <a class="xref" href="Payetools.ReferenceData.IHmrcReferenceDataProvider.html">IHmrcReferenceDataProvider</a>.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-  <h4 class="section" id="Payetools_ReferenceData_IHmrcReferenceDataProviderFactory_CreateProviderAsync_System_Uri__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>If the method completes successfully, the <a class="xref" href="Payetools.ReferenceData.IHmrcReferenceDataProvider.html#Payetools_ReferenceData_IHmrcReferenceDataProvider_Health">Health</a>
-property of the created <a class="xref" href="Payetools.ReferenceData.IHmrcReferenceDataProvider.html">IHmrcReferenceDataProvider</a> provides human-readable information on
-the status of each tax year loaded.</p>
-</div>
-
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="Payetools.Common.Diagnostics.InvalidReferenceDataException.html">InvalidReferenceDataException</a></dt>
-    <dd><p>Thrown if it was not possible to retrieve
-reference data from the supplied endpoint.</p>
-</dd>
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
-    <dd><p>Thrown if this factory was created without a valid <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.ihttpclientfactory">IHttpClientFactory</a>
-instance.</p>
-</dd>
-  </dl>
-
-
-
 
 </article>
 
