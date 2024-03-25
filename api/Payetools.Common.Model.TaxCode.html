@@ -2,32 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Struct TaxCode
- | Payetools </title>
+      <title>Struct TaxCode | Payetools </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Struct TaxCode
- | Payetools ">
+      <meta name="title" content="Struct TaxCode | Payetools ">
+      
       
       <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.min.css">
-      <link rel="stylesheet" href="../styles/main.css">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
-      <meta name="docfx:docurl" content="https://github.com/payetools-fdn/Paytools.Internal.Documentation/blob/main/docfx_project/overwrites/Payetools.Common.Model.Taxcode.md/#L2">
-
-      <script>
-        MathJax = {
-          options: {
-            processHtmlClass: ['tex2jax_process', 'math']
-          }
-        };
-      </script>
-
-      <script type="text/javascript" src="../styles/docfx.min.js"></script>
-      <script type="text/javascript" src="../styles/main.js"></script>
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/payetools/Payetools.Internal.Documentation/blob/main/docfx_project/overwrites/Payetools.Common.Model.Taxcode.md/#L2">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -79,8 +89,7 @@
 
 
   <h1 id="Payetools_Common_Model_TaxCode" data-uid="Payetools.Common.Model.TaxCode" class="text-break">
-    Struct TaxCode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L16"><i class="bi bi-code-slash"></i></a>
+Struct TaxCode  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -120,7 +129,7 @@ var success = TaxCode.TryParse(&quot;1257L&quot;, taxYear, out var taxCode);
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -153,7 +162,7 @@ var success = TaxCode.TryParse(&quot;1257L&quot;, taxYear, out var taxCode);
 
   <h3 id="Payetools_Common_Model_TaxCode_ApplicableCountries" data-uid="Payetools.Common.Model.TaxCode.ApplicableCountries">
   ApplicableCountries
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L81"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the country or countries that this tax code applies to, i.e., the tax regime.</p>
@@ -185,7 +194,7 @@ var success = TaxCode.TryParse(&quot;1257L&quot;, taxYear, out var taxCode);
 
   <h3 id="Payetools_Common_Model_TaxCode_IsFixedCode" data-uid="Payetools.Common.Model.TaxCode.IsFixedCode">
   IsFixedCode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L96"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets a value indicating whether the tax code is a &quot;fixed code&quot;, such as BR, D0, NT, etc., or a variable code, such as 1257L.</p>
@@ -217,7 +226,7 @@ var success = TaxCode.TryParse(&quot;1257L&quot;, taxYear, out var taxCode);
 
   <h3 id="Payetools_Common_Model_TaxCode_IsNonCumulative" data-uid="Payetools.Common.Model.TaxCode.IsNonCumulative">
   IsNonCumulative
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets a value indicating whether the tax code is cumulative (e.g., 1257L) or non-cumulative (e.g., 1257L W1/M1).</p>
@@ -249,7 +258,7 @@ var success = TaxCode.TryParse(&quot;1257L&quot;, taxYear, out var taxCode);
 
   <h3 id="Payetools_Common_Model_TaxCode_NotionalAllowance" data-uid="Payetools.Common.Model.TaxCode.NotionalAllowance">
   NotionalAllowance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L86"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the notional annual personal allowance for the tax code.  This may be negative in the event the tax code has a K prefix.</p>
@@ -281,7 +290,7 @@ var success = TaxCode.TryParse(&quot;1257L&quot;, taxYear, out var taxCode);
 
   <h3 id="Payetools_Common_Model_TaxCode_NumericPortionOfCode" data-uid="Payetools.Common.Model.TaxCode.NumericPortionOfCode">
   NumericPortionOfCode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the integer portion of the tax code, if applicable, or zero otherwise.</p>
@@ -313,7 +322,7 @@ var success = TaxCode.TryParse(&quot;1257L&quot;, taxYear, out var taxCode);
 
   <h3 id="Payetools_Common_Model_TaxCode_TaxRegimeLetter" data-uid="Payetools.Common.Model.TaxCode.TaxRegimeLetter">
   TaxRegimeLetter
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L101"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the tax regime letter, e.g., S for Scotland, C for Wales.  Returns an empty string if no specific regime is applicable.</p>
@@ -345,7 +354,7 @@ var success = TaxCode.TryParse(&quot;1257L&quot;, taxYear, out var taxCode);
 
   <h3 id="Payetools_Common_Model_TaxCode_TaxTreatment" data-uid="Payetools.Common.Model.TaxCode.TaxTreatment">
   TaxTreatment
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the tax treatment specified by this tax code.  For the most part, this is the prefix or suffix for the tax code, omitting the
@@ -374,6 +383,38 @@ tax regime letter.</p>
 
 
 
+  <a id="Payetools_Common_Model_TaxCode_TaxYear_" data-uid="Payetools.Common.Model.TaxCode.TaxYear*"></a>
+
+  <h3 id="Payetools_Common_Model_TaxCode_TaxYear" data-uid="Payetools.Common.Model.TaxCode.TaxYear">
+  TaxYear
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the tax year that this tax code pertains to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TaxYear TaxYear { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Payetools.Common.Model.TaxYear.html">TaxYear</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -382,7 +423,7 @@ tax regime letter.</p>
 
   <h3 id="Payetools_Common_Model_TaxCode_GetTaxFreePayForPeriod_System_Int32_System_Int32_" data-uid="Payetools.Common.Model.TaxCode.GetTaxFreePayForPeriod(System.Int32,System.Int32)">
   GetTaxFreePayForPeriod(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L219"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Calculates the tax free pay for the specified tax period and given tax code.</p>
@@ -424,7 +465,7 @@ tax regime letter.</p>
 
   <h3 id="Payetools_Common_Model_TaxCode_MapCountryToTaxRegime_Payetools_Common_Model_CountriesForTaxPurposes_" data-uid="Payetools.Common.Model.TaxCode.MapCountryToTaxRegime(Payetools.Common.Model.CountriesForTaxPurposes)">
   MapCountryToTaxRegime(CountriesForTaxPurposes)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Static method that maps a <a class="xref" href="Payetools.Common.Model.CountriesForTaxPurposes.html">CountriesForTaxPurposes</a> value to the regime prefix letter, for
@@ -464,7 +505,7 @@ example Scotland =&gt; &quot;S&quot;.</p>
 
   <h3 id="Payetools_Common_Model_TaxCode_ToString" data-uid="Payetools.Common.Model.TaxCode.ToString">
   ToString()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L154"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns the string representation of the tax code including the tax regime letter if applicable, but without
@@ -480,7 +521,7 @@ any indication of whether the code is cumulative or non-cumulative.</p>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>String representation of tax code without tax regime prefix.</p>
+    <dd><p>String representation of tax code with the tax regime prefix.</p>
 </dd>
   </dl>
 
@@ -498,7 +539,7 @@ any indication of whether the code is cumulative or non-cumulative.</p>
 
   <h3 id="Payetools_Common_Model_TaxCode_ToString_System_Boolean_System_Boolean_" data-uid="Payetools.Common.Model.TaxCode.ToString(System.Boolean,System.Boolean)">
   ToString(bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L163"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns the string representation of the tax code optional including the tax regime letter if applicable, and optionally
@@ -541,7 +582,7 @@ indicating whether the code is cumulative or non-cumulative by means of an &quot
 
   <h3 id="Payetools_Common_Model_TaxCode_TryParse_System_String_Payetools_Common_Model_TaxCode__" data-uid="Payetools.Common.Model.TaxCode.TryParse(System.String,Payetools.Common.Model.TaxCode@)">
   TryParse(string, out TaxCode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L180"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Attempts to parse the supplied tax code into its component parts, assuming the tax regimes for the current tax year.
@@ -585,7 +626,7 @@ Tax code parsing is case-insensitive.</p>
 
   <h3 id="Payetools_Common_Model_TaxCode_TryParse_System_String_Payetools_Common_Model_TaxYear_Payetools_Common_Model_TaxCode__" data-uid="Payetools.Common.Model.TaxCode.TryParse(System.String,Payetools.Common.Model.TaxYear,Payetools.Common.Model.TaxCode@)">
   TryParse(string, TaxYear, out TaxCode)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L191"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Attempts to parse the supplied tax code.  Non-cumulative codes must be identified by an 'X', 'W1', 'M1' or 'W1/M1' suffix,
@@ -631,11 +672,11 @@ with or without preceding space.  Tax code parsing is case-insensitive.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/payetools-fdn/Paytools.Internal.Documentation/blob/main/docfx_project/overwrites/Payetools.Common.Model.Taxcode.md/#L2" class="edit-link">Edit this page</a>
+          <a href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/TaxCode.cs/#L16" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
-        
+
       </div>
 
       <div class="affix">
@@ -645,7 +686,7 @@ with or without preceding space.  Tax code parsing is case-insensitive.</p>
 
     <div class="container-xxl search-results" id="search-results"></div>
 
-    <footer class="border-top">
+    <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
           <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>

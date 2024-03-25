@@ -2,32 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class PostalAddress
- | Payetools </title>
+      <title>Class PostalAddress | Payetools </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PostalAddress
- | Payetools ">
+      <meta name="title" content="Class PostalAddress | Payetools ">
+      
       
       <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.min.css">
-      <link rel="stylesheet" href="../styles/main.css">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
+      
+      
       <meta name="docfx:docurl" content="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Common_Model_PostalAddress.md&amp;value=---%0Auid%3A%20Payetools.Common.Model.PostalAddress%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-
-      <script>
-        MathJax = {
-          options: {
-            processHtmlClass: ['tex2jax_process', 'math']
-          }
-        };
-      </script>
-
-      <script type="text/javascript" src="../styles/docfx.min.js"></script>
-      <script type="text/javascript" src="../styles/main.js"></script>
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -79,8 +89,7 @@
 
 
   <h1 id="Payetools_Common_Model_PostalAddress" data-uid="Payetools.Common.Model.PostalAddress" class="text-break">
-    Class PostalAddress
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PostalAddress.cs/#L14"><i class="bi bi-code-slash"></i></a>
+Class PostalAddress  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PostalAddress.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -89,7 +98,7 @@
   </div>
 
   <div class="markdown summary"><p>Represents a postal address.  If it is a UK address, <a class="xref" href="Payetools.Common.Model.PostalAddress.html#Payetools_Common_Model_PostalAddress_Postcode">Postcode</a> should be supplied
-<a class="xref" href="Payetools.Common.Model.PostalAddress.html#Payetools_Common_Model_PostalAddress_ForeignCountry">ForeignCountry</a> set to null; if the address is non-UK, then Postcode should
+and <a class="xref" href="Payetools.Common.Model.PostalAddress.html#Payetools_Common_Model_PostalAddress_ForeignCountry">ForeignCountry</a> set to null; if the address is non-UK, then Postcode should
 be null and ForeignCountry should be provided.</p>
 </div>
   <div class="markdown conceptual"></div>
@@ -111,7 +120,7 @@ be null and ForeignCountry should be provided.</p>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -142,6 +151,60 @@ be null and ForeignCountry should be provided.</p>
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Payetools_Common_Model_PostalAddress__ctor_" data-uid="Payetools.Common.Model.PostalAddress.#ctor*"></a>
+
+  <h3 id="Payetools_Common_Model_PostalAddress__ctor_System_String_System_String_System_String_System_String_Payetools_Common_Model_UkPostcode_System_String_" data-uid="Payetools.Common.Model.PostalAddress.#ctor(System.String,System.String,System.String,System.String,Payetools.Common.Model.UkPostcode,System.String)">
+  PostalAddress(string, string, string?, string?, UkPostcode?, string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PostalAddress.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initialises a new instance of <a class="xref" href="Payetools.Common.Model.PostalAddress.html">PostalAddress</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PostalAddress(string addressLine1, string addressLine2, string? addressLine3, string? addressLine4, UkPostcode? postcode, string? foreignCountry)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>addressLine1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>First line of the address. Mandatory.</p>
+</dd>
+    <dt><code>addressLine2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Second line of the address. Mandatory.</p>
+</dd>
+    <dt><code>addressLine3</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Third line of the address. Optional, i.e., may be null.</p>
+</dd>
+    <dt><code>addressLine4</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Fourth line of the address. Optional, i.e., may be null.</p>
+</dd>
+    <dt><code>postcode</code> <a class="xref" href="Payetools.Common.Model.UkPostcode.html">UkPostcode</a></dt>
+    <dd><p>Postcode for UK addresses only.  Should be set to null for overseas
+addresses.</p>
+</dd>
+    <dt><code>foreignCountry</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Foreign country for overseas addresses.  Should be null for UK
+addresses.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="properties">Properties
 </h2>
 
@@ -153,12 +216,12 @@ be null and ForeignCountry should be provided.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PostalAddress.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets the first line of the address.</p>
+  <div class="markdown level1 summary"><p>Gets the first line of the address.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string AddressLine1 { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string AddressLine1 { get; init; }</code></pre>
   </div>
 
 
@@ -185,12 +248,12 @@ be null and ForeignCountry should be provided.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PostalAddress.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets the second line of the address.</p>
+  <div class="markdown level1 summary"><p>Gets the second line of the address.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string AddressLine2 { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string AddressLine2 { get; init; }</code></pre>
   </div>
 
 
@@ -217,12 +280,12 @@ be null and ForeignCountry should be provided.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PostalAddress.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets the third line of the address.</p>
+  <div class="markdown level1 summary"><p>Gets the third line of the address.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string? AddressLine3 { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? AddressLine3 { get; init; }</code></pre>
   </div>
 
 
@@ -249,12 +312,12 @@ be null and ForeignCountry should be provided.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PostalAddress.cs/#L26"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets the fourth line of the address.</p>
+  <div class="markdown level1 summary"><p>Gets the fourth line of the address.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string? AddressLine4 { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? AddressLine4 { get; init; }</code></pre>
   </div>
 
 
@@ -281,12 +344,12 @@ be null and ForeignCountry should be provided.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PostalAddress.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets the TBA.</p>
+  <div class="markdown level1 summary"><p>Gets the foreign country (non-UK addresses only).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string? ForeignCountry { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string? ForeignCountry { get; init; }</code></pre>
   </div>
 
 
@@ -313,12 +376,12 @@ be null and ForeignCountry should be provided.</p>
   <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PostalAddress.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Gets or sets the postcode (UK addresses only).</p>
+  <div class="markdown level1 summary"><p>Gets the postcode (UK addresses only).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UkPostcode? Postcode { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public UkPostcode? Postcode { get; init; }</code></pre>
   </div>
 
 
@@ -342,11 +405,11 @@ be null and ForeignCountry should be provided.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Common_Model_PostalAddress.md&amp;value=---%0Auid%3A%20Payetools.Common.Model.PostalAddress%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PostalAddress.cs/#L14" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
-        
+
       </div>
 
       <div class="affix">
@@ -356,7 +419,7 @@ be null and ForeignCountry should be provided.</p>
 
     <div class="container-xxl search-results" id="search-results"></div>
 
-    <footer class="border-top">
+    <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
           <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>

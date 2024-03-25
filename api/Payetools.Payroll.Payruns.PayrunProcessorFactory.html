@@ -2,32 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class PayrunProcessorFactory
- | Payetools </title>
+      <title>Class PayRunProcessorFactory | Payetools </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PayrunProcessorFactory
- | Payetools ">
+      <meta name="title" content="Class PayRunProcessorFactory | Payetools ">
+      
       
       <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.min.css">
-      <link rel="stylesheet" href="../styles/main.css">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
-      <meta name="docfx:docurl" content="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Payroll_Payruns_PayrunProcessorFactory.md&amp;value=---%0Auid%3A%20Payetools.Payroll.Payruns.PayrunProcessorFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-
-      <script>
-        MathJax = {
-          options: {
-            processHtmlClass: ['tex2jax_process', 'math']
-          }
-        };
-      </script>
-
-      <script type="text/javascript" src="../styles/docfx.min.js"></script>
-      <script type="text/javascript" src="../styles/main.js"></script>
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Payroll_PayRuns_PayRunProcessorFactory.md&amp;value=---%0Auid%3A%20Payetools.Payroll.PayRuns.PayRunProcessorFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -74,26 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Payetools.Payroll.Payruns.PayrunProcessorFactory">
+        <article data-uid="Payetools.Payroll.PayRuns.PayRunProcessorFactory">
 
 
 
-  <h1 id="Payetools_Payroll_Payruns_PayrunProcessorFactory" data-uid="Payetools.Payroll.Payruns.PayrunProcessorFactory" class="text-break">
-    Class PayrunProcessorFactory
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/Payruns/PayrunProcessorFactory.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Payetools_Payroll_PayRuns_PayRunProcessorFactory" data-uid="Payetools.Payroll.PayRuns.PayRunProcessorFactory" class="text-break">
+Class PayRunProcessorFactory  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/PayRuns/PayRunProcessorFactory.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Payetools.html">Payetools</a>.<a class="xref" href="Payetools.Payroll.html">Payroll</a>.<a class="xref" href="Payetools.Payroll.Payruns.html">Payruns</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Payetools.html">Payetools</a>.<a class="xref" href="Payetools.Payroll.html">Payroll</a>.<a class="xref" href="Payetools.Payroll.PayRuns.html">PayRuns</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Payetools.Payroll.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Represents a factory object that creates payrun calculator instances that implement <a class="xref" href="Payetools.Payroll.Payruns.IPayrunEntryProcessor.html">IPayrunEntryProcessor</a>.</p>
+  <div class="markdown summary"><p>Represents a factory object that creates payrun calculator instances that implement <a class="xref" href="Payetools.Payroll.PayRuns.IPayRunEntryProcessor.html">IPayRunEntryProcessor</a>.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PayrunProcessorFactory : IPayrunProcessorFactory</code></pre>
+    <pre><code class="lang-csharp hljs">public class PayRunProcessorFactory : IPayRunProcessorFactory</code></pre>
   </div>
 
 
@@ -103,19 +112,19 @@
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">PayrunProcessorFactory</span></div>
+      <div><span class="xref">PayRunProcessorFactory</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="Payetools.Payroll.Payruns.IPayrunProcessorFactory.html">IPayrunProcessorFactory</a></div>
+      <div><a class="xref" href="Payetools.Payroll.PayRuns.IPayRunProcessorFactory.html">IPayRunProcessorFactory</a></div>
     </dd>
   </dl>
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -150,19 +159,19 @@
 </h2>
 
 
-  <a id="Payetools_Payroll_Payruns_PayrunProcessorFactory__ctor_" data-uid="Payetools.Payroll.Payruns.PayrunProcessorFactory.#ctor*"></a>
+  <a id="Payetools_Payroll_PayRuns_PayRunProcessorFactory__ctor_" data-uid="Payetools.Payroll.PayRuns.PayRunProcessorFactory.#ctor*"></a>
 
-  <h3 id="Payetools_Payroll_Payruns_PayrunProcessorFactory__ctor_Payetools_ReferenceData_IHmrcReferenceDataProvider__" data-uid="Payetools.Payroll.Payruns.PayrunProcessorFactory.#ctor(Payetools.ReferenceData.IHmrcReferenceDataProvider@)">
-  PayrunProcessorFactory(in IHmrcReferenceDataProvider)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/Payruns/PayrunProcessorFactory.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Payetools_Payroll_PayRuns_PayRunProcessorFactory__ctor_Payetools_ReferenceData_IHmrcReferenceDataProvider__" data-uid="Payetools.Payroll.PayRuns.PayRunProcessorFactory.#ctor(Payetools.ReferenceData.IHmrcReferenceDataProvider@)">
+  PayRunProcessorFactory(in IHmrcReferenceDataProvider)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/PayRuns/PayRunProcessorFactory.cs/#L43"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Initialises a new instance of <a class="xref" href="Payetools.Payroll.Payruns.PayrunProcessorFactory.html">PayrunProcessorFactory</a>.</p>
+  <div class="markdown level1 summary"><p>Initialises a new instance of <a class="xref" href="Payetools.Payroll.PayRuns.PayRunProcessorFactory.html">PayRunProcessorFactory</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PayrunProcessorFactory(in IHmrcReferenceDataProvider hmrcReferenceDataProvider)</code></pre>
+    <pre><code class="lang-csharp hljs">public PayRunProcessorFactory(in IHmrcReferenceDataProvider hmrcReferenceDataProvider)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -183,19 +192,19 @@
 
 
 
-  <a id="Payetools_Payroll_Payruns_PayrunProcessorFactory__ctor_" data-uid="Payetools.Payroll.Payruns.PayrunProcessorFactory.#ctor*"></a>
+  <a id="Payetools_Payroll_PayRuns_PayRunProcessorFactory__ctor_" data-uid="Payetools.Payroll.PayRuns.PayRunProcessorFactory.#ctor*"></a>
 
-  <h3 id="Payetools_Payroll_Payruns_PayrunProcessorFactory__ctor_Payetools_ReferenceData_IHmrcReferenceDataProviderFactory__System_Uri__" data-uid="Payetools.Payroll.Payruns.PayrunProcessorFactory.#ctor(Payetools.ReferenceData.IHmrcReferenceDataProviderFactory@,System.Uri@)">
-  PayrunProcessorFactory(in IHmrcReferenceDataProviderFactory, in Uri)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/Payruns/PayrunProcessorFactory.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Payetools_Payroll_PayRuns_PayRunProcessorFactory__ctor_Payetools_ReferenceData_IHmrcReferenceDataProviderFactory__System_Uri__" data-uid="Payetools.Payroll.PayRuns.PayRunProcessorFactory.#ctor(Payetools.ReferenceData.IHmrcReferenceDataProviderFactory@,System.Uri@)">
+  PayRunProcessorFactory(in IHmrcReferenceDataProviderFactory, in Uri)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/PayRuns/PayRunProcessorFactory.cs/#L53"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Initialises a new instance of <a class="xref" href="Payetools.Payroll.Payruns.PayrunProcessorFactory.html">PayrunProcessorFactory</a>.</p>
+  <div class="markdown level1 summary"><p>Initialises a new instance of <a class="xref" href="Payetools.Payroll.PayRuns.PayRunProcessorFactory.html">PayRunProcessorFactory</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PayrunProcessorFactory(in IHmrcReferenceDataProviderFactory hmrcReferenceDataProviderFactory, in Uri referenceDataEndpoint)</code></pre>
+    <pre><code class="lang-csharp hljs">public PayRunProcessorFactory(in IHmrcReferenceDataProviderFactory hmrcReferenceDataProviderFactory, in Uri referenceDataEndpoint)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -223,11 +232,11 @@
 </h2>
 
 
-  <a id="Payetools_Payroll_Payruns_PayrunProcessorFactory_GetProcessor_" data-uid="Payetools.Payroll.Payruns.PayrunProcessorFactory.GetProcessor*"></a>
+  <a id="Payetools_Payroll_PayRuns_PayRunProcessorFactory_GetProcessor_" data-uid="Payetools.Payroll.PayRuns.PayRunProcessorFactory.GetProcessor*"></a>
 
-  <h3 id="Payetools_Payroll_Payruns_PayrunProcessorFactory_GetProcessor_Payetools_Payroll_Model_IEmployer_Payetools_Common_Model_PayDate_Payetools_Common_Model_PayReferencePeriod_" data-uid="Payetools.Payroll.Payruns.PayrunProcessorFactory.GetProcessor(Payetools.Payroll.Model.IEmployer,Payetools.Common.Model.PayDate,Payetools.Common.Model.PayReferencePeriod)">
-  GetProcessor(IEmployer, PayDate, PayReferencePeriod)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/Payruns/PayrunProcessorFactory.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Payetools_Payroll_PayRuns_PayRunProcessorFactory_GetProcessor_Payetools_Common_Model_PayDate_Payetools_Common_Model_DateRange_" data-uid="Payetools.Payroll.PayRuns.PayRunProcessorFactory.GetProcessor(Payetools.Common.Model.PayDate,Payetools.Common.Model.DateRange)">
+  GetProcessor(PayDate, DateRange)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/PayRuns/PayRunProcessorFactory.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets a payrun processor for specified pay date and pay period.</p>
@@ -235,26 +244,23 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IPayrunProcessor GetProcessor(IEmployer employer, PayDate payDate, PayReferencePeriod payPeriod)</code></pre>
+    <pre><code class="lang-csharp hljs">public IPayRunProcessor GetProcessor(PayDate payDate, DateRange payPeriod)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>employer</code> <a class="xref" href="Payetools.Payroll.Model.IEmployer.html">IEmployer</a></dt>
-    <dd><p>Employer for this payrun processor.</p>
-</dd>
     <dt><code>payDate</code> <a class="xref" href="Payetools.Common.Model.PayDate.html">PayDate</a></dt>
     <dd><p>Applicable pay date for the required payrun processor.</p>
 </dd>
-    <dt><code>payPeriod</code> <a class="xref" href="Payetools.Common.Model.PayReferencePeriod.html">PayReferencePeriod</a></dt>
+    <dt><code>payPeriod</code> <a class="xref" href="Payetools.Common.Model.DateRange.html">DateRange</a></dt>
     <dd><p>Applicable pay period for required payrun processor.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Payetools.Payroll.Payruns.IPayrunProcessor.html">IPayrunProcessor</a></dt>
-    <dd><p>An implementation of <a class="xref" href="Payetools.Payroll.Payruns.IPayrunProcessor.html">IPayrunProcessor</a> for the specified pay date
+    <dt><a class="xref" href="Payetools.Payroll.PayRuns.IPayRunProcessor.html">IPayRunProcessor</a></dt>
+    <dd><p>An implementation of <a class="xref" href="Payetools.Payroll.PayRuns.IPayRunProcessor.html">IPayRunProcessor</a> for the specified pay date
 and pay period.</p>
 </dd>
   </dl>
@@ -273,11 +279,11 @@ and pay period.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Payroll_Payruns_PayrunProcessorFactory.md&amp;value=---%0Auid%3A%20Payetools.Payroll.Payruns.PayrunProcessorFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/PayRuns/PayRunProcessorFactory.cs/#L20" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
-        
+
       </div>
 
       <div class="affix">
@@ -287,7 +293,7 @@ and pay period.</p>
 
     <div class="container-xxl search-results" id="search-results"></div>
 
-    <footer class="border-top">
+    <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
           <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>

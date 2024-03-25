@@ -2,32 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class NmwHourlyPaidPayStructure
- | Payetools </title>
+      <title>Class NmwHourlyPaidPayStructure | Payetools </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class NmwHourlyPaidPayStructure
- | Payetools ">
+      <meta name="title" content="Class NmwHourlyPaidPayStructure | Payetools ">
+      
       
       <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.min.css">
-      <link rel="stylesheet" href="../styles/main.css">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
+      
+      
       <meta name="docfx:docurl" content="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Payroll_Model_NmwHourlyPaidPayStructure.md&amp;value=---%0Auid%3A%20Payetools.Payroll.Model.NmwHourlyPaidPayStructure%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-
-      <script>
-        MathJax = {
-          options: {
-            processHtmlClass: ['tex2jax_process', 'math']
-          }
-        };
-      </script>
-
-      <script type="text/javascript" src="../styles/docfx.min.js"></script>
-      <script type="text/javascript" src="../styles/main.js"></script>
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -79,8 +89,7 @@
 
 
   <h1 id="Payetools_Payroll_Model_NmwHourlyPaidPayStructure" data-uid="Payetools.Payroll.Model.NmwHourlyPaidPayStructure" class="text-break">
-    Class NmwHourlyPaidPayStructure
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/Model/NmwHourlyPaidPayStructure.cs/#L17"><i class="bi bi-code-slash"></i></a>
+Class NmwHourlyPaidPayStructure  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/Model/NmwHourlyPaidPayStructure.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -117,7 +126,7 @@ levels.</p>
   </dl>
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -296,8 +305,8 @@ levels.</p>
 
   <a id="Payetools_Payroll_Model_NmwHourlyPaidPayStructure_UpdateNmw_" data-uid="Payetools.Payroll.Model.NmwHourlyPaidPayStructure.UpdateNmw*"></a>
 
-  <h3 id="Payetools_Payroll_Model_NmwHourlyPaidPayStructure_UpdateNmw_Payetools_NationalMinimumWage_INmwEvaluator_Payetools_Common_Model_PayReferencePeriod_System_DateOnly_" data-uid="Payetools.Payroll.Model.NmwHourlyPaidPayStructure.UpdateNmw(Payetools.NationalMinimumWage.INmwEvaluator,Payetools.Common.Model.PayReferencePeriod,System.DateOnly)">
-  UpdateNmw(INmwEvaluator, PayReferencePeriod, DateOnly)
+  <h3 id="Payetools_Payroll_Model_NmwHourlyPaidPayStructure_UpdateNmw_Payetools_NationalMinimumWage_INmwEvaluator_Payetools_Common_Model_DateRange_System_DateOnly_" data-uid="Payetools.Payroll.Model.NmwHourlyPaidPayStructure.UpdateNmw(Payetools.NationalMinimumWage.INmwEvaluator,Payetools.Common.Model.DateRange,System.DateOnly)">
+  UpdateNmw(INmwEvaluator, DateRange, DateOnly)
   <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/Model/NmwHourlyPaidPayStructure.cs/#L38"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -307,7 +316,7 @@ using their age at the start of the pay period.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateNmw(INmwEvaluator nmwEvaluator, PayReferencePeriod payPeriod, DateOnly dateOfBirth)</code></pre>
+    <pre><code class="lang-csharp hljs">public void UpdateNmw(INmwEvaluator nmwEvaluator, DateRange payPeriod, DateOnly dateOfBirth)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -315,7 +324,7 @@ using their age at the start of the pay period.</p>
     <dt><code>nmwEvaluator</code> <a class="xref" href="Payetools.NationalMinimumWage.INmwEvaluator.html">INmwEvaluator</a></dt>
     <dd><p>Instance of <a class="xref" href="Payetools.NationalMinimumWage.INmwEvaluator.html">INmwEvaluator</a> used to obtain the appropriate rate.</p>
 </dd>
-    <dt><code>payPeriod</code> <a class="xref" href="Payetools.Common.Model.PayReferencePeriod.html">PayReferencePeriod</a></dt>
+    <dt><code>payPeriod</code> <a class="xref" href="Payetools.Common.Model.DateRange.html">DateRange</a></dt>
     <dd><p>Pay period pertaining.</p>
 </dd>
     <dt><code>dateOfBirth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a></dt>
@@ -338,11 +347,11 @@ using their age at the start of the pay period.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Payroll_Model_NmwHourlyPaidPayStructure.md&amp;value=---%0Auid%3A%20Payetools.Payroll.Model.NmwHourlyPaidPayStructure%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/Model/NmwHourlyPaidPayStructure.cs/#L17" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
-        
+
       </div>
 
       <div class="affix">
@@ -352,7 +361,7 @@ using their age at the start of the pay period.</p>
 
     <div class="container-xxl search-results" id="search-results"></div>
 
-    <footer class="border-top">
+    <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
           <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>

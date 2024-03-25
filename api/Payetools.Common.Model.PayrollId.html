@@ -2,32 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class PayrollId
- | Payetools </title>
+      <title>Class PayrollId | Payetools </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PayrollId
- | Payetools ">
+      <meta name="title" content="Class PayrollId | Payetools ">
+      
       
       <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.min.css">
-      <link rel="stylesheet" href="../styles/main.css">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
+      
+      
       <meta name="docfx:docurl" content="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Common_Model_PayrollId.md&amp;value=---%0Auid%3A%20Payetools.Common.Model.PayrollId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-
-      <script>
-        MathJax = {
-          options: {
-            processHtmlClass: ['tex2jax_process', 'math']
-          }
-        };
-      </script>
-
-      <script type="text/javascript" src="../styles/docfx.min.js"></script>
-      <script type="text/javascript" src="../styles/main.js"></script>
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -79,8 +89,7 @@
 
 
   <h1 id="Payetools_Common_Model_PayrollId" data-uid="Payetools.Common.Model.PayrollId" class="text-break">
-    Class PayrollId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PayrollId.cs/#L12"><i class="bi bi-code-slash"></i></a>
+Class PayrollId  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PayrollId.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -115,7 +124,7 @@
   </dl>
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -141,6 +150,9 @@
 
 
 
+  <h2 id="Payetools_Common_Model_PayrollId_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This type is meant to aid payroll ID changes.  Further work required.</p>
+</div>
 
 
   <h2 class="section" id="constructors">Constructors
@@ -149,9 +161,9 @@
 
   <a id="Payetools_Common_Model_PayrollId__ctor_" data-uid="Payetools.Common.Model.PayrollId.#ctor*"></a>
 
-  <h3 id="Payetools_Common_Model_PayrollId__ctor_System_String_" data-uid="Payetools.Common.Model.PayrollId.#ctor(System.String)">
-  PayrollId(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PayrollId.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Payetools_Common_Model_PayrollId__ctor_System_String_System_Boolean_System_String_" data-uid="Payetools.Common.Model.PayrollId.#ctor(System.String,System.Boolean,System.String)">
+  PayrollId(string, bool, string?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PayrollId.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initialises a new instance of <a class="xref" href="Payetools.Common.Model.PayrollId.html">PayrollId</a> with the supplied value.</p>
@@ -159,7 +171,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PayrollId(string payrollId)</code></pre>
+    <pre><code class="lang-csharp hljs">public PayrollId(string payrollId, bool isUpdate = false, string? previousPayrollId = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -167,11 +179,87 @@
     <dt><code>payrollId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>Payroll ID value.</p>
 </dd>
+    <dt><code>isUpdate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if this an update to a previously submitted payroll ID; false
+otherwise. Default is false.</p>
+</dd>
+    <dt><code>previousPayrollId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>If <code class="paramref">isUpdate</code> is set to true, then
+this parameter should be set to the previous payroll ID used.</p>
+</dd>
   </dl>
 
 
 
 
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Payetools_Common_Model_PayrollId_IsUpdate_" data-uid="Payetools.Common.Model.PayrollId.IsUpdate*"></a>
+
+  <h3 id="Payetools_Common_Model_PayrollId_IsUpdate" data-uid="Payetools.Common.Model.PayrollId.IsUpdate">
+  IsUpdate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PayrollId.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this payroll ID is an update to a previously submitted payroll ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsUpdate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Payetools_Common_Model_PayrollId_PreviousPayrollId_" data-uid="Payetools.Common.Model.PayrollId.PreviousPayrollId*"></a>
+
+  <h3 id="Payetools_Common_Model_PayrollId_PreviousPayrollId" data-uid="Payetools.Common.Model.PayrollId.PreviousPayrollId">
+  PreviousPayrollId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PayrollId.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the previous payroll ID, where applicable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? PreviousPayrollId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -188,7 +276,7 @@
 
   <h3 id="Payetools_Common_Model_PayrollId_Parse_System_String_" data-uid="Payetools.Common.Model.PayrollId.Parse(System.String)">
   Parse(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PayrollId.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PayrollId.cs/#L59"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Parses the supplied payroll ID.  TBA.</p>
@@ -231,7 +319,7 @@
 
   <h3 id="Payetools_Common_Model_PayrollId_op_Implicit_Payetools_Common_Model_PayrollId__System_String" data-uid="Payetools.Common.Model.PayrollId.op_Implicit(Payetools.Common.Model.PayrollId)~System.String">
   implicit operator string(PayrollId)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PayrollId.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PayrollId.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Operator for casting implicitly from a <a class="xref" href="Payetools.Common.Model.PayrollId.html">PayrollId</a> instance to its string representation.</p>
@@ -269,7 +357,7 @@
 
   <h3 id="Payetools_Common_Model_PayrollId_op_Implicit_System_String__Payetools_Common_Model_PayrollId" data-uid="Payetools.Common.Model.PayrollId.op_Implicit(System.String)~Payetools.Common.Model.PayrollId">
   implicit operator PayrollId(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PayrollId.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PayrollId.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Operator for casting implicitly from a payroll ID string value to a <a class="xref" href="Payetools.Common.Model.PayrollId.html">PayrollId</a> instance.</p>
@@ -307,11 +395,11 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Common_Model_PayrollId.md&amp;value=---%0Auid%3A%20Payetools.Common.Model.PayrollId%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/payetools/payetools/blob/main/src/Payetools.Common/Model/PayrollId.cs/#L13" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
-        
+
       </div>
 
       <div class="affix">
@@ -321,7 +409,7 @@
 
     <div class="container-xxl search-results" id="search-results"></div>
 
-    <footer class="border-top">
+    <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
           <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>

@@ -2,32 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface IPensionContributionCalculator
- | Payetools </title>
+      <title>Interface IPensionContributionCalculator | Payetools </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface IPensionContributionCalculator
- | Payetools ">
+      <meta name="title" content="Interface IPensionContributionCalculator | Payetools ">
+      
       
       <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.min.css">
-      <link rel="stylesheet" href="../styles/main.css">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
+      
+      
       <meta name="docfx:docurl" content="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Pensions_IPensionContributionCalculator.md&amp;value=---%0Auid%3A%20Payetools.Pensions.IPensionContributionCalculator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-
-      <script>
-        MathJax = {
-          options: {
-            processHtmlClass: ['tex2jax_process', 'math']
-          }
-        };
-      </script>
-
-      <script type="text/javascript" src="../styles/docfx.min.js"></script>
-      <script type="text/javascript" src="../styles/main.js"></script>
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -79,8 +89,7 @@
 
 
   <h1 id="Payetools_Pensions_IPensionContributionCalculator" data-uid="Payetools.Pensions.IPensionContributionCalculator" class="text-break">
-    Interface IPensionContributionCalculator
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Pensions/IPensionContributionCalculator.cs/#L16"><i class="bi bi-code-slash"></i></a>
+Interface IPensionContributionCalculator  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Pensions/IPensionContributionCalculator.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -115,9 +124,9 @@ and under salary exchange (aka salary sacrifice).</p>
 
   <a id="Payetools_Pensions_IPensionContributionCalculator_Calculate_" data-uid="Payetools.Pensions.IPensionContributionCalculator.Calculate*"></a>
 
-  <h3 id="Payetools_Pensions_IPensionContributionCalculator_Calculate_System_Decimal_System_Decimal_System_Decimal_System_Boolean_System_Nullable_System_Decimal__System_Nullable_System_Decimal__Payetools_Pensions_Model_IPensionContributionCalculationResult__" data-uid="Payetools.Pensions.IPensionContributionCalculator.Calculate(System.Decimal,System.Decimal,System.Decimal,System.Boolean,System.Nullable{System.Decimal},System.Nullable{System.Decimal},Payetools.Pensions.Model.IPensionContributionCalculationResult@)">
-  Calculate(decimal, decimal, decimal, bool, decimal?, decimal?, out IPensionContributionCalculationResult)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Pensions/IPensionContributionCalculator.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Payetools_Pensions_IPensionContributionCalculator_Calculate_System_Decimal_System_Decimal_System_Boolean_System_Decimal_System_Boolean_System_Nullable_System_Decimal__System_Nullable_System_Decimal__Payetools_Pensions_Model_IPensionContributionCalculationResult__" data-uid="Payetools.Pensions.IPensionContributionCalculator.Calculate(System.Decimal,System.Decimal,System.Boolean,System.Decimal,System.Boolean,System.Nullable{System.Decimal},System.Nullable{System.Decimal},Payetools.Pensions.Model.IPensionContributionCalculationResult@)">
+  Calculate(decimal, decimal, bool, decimal, bool, decimal?, decimal?, out IPensionContributionCalculationResult)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Pensions/IPensionContributionCalculator.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Calculates the appropriate employee and employer pension contributions based on the supplied employer
@@ -127,7 +136,7 @@ alternative to an employee percentage rate.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Calculate(decimal pensionableSalary, decimal employerContributionPercentage, decimal employeeContribution, bool employeeContributionIsFixedAmount, decimal? avcForPeriod, decimal? salaryForMaternityPurposes, out IPensionContributionCalculationResult result)</code></pre>
+    <pre><code class="lang-csharp hljs">void Calculate(decimal pensionableSalary, decimal employerContribution, bool employerContributionIsFixedAmount, decimal employeeContribution, bool employeeContributionIsFixedAmount, decimal? avcForPeriod, decimal? salaryForMaternityPurposes, out IPensionContributionCalculationResult result)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -135,16 +144,21 @@ alternative to an employee percentage rate.</p>
     <dt><code>pensionableSalary</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
     <dd><p>Pensionable salary to be used for calculation.</p>
 </dd>
-    <dt><code>employerContributionPercentage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
-    <dd><p>Employer contribution level, expressed in percentage points (i.e., 3% = 3.0m).</p>
+    <dt><code>employerContribution</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd><p>Employer contribution level, either expressed in percentage points (i.e., 5% = 5.0m)
+or as a fixed amount (i.e. £500.00), as indicated by <code>employerContributionIsFixedAmount</code>.</p>
+</dd>
+    <dt><code>employerContributionIsFixedAmount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the <code>employerContribution</code> parameter should be treated as a
+fixed amount; false if it should be treated as a percentage.</p>
 </dd>
     <dt><code>employeeContribution</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
     <dd><p>Employee contribution level, either expressed in percentage points (i.e., 5% = 5.0m)
 or as a fixed amount (i.e. £500.00), as indicated by the following parameter.</p>
 </dd>
     <dt><code>employeeContributionIsFixedAmount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if the previous parameter should be treated as a fixed amount; false if
-it should be treated as a percentage.</p>
+    <dd><p>True if the <code>employeeContribution</code> parameter should be treated as
+a fixed amount; false if it should be treated as a percentage.</p>
 </dd>
     <dt><code>avcForPeriod</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>?</dt>
     <dd><p>Any Additional Voluntary Contribution (AVC) on the part of the employee.</p>
@@ -173,9 +187,9 @@ the results of the calculation.</p>
 
   <a id="Payetools_Pensions_IPensionContributionCalculator_CalculateUnderSalaryExchange_" data-uid="Payetools.Pensions.IPensionContributionCalculator.CalculateUnderSalaryExchange*"></a>
 
-  <h3 id="Payetools_Pensions_IPensionContributionCalculator_CalculateUnderSalaryExchange_System_Decimal_System_Decimal_System_Decimal_System_Decimal_System_Decimal_System_Boolean_System_Nullable_System_Decimal__System_Nullable_System_Decimal__Payetools_Pensions_Model_IPensionContributionCalculationResult__" data-uid="Payetools.Pensions.IPensionContributionCalculator.CalculateUnderSalaryExchange(System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Boolean,System.Nullable{System.Decimal},System.Nullable{System.Decimal},Payetools.Pensions.Model.IPensionContributionCalculationResult@)">
-  CalculateUnderSalaryExchange(decimal, decimal, decimal, decimal, decimal, bool, decimal?, decimal?, out IPensionContributionCalculationResult)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Pensions/IPensionContributionCalculator.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Payetools_Pensions_IPensionContributionCalculator_CalculateUnderSalaryExchange_System_Decimal_System_Decimal_System_Boolean_System_Decimal_System_Decimal_System_Decimal_System_Boolean_System_Nullable_System_Decimal__System_Nullable_System_Decimal__Payetools_Pensions_Model_IPensionContributionCalculationResult__" data-uid="Payetools.Pensions.IPensionContributionCalculator.CalculateUnderSalaryExchange(System.Decimal,System.Decimal,System.Boolean,System.Decimal,System.Decimal,System.Decimal,System.Boolean,System.Nullable{System.Decimal},System.Nullable{System.Decimal},Payetools.Pensions.Model.IPensionContributionCalculationResult@)">
+  CalculateUnderSalaryExchange(decimal, decimal, bool, decimal, decimal, decimal, bool, decimal?, decimal?, out IPensionContributionCalculationResult)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Pensions/IPensionContributionCalculator.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Calculates the appropriate employee and employer pension contributions based on the supplied employer
@@ -186,7 +200,7 @@ alternative to an employee percentage rate.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void CalculateUnderSalaryExchange(decimal pensionableSalary, decimal employerContributionPercentage, decimal employerNiSavings, decimal employerNiSavingsReinvestmentPercentage, decimal employeeSalaryExchanged, bool employeeSalaryExchangedIsFixedAmount, decimal? avcForPeriod, decimal? salaryForMaternityPurposes, out IPensionContributionCalculationResult result)</code></pre>
+    <pre><code class="lang-csharp hljs">void CalculateUnderSalaryExchange(decimal pensionableSalary, decimal employerContribution, bool employerContributionIsFixedAmount, decimal employerNiSavings, decimal employerNiSavingsReinvestmentPercentage, decimal employeeSalaryExchanged, bool employeeSalaryExchangedIsFixedAmount, decimal? avcForPeriod, decimal? salaryForMaternityPurposes, out IPensionContributionCalculationResult result)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -194,8 +208,13 @@ alternative to an employee percentage rate.</p>
     <dt><code>pensionableSalary</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
     <dd><p>Pensionable salary to be used for calculation.</p>
 </dd>
-    <dt><code>employerContributionPercentage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
-    <dd><p>Employer contribution level, expressed in percentage points (i.e., 3% = 3.0m).</p>
+    <dt><code>employerContribution</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
+    <dd><p>Employer contribution level, either expressed in percentage points (i.e., 5% = 5.0m)
+or as a fixed amount (i.e. £500.00), as indicated by <code>employerContributionIsFixedAmount</code>.</p>
+</dd>
+    <dt><code>employerContributionIsFixedAmount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if the <code>employerContribution</code> parameter should be treated as a
+fixed amount; false if it should be treated as a percentage.</p>
 </dd>
     <dt><code>employerNiSavings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></dt>
     <dd><p>Savings in employer's NI due to the salary exchanged.</p>
@@ -211,8 +230,8 @@ amount, as indicated by the following parameter.  NB If fixed amount is given, i
 (as opposed to annually).</p>
 </dd>
     <dt><code>employeeSalaryExchangedIsFixedAmount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>True if the previous parameter should be treated as a fixed amount; false if
-it should be treated as a percentage.</p>
+    <dd><p>True if the <code>employeeContribution</code> parameter should be treated as
+a fixed amount; false if it should be treated as a percentage.</p>
 </dd>
     <dt><code>avcForPeriod</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>?</dt>
     <dd><p>Any Additional Voluntary Contribution (AVC) on the part of the employee.</p>
@@ -243,7 +262,7 @@ the results of the calculation.</p>
 
   <h3 id="Payetools_Pensions_IPensionContributionCalculator_GetSalaryExchangedAmount_System_Decimal_System_Decimal_System_Boolean_" data-uid="Payetools.Pensions.IPensionContributionCalculator.GetSalaryExchangedAmount(System.Decimal,System.Decimal,System.Boolean)">
   GetSalaryExchangedAmount(decimal, decimal, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Pensions/IPensionContributionCalculator.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Pensions/IPensionContributionCalculator.cs/#L95"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets the absolute amount of employee salary exchanged, either as a result of a fixed amount being passed in,
@@ -293,11 +312,11 @@ it should be treated as a percentage.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Pensions_IPensionContributionCalculator.md&amp;value=---%0Auid%3A%20Payetools.Pensions.IPensionContributionCalculator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/payetools/payetools/blob/main/src/Payetools.Pensions/IPensionContributionCalculator.cs/#L15" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
-        
+
       </div>
 
       <div class="affix">
@@ -307,7 +326,7 @@ it should be treated as a percentage.</p>
 
     <div class="container-xxl search-results" id="search-results"></div>
 
-    <footer class="border-top">
+    <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
           <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>

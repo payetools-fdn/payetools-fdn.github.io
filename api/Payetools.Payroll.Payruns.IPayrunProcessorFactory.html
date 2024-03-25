@@ -2,32 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface IPayrunProcessorFactory
- | Payetools </title>
+      <title>Interface IPayRunProcessorFactory | Payetools </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface IPayrunProcessorFactory
- | Payetools ">
+      <meta name="title" content="Interface IPayRunProcessorFactory | Payetools ">
+      
       
       <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.min.css">
-      <link rel="stylesheet" href="../styles/main.css">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
-      <meta name="docfx:docurl" content="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Payroll_Payruns_IPayrunProcessorFactory.md&amp;value=---%0Auid%3A%20Payetools.Payroll.Payruns.IPayrunProcessorFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-
-      <script>
-        MathJax = {
-          options: {
-            processHtmlClass: ['tex2jax_process', 'math']
-          }
-        };
-      </script>
-
-      <script type="text/javascript" src="../styles/docfx.min.js"></script>
-      <script type="text/javascript" src="../styles/main.js"></script>
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Payroll_PayRuns_IPayRunProcessorFactory.md&amp;value=---%0Auid%3A%20Payetools.Payroll.PayRuns.IPayRunProcessorFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -74,26 +84,25 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Payetools.Payroll.Payruns.IPayrunProcessorFactory">
+        <article data-uid="Payetools.Payroll.PayRuns.IPayRunProcessorFactory">
 
 
 
-  <h1 id="Payetools_Payroll_Payruns_IPayrunProcessorFactory" data-uid="Payetools.Payroll.Payruns.IPayrunProcessorFactory" class="text-break">
-    Interface IPayrunProcessorFactory
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/Payruns/IPayrunProcessorFactory.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <h1 id="Payetools_Payroll_PayRuns_IPayRunProcessorFactory" data-uid="Payetools.Payroll.PayRuns.IPayRunProcessorFactory" class="text-break">
+Interface IPayRunProcessorFactory  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/PayRuns/IPayRunProcessorFactory.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="Payetools.html">Payetools</a>.<a class="xref" href="Payetools.Payroll.html">Payroll</a>.<a class="xref" href="Payetools.Payroll.Payruns.html">Payruns</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Payetools.html">Payetools</a>.<a class="xref" href="Payetools.Payroll.html">Payroll</a>.<a class="xref" href="Payetools.Payroll.PayRuns.html">PayRuns</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Payetools.Payroll.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Interface that represents factory objects that create instances that implement <a class="xref" href="Payetools.Payroll.Payruns.IPayrunProcessor.html">IPayrunProcessor</a>.</p>
+  <div class="markdown summary"><p>Interface that represents factory objects that create instances that implement <a class="xref" href="Payetools.Payroll.PayRuns.IPayRunProcessor.html">IPayRunProcessor</a>.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IPayrunProcessorFactory</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IPayRunProcessorFactory</code></pre>
   </div>
 
 
@@ -112,11 +121,11 @@
 </h2>
 
 
-  <a id="Payetools_Payroll_Payruns_IPayrunProcessorFactory_GetProcessor_" data-uid="Payetools.Payroll.Payruns.IPayrunProcessorFactory.GetProcessor*"></a>
+  <a id="Payetools_Payroll_PayRuns_IPayRunProcessorFactory_GetProcessor_" data-uid="Payetools.Payroll.PayRuns.IPayRunProcessorFactory.GetProcessor*"></a>
 
-  <h3 id="Payetools_Payroll_Payruns_IPayrunProcessorFactory_GetProcessor_Payetools_Payroll_Model_IEmployer_Payetools_Common_Model_PayDate_Payetools_Common_Model_PayReferencePeriod_" data-uid="Payetools.Payroll.Payruns.IPayrunProcessorFactory.GetProcessor(Payetools.Payroll.Model.IEmployer,Payetools.Common.Model.PayDate,Payetools.Common.Model.PayReferencePeriod)">
-  GetProcessor(IEmployer, PayDate, PayReferencePeriod)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/Payruns/IPayrunProcessorFactory.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Payetools_Payroll_PayRuns_IPayRunProcessorFactory_GetProcessor_Payetools_Common_Model_PayDate_Payetools_Common_Model_DateRange_" data-uid="Payetools.Payroll.PayRuns.IPayRunProcessorFactory.GetProcessor(Payetools.Common.Model.PayDate,Payetools.Common.Model.DateRange)">
+  GetProcessor(PayDate, DateRange)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/PayRuns/IPayRunProcessorFactory.cs/#L24"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Gets a payrun processor for specified pay date and pay period.</p>
@@ -124,26 +133,23 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IPayrunProcessor GetProcessor(IEmployer employer, PayDate payDate, PayReferencePeriod payPeriod)</code></pre>
+    <pre><code class="lang-csharp hljs">IPayRunProcessor GetProcessor(PayDate payDate, DateRange payPeriod)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>employer</code> <a class="xref" href="Payetools.Payroll.Model.IEmployer.html">IEmployer</a></dt>
-    <dd><p>Employer for this payrun processor.</p>
-</dd>
     <dt><code>payDate</code> <a class="xref" href="Payetools.Common.Model.PayDate.html">PayDate</a></dt>
     <dd><p>Applicable pay date for the required payrun processor.</p>
 </dd>
-    <dt><code>payPeriod</code> <a class="xref" href="Payetools.Common.Model.PayReferencePeriod.html">PayReferencePeriod</a></dt>
+    <dt><code>payPeriod</code> <a class="xref" href="Payetools.Common.Model.DateRange.html">DateRange</a></dt>
     <dd><p>Applicable pay period for required payrun processor.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Payetools.Payroll.Payruns.IPayrunProcessor.html">IPayrunProcessor</a></dt>
-    <dd><p>An implementation of <a class="xref" href="Payetools.Payroll.Payruns.IPayrunProcessor.html">IPayrunProcessor</a> for the specified pay date
+    <dt><a class="xref" href="Payetools.Payroll.PayRuns.IPayRunProcessor.html">IPayRunProcessor</a></dt>
+    <dd><p>An implementation of <a class="xref" href="Payetools.Payroll.PayRuns.IPayRunProcessor.html">IPayRunProcessor</a> for the specified pay date
 and pay period.</p>
 </dd>
   </dl>
@@ -162,11 +168,11 @@ and pay period.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_Payroll_Payruns_IPayrunProcessorFactory.md&amp;value=---%0Auid%3A%20Payetools.Payroll.Payruns.IPayrunProcessorFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/payetools/payetools/blob/main/src/Payetools.Payroll/PayRuns/IPayRunProcessorFactory.cs/#L15" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
-        
+
       </div>
 
       <div class="affix">
@@ -176,7 +182,7 @@ and pay period.</p>
 
     <div class="container-xxl search-results" id="search-results"></div>
 
-    <footer class="border-top">
+    <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
           <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>

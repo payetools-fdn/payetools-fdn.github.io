@@ -2,32 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface INmwEvaluator
- | Payetools </title>
+      <title>Interface INmwEvaluator | Payetools </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface INmwEvaluator
- | Payetools ">
+      <meta name="title" content="Interface INmwEvaluator | Payetools ">
+      
       
       <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../styles/docfx.min.css">
-      <link rel="stylesheet" href="../styles/main.css">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
+      
+      
       <meta name="docfx:docurl" content="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_NationalMinimumWage_INmwEvaluator.md&amp;value=---%0Auid%3A%20Payetools.NationalMinimumWage.INmwEvaluator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
-
-      <script>
-        MathJax = {
-          options: {
-            processHtmlClass: ['tex2jax_process', 'math']
-          }
-        };
-      </script>
-
-      <script type="text/javascript" src="../styles/docfx.min.js"></script>
-      <script type="text/javascript" src="../styles/main.js"></script>
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -79,8 +89,7 @@
 
 
   <h1 id="Payetools_NationalMinimumWage_INmwEvaluator" data-uid="Payetools.NationalMinimumWage.INmwEvaluator" class="text-break">
-    Interface INmwEvaluator
-  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.NationalMinimumWage/INmwEvaluator.cs/#L14"><i class="bi bi-code-slash"></i></a>
+Interface INmwEvaluator  <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.NationalMinimumWage/INmwEvaluator.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -114,8 +123,8 @@
 
   <a id="Payetools_NationalMinimumWage_INmwEvaluator_Evaluate_" data-uid="Payetools.NationalMinimumWage.INmwEvaluator.Evaluate*"></a>
 
-  <h3 id="Payetools_NationalMinimumWage_INmwEvaluator_Evaluate_Payetools_Common_Model_PayReferencePeriod_System_DateOnly_System_Decimal_System_Decimal_System_Boolean_System_Nullable_System_Decimal__" data-uid="Payetools.NationalMinimumWage.INmwEvaluator.Evaluate(Payetools.Common.Model.PayReferencePeriod,System.DateOnly,System.Decimal,System.Decimal,System.Boolean,System.Nullable{System.Decimal})">
-  Evaluate(PayReferencePeriod, DateOnly, decimal, decimal, bool, decimal?)
+  <h3 id="Payetools_NationalMinimumWage_INmwEvaluator_Evaluate_Payetools_Common_Model_DateRange_System_DateOnly_System_Decimal_System_Decimal_System_Boolean_System_Nullable_System_Decimal__" data-uid="Payetools.NationalMinimumWage.INmwEvaluator.Evaluate(Payetools.Common.Model.DateRange,System.DateOnly,System.Decimal,System.Decimal,System.Boolean,System.Nullable{System.Decimal})">
+  Evaluate(DateRange, DateOnly, decimal, decimal, bool, decimal?)
   <a class="header-action link-secondary" title="View source" href="https://github.com/payetools/payetools/blob/main/src/Payetools.NationalMinimumWage/INmwEvaluator.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -125,12 +134,12 @@ birth.  Note that apprentices have special treatment.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">NmwEvaluationResult Evaluate(PayReferencePeriod payPeriod, DateOnly dateOfBirth, decimal grossPay, decimal hoursWorkedForPay, bool isApprentice = false, decimal? yearsAsApprentice = null)</code></pre>
+    <pre><code class="lang-csharp hljs">NmwEvaluationResult Evaluate(DateRange payPeriod, DateOnly dateOfBirth, decimal grossPay, decimal hoursWorkedForPay, bool isApprentice = false, decimal? yearsAsApprentice = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>payPeriod</code> <a class="xref" href="Payetools.Common.Model.PayReferencePeriod.html">PayReferencePeriod</a></dt>
+    <dt><code>payPeriod</code> <a class="xref" href="Payetools.Common.Model.DateRange.html">DateRange</a></dt>
     <dd><p>Applicable pay period.</p>
 </dd>
     <dt><code>dateOfBirth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dateonly">DateOnly</a></dt>
@@ -166,7 +175,7 @@ regulations.</p>
 
 
 
-  <h4 class="section" id="Payetools_NationalMinimumWage_INmwEvaluator_Evaluate_Payetools_Common_Model_PayReferencePeriod_System_DateOnly_System_Decimal_System_Decimal_System_Boolean_System_Nullable_System_Decimal___remarks">Remarks</h4>
+  <h4 class="section" id="Payetools_NationalMinimumWage_INmwEvaluator_Evaluate_Payetools_Common_Model_DateRange_System_DateOnly_System_Decimal_System_Decimal_System_Boolean_System_Nullable_System_Decimal___remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>As per <a href="https://www.gov.uk/hmrc-internal-manuals/national-minimum-wage-manual/nmwm03010">https://www.gov.uk/hmrc-internal-manuals/national-minimum-wage-manual/nmwm03010</a>,
 the rate that applies to each worker depends on their age at the start of the pay reference period.</p>
 </div>
@@ -228,11 +237,11 @@ the rate that applies to each worker depends on their age at the start of the pa
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/payetools/payetools/new/main/apiSpec/new?filename=Payetools_NationalMinimumWage_INmwEvaluator.md&amp;value=---%0Auid%3A%20Payetools.NationalMinimumWage.INmwEvaluator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="edit-link">Edit this page</a>
+          <a href="https://github.com/payetools/payetools/blob/main/src/Payetools.NationalMinimumWage/INmwEvaluator.cs/#L14" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
-        
+
       </div>
 
       <div class="affix">
@@ -242,7 +251,7 @@ the rate that applies to each worker depends on their age at the start of the pa
 
     <div class="container-xxl search-results" id="search-results"></div>
 
-    <footer class="border-top">
+    <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
           <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
